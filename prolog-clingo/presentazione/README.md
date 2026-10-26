@@ -1,8 +1,12 @@
 # Presentazione – parte 1 (Prolog e ASP)
 
-La presentazione d'esame (12 slide più una di riserva, circa 10 minuti, con le note per chi parla) è un deck privato su claude.ai:
-**"Ricerca in Prolog e torneo in ASP"** – https://claude.ai/artifact/LDbWeDQT6KFRp3C5tyE7a7
+Presentazione d'esame **"Ricerca in Prolog e torneo in ASP"**: 12 slide più una di riserva, circa 10 minuti, con le note per chi parla.
 
-Dal deck: Condividi › Esporta per scaricarlo in **PowerPoint (.pptx)** o **PDF** e salvarlo qui.
+| File | Contenuto |
+|---|---|
+| [`Parte 1 - Ricerca in Prolog e torneo in ASP.pdf`](<Parte 1 - Ricerca in Prolog e torneo in ASP.pdf>) | Versione da proiettare: si apre ovunque, caratteri e grafici identici |
+| [`Parte 1 - Ricerca in Prolog e torneo in ASP.pptx`](<Parte 1 - Ricerca in Prolog e torneo in ASP.pptx>) | PowerPoint con le **note per chi parla** (visualizzazione Relatore); ogni slide è un'immagine, quindi il testo non è modificabile |
+
+L'originale modificabile è il deck su claude.ai (https://claude.ai/artifact/LDbWeDQT6KFRp3C5tyE7a7): dopo una modifica va esportato di nuovo e i due file qui vanno sostituiti.
 
 I grafici usati sono in `../attivita1-prolog/risultati/`.
