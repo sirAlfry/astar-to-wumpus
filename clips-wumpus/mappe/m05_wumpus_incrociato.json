@@ -1,0 +1,34 @@
+{
+ "descrizione": "Il Wumpus si trova incrociando le puzze di celle diverse (c'e' un solo Wumpus): poi la strada per l'oro si apre.",
+ "width": 5,
+ "height": 5,
+ "start": [
+  0,
+  0
+ ],
+ "walls": [
+  [
+   4,
+   0
+  ]
+ ],
+ "pits": [
+  [
+   4,
+   4
+  ]
+ ],
+ "wumpus": [
+  2,
+  2
+ ],
+ "gold": [
+  4,
+  2
+ ],
+ "max_steps": 80,
+ "step_cost": -1.0,
+ "death_cost": -100.0,
+ "grab_reward": 100.0,
+ "end_on_grab": true
+}

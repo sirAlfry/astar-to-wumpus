@@ -1,0 +1,73 @@
+algoritmo,dominio,istanza,euristica,esito,costo,nodi_espansi,iterazioni,nodi_in_memoria,tempo_cpu_s,ottimo_atteso,ottimo_ok,azioni
+astar,labirinto,lab1_piccolo.pl,manhattan_min_uscite,ok,21,45,,49,0.0390,21,si,sud sud sud sud est est sud sud ovest ovest sud sud est est est est nord nord est nord nord
+idastar,labirinto,lab1_piccolo.pl,manhattan_min_uscite,ok,21,249,7,22,0.0374,21,si,sud sud sud sud est est sud sud ovest ovest sud sud est est est est nord nord nord nord est
+astar,labirinto,lab2_grande.pl,manhattan_min_uscite,ok,76,397,,403,0.0466,76,si,sud sud sud sud est est sud sud est est est est est est est est sud sud sud sud est est sud sud sud sud est est sud sud est est est est sud sud est est nord nord est est sud sud est est est est est est est est nord nord nord nord nord nord est est nord nord est est sud sud sud sud sud sud est est est est sud sud
+idastar,labirinto,lab2_grande.pl,manhattan_min_uscite,ok,76,35625,30,77,0.4006,76,si,sud sud sud sud est est sud sud est est est est est est est est sud sud sud sud est est sud sud sud sud est est sud sud est est sud sud est est est est nord nord est est sud sud est est est est est est est est nord nord nord nord nord nord est est nord nord est est sud sud sud sud sud sud est est est est sud sud
+astar,labirinto,lab3_trappola.pl,manhattan_min_uscite,ok,26,125,,148,0.0373,26,si,est est est est est est sud sud sud sud sud sud sud sud ovest ovest ovest ovest ovest ovest ovest ovest ovest ovest ovest ovest
+idastar,labirinto,lab3_trappola.pl,manhattan_min_uscite,timeout,,4327147,13,,59.0104,26,,
+astar,labirinto,lab4_senza_uscita.pl,manhattan_min_uscite,nessuna_soluzione,,24,,,0.0382,,si,
+idastar,labirinto,lab4_senza_uscita.pl,manhattan_min_uscite,nessuna_soluzione,,374646,25,,3.7968,,si,
+astar,labirinto,lab5_aperto_20.pl,manhattan_min_uscite,ok,27,54,,84,0.0389,27,si,sud sud sud est est est sud sud sud sud ovest sud ovest sud sud sud sud sud sud sud sud sud est sud sud ovest ovest
+idastar,labirinto,lab5_aperto_20.pl,manhattan_min_uscite,ok,27,2059,5,28,0.0608,27,si,sud sud sud est est est sud sud sud sud sud sud sud sud sud sud sud est sud sud ovest sud sud ovest sud ovest ovest
+astar,labirinto,lab6_aperto_30.pl,manhattan_min_uscite,ok,39,79,,103,0.0351,39,si,est est est est est sud est est est est est sud est sud est est est est nord nord est est est est sud est est est est nord est est sud est est nord est est nord
+idastar,labirinto,lab6_aperto_30.pl,manhattan_min_uscite,ok,39,23127,6,40,0.2855,39,si,sud est est est est est est est est est est sud sud est est sud est est est sud est est est est est est est est est est est nord nord nord est nord nord est est
+astar,puzzle8,p04.pl,manhattan,ok,4,4,,9,0.0353,4,si,giu destra destra giu
+idastar,puzzle8,p04.pl,manhattan,ok,4,4,1,5,0.0339,4,si,giu destra destra giu
+astar,puzzle8,p04.pl,fuori_posto,ok,4,4,,9,0.0393,4,si,giu destra destra giu
+idastar,puzzle8,p04.pl,fuori_posto,ok,4,4,1,5,0.0353,4,si,giu destra destra giu
+astar,puzzle8,p04.pl,zero,ok,4,24,,41,0.0344,4,si,giu destra destra giu
+astar,puzzle8,p08.pl,manhattan,ok,8,9,,18,0.0359,8,si,sinistra giu giu sinistra su destra giu destra
+idastar,puzzle8,p08.pl,manhattan,ok,8,8,1,9,0.0386,8,si,sinistra giu giu sinistra su destra giu destra
+astar,puzzle8,p08.pl,fuori_posto,ok,8,10,,20,0.0351,8,si,sinistra giu giu sinistra su destra giu destra
+idastar,puzzle8,p08.pl,fuori_posto,ok,8,18,3,9,0.0571,8,si,sinistra giu giu sinistra su destra giu destra
+astar,puzzle8,p08.pl,zero,ok,8,265,,422,0.0658,8,si,sinistra giu giu sinistra su destra giu destra
+astar,puzzle8,p12.pl,manhattan,ok,12,20,,37,0.0361,12,si,giu sinistra sinistra giu destra su sinistra su destra giu destra giu
+idastar,puzzle8,p12.pl,manhattan,ok,12,23,2,13,0.0347,12,si,giu sinistra sinistra giu destra su sinistra su destra giu destra giu
+astar,puzzle8,p12.pl,fuori_posto,ok,12,52,,94,0.0348,12,si,giu sinistra sinistra giu destra su sinistra su destra giu destra giu
+idastar,puzzle8,p12.pl,fuori_posto,ok,12,127,6,13,0.0362,12,si,giu sinistra sinistra giu destra su sinistra su destra giu destra giu
+astar,puzzle8,p12.pl,zero,ok,12,1672,,2679,0.0968,12,si,giu sinistra sinistra giu destra su sinistra su destra giu destra giu
+astar,puzzle8,p16.pl,manhattan,ok,16,61,,106,0.0445,16,si,giu giu sinistra su sinistra su destra giu giu sinistra su su destra giu destra giu
+idastar,puzzle8,p16.pl,manhattan,ok,16,56,3,17,0.0373,16,si,giu giu sinistra su sinistra su destra giu giu sinistra su su destra giu destra giu
+astar,puzzle8,p16.pl,fuori_posto,ok,16,464,,769,0.0609,16,si,giu giu sinistra su sinistra su destra giu giu sinistra su su destra giu destra giu
+idastar,puzzle8,p16.pl,fuori_posto,ok,16,905,9,17,0.0525,16,si,giu giu sinistra su sinistra su destra giu giu sinistra su su destra giu destra giu
+astar,puzzle8,p16.pl,zero,ok,16,10555,,16425,0.5067,16,si,giu sinistra sinistra su destra giu destra giu sinistra sinistra su su destra giu destra giu
+astar,puzzle8,p18.pl,manhattan,ok,18,111,,191,0.0391,18,si,destra giu giu sinistra su su destra destra giu sinistra giu sinistra su destra su destra giu giu
+idastar,puzzle8,p18.pl,manhattan,ok,18,78,2,19,0.0352,18,si,destra giu giu sinistra su su destra giu giu sinistra su destra destra su sinistra giu destra giu
+astar,puzzle8,p18.pl,fuori_posto,ok,18,780,,1273,0.0630,18,si,destra giu giu sinistra su su destra giu giu sinistra su destra destra su sinistra giu destra giu
+idastar,puzzle8,p18.pl,fuori_posto,ok,18,3011,11,19,0.0836,18,si,destra giu giu sinistra su su destra giu giu sinistra su destra destra su sinistra giu destra giu
+astar,puzzle8,p18.pl,zero,ok,18,26715,,39409,1.3892,18,si,destra giu giu sinistra su su destra giu giu sinistra su destra destra su sinistra giu destra giu
+astar,puzzle8,p20.pl,manhattan,ok,20,404,,667,0.0547,20,si,giu destra su sinistra giu sinistra su destra destra giu sinistra su su sinistra giu giu destra su destra giu
+idastar,puzzle8,p20.pl,manhattan,ok,20,636,5,21,0.0516,20,si,giu destra su sinistra giu sinistra su destra destra giu sinistra su su sinistra giu giu destra su destra giu
+astar,puzzle8,p20.pl,fuori_posto,ok,20,3185,,5193,0.1813,20,si,giu destra su sinistra giu sinistra su destra destra giu sinistra su su sinistra giu giu destra su destra giu
+idastar,puzzle8,p20.pl,fuori_posto,ok,20,13117,15,21,0.2624,20,si,giu destra su sinistra giu sinistra su destra destra giu sinistra su su sinistra giu giu destra su destra giu
+astar,puzzle8,p20.pl,zero,ok,20,52643,,75351,3.2417,20,si,giu destra su sinistra giu sinistra su destra destra giu sinistra su su sinistra giu giu destra su destra giu
+astar,puzzle8,p22.pl,manhattan,ok,22,584,,953,0.1050,22,si,su su destra giu destra giu sinistra su sinistra giu destra su destra su sinistra sinistra giu giu destra su destra giu
+idastar,puzzle8,p22.pl,manhattan,ok,22,673,6,23,0.0842,22,si,su su destra giu destra giu sinistra su sinistra giu destra su destra su sinistra sinistra giu giu destra su destra giu
+astar,puzzle8,p22.pl,fuori_posto,ok,22,7758,,12492,0.3978,22,si,su su destra giu destra giu sinistra su sinistra giu destra su destra su sinistra sinistra giu giu destra su destra giu
+idastar,puzzle8,p22.pl,fuori_posto,ok,22,20751,16,23,0.3928,22,si,su su destra giu destra giu sinistra su sinistra giu destra su destra su sinistra sinistra giu giu destra su destra giu
+astar,puzzle8,p22.pl,zero,ok,22,94065,,122218,5.1314,22,si,su su destra giu destra giu sinistra su sinistra giu destra su destra su sinistra sinistra giu giu destra su destra giu
+astar,puzzle8,p24.pl,manhattan,ok,24,783,,1239,0.0740,24,si,destra su sinistra giu giu sinistra su su destra giu destra su sinistra giu giu destra su sinistra giu sinistra su destra destra giu
+idastar,puzzle8,p24.pl,manhattan,ok,24,3544,4,25,0.1470,24,si,destra su sinistra giu giu sinistra su su destra giu destra su sinistra giu giu destra su sinistra giu sinistra su destra destra giu
+astar,puzzle8,p24.pl,fuori_posto,ok,24,14569,,23038,0.8502,24,si,destra su sinistra giu sinistra su destra destra giu sinistra giu destra su sinistra su destra giu sinistra giu sinistra su destra giu destra
+idastar,puzzle8,p24.pl,fuori_posto,ok,24,114040,17,25,2.3597,24,si,destra su sinistra giu giu sinistra su su destra giu destra su sinistra giu giu destra su sinistra giu sinistra su destra destra giu
+astar,puzzle8,p24.pl,zero,ok,24,144086,,168529,8.9669,24,si,destra su sinistra giu giu sinistra su su destra giu destra su sinistra giu giu destra su sinistra giu sinistra su destra destra giu
+astar,puzzle8,p26.pl,manhattan,ok,26,1837,,2927,0.1743,26,si,destra su sinistra giu sinistra su destra giu sinistra giu destra destra su sinistra giu sinistra su destra giu destra su sinistra su destra giu giu
+idastar,puzzle8,p26.pl,manhattan,ok,26,5193,6,27,0.1844,26,si,su sinistra giu destra destra su sinistra sinistra giu destra giu destra su su sinistra giu giu destra su su sinistra sinistra giu destra destra giu
+astar,puzzle8,p26.pl,fuori_posto,ok,26,31635,,47903,2.1504,26,si,destra su sinistra giu sinistra su destra giu sinistra giu destra destra su sinistra giu sinistra su destra giu destra su sinistra su destra giu giu
+idastar,puzzle8,p26.pl,fuori_posto,ok,26,243412,21,27,4.6921,26,si,su sinistra giu destra destra su sinistra sinistra giu destra giu destra su su sinistra giu giu destra su su sinistra sinistra giu destra destra giu
+astar,puzzle8,p26.pl,zero,ok,26,164035,,182033,9.6994,26,si,sinistra giu destra su destra giu sinistra sinistra su destra destra su sinistra sinistra giu destra giu destra su sinistra su destra giu sinistra giu destra
+astar,puzzle8,p28.pl,manhattan,ok,28,3321,,5249,0.2176,28,si,giu sinistra giu destra su sinistra sinistra giu destra su sinistra su destra destra giu giu sinistra su su destra giu giu sinistra su sinistra giu destra destra
+idastar,puzzle8,p28.pl,manhattan,ok,28,13331,7,29,0.4069,28,si,giu sinistra giu destra su sinistra sinistra giu destra su sinistra su destra destra giu giu sinistra su su destra giu giu sinistra su sinistra giu destra destra
+astar,puzzle8,p28.pl,fuori_posto,ok,28,52715,,76464,2.9985,28,si,giu sinistra giu destra su sinistra sinistra giu destra su sinistra su destra destra giu giu sinistra su su destra giu giu sinistra su sinistra giu destra destra
+idastar,puzzle8,p28.pl,fuori_posto,ok,28,633878,21,29,11.9883,28,si,giu sinistra giu destra su sinistra sinistra giu destra su sinistra su destra destra giu giu sinistra su su destra giu giu sinistra su sinistra giu destra destra
+astar,puzzle8,p28.pl,zero,ok,28,177572,,183746,11.3690,28,si,sinistra giu giu destra su sinistra sinistra giu destra su su destra giu sinistra sinistra su destra destra giu sinistra giu destra su sinistra sinistra giu destra destra
+astar,puzzle8,p30.pl,manhattan,ok,30,7030,,10956,0.4555,30,si,su sinistra sinistra giu destra destra su sinistra su destra giu sinistra sinistra giu destra destra su sinistra sinistra su destra destra giu sinistra sinistra giu destra su destra giu
+idastar,puzzle8,p30.pl,manhattan,ok,30,17675,7,31,0.5277,30,si,su su sinistra giu sinistra su destra giu sinistra giu destra su sinistra su destra giu destra giu sinistra sinistra su destra destra su sinistra sinistra giu destra giu destra
+astar,puzzle8,p30.pl,fuori_posto,ok,30,92888,,125569,6.4729,30,si,sinistra su su sinistra giu giu destra su destra su sinistra giu sinistra su destra giu destra su sinistra giu sinistra su destra giu giu destra su sinistra giu destra
+idastar,puzzle8,p30.pl,fuori_posto,ok,30,1461984,23,31,28.5132,30,si,su su sinistra giu sinistra su destra giu sinistra giu destra su sinistra su destra giu destra giu sinistra sinistra su destra destra su sinistra sinistra giu destra giu destra
+astar,puzzle8,p30.pl,zero,ok,30,181308,,181682,10.7280,30,si,sinistra su su destra giu sinistra sinistra giu destra su su sinistra giu destra su destra giu sinistra su sinistra giu destra giu destra su su sinistra giu giu destra
+astar,puzzle8,p31.pl,manhattan,ok,31,6726,,10394,0.4516,31,si,sinistra su destra su destra giu giu sinistra su sinistra su destra destra giu giu sinistra sinistra su su destra destra giu sinistra giu sinistra su su destra giu destra giu
+idastar,puzzle8,p31.pl,manhattan,ok,31,14195,6,32,0.4545,31,si,su su sinistra giu giu destra destra su su sinistra giu sinistra giu destra destra su su sinistra giu sinistra giu destra destra su su sinistra sinistra giu giu destra destra
+astar,puzzle8,p31.pl,fuori_posto,ok,31,121530,,155536,7.7224,31,si,destra su su sinistra sinistra giu giu destra destra su sinistra sinistra giu destra destra su sinistra su destra giu sinistra su sinistra giu giu destra destra su sinistra giu destra
+idastar,puzzle8,p31.pl,fuori_posto,ok,31,2656643,25,32,50.2961,31,si,su su sinistra giu giu destra destra su su sinistra giu sinistra giu destra destra su su sinistra giu sinistra giu destra destra su su sinistra sinistra giu giu destra destra
+astar,puzzle8,p31.pl,zero,ok,31,181439,,181440,11.0788,31,si,su su destra giu sinistra sinistra giu destra destra su sinistra sinistra su destra destra giu sinistra giu sinistra su su destra giu giu sinistra su su destra destra giu giu

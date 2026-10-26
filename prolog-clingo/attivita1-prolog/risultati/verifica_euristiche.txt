@@ -1,0 +1,14 @@
+
+Puzzle dell'8 (tutti gli stati risolvibili)
+  BFS dal goal: 181440 stati in 8.5 s, distanza massima 31 mosse
+  manhattan           181440/181440 stati col goal raggiungibile   ammissibile: SI   consistente: SI   h medio = 63.7% di d* medio
+  fuori_posto         181440/181440 stati col goal raggiungibile   ammissibile: SI   consistente: SI   h medio = 32.4% di d* medio
+  Manhattan domina fuori_posto in ogni stato: SI
+
+Labirinti (euristica: Manhattan dall'uscita piu' vicina)
+  lab1_piccolo        62/62 stati col goal raggiungibile   ammissibile: SI   consistente: SI   h medio = 33.1% di d* medio
+  lab2_grande         422/422 stati col goal raggiungibile   ammissibile: SI   consistente: SI   h medio = 52.6% di d* medio
+  lab3_trappola       201/201 stati col goal raggiungibile   ammissibile: SI   consistente: SI   h medio = 46.2% di d* medio
+  lab4_senza_uscita   32/56 stati col goal raggiungibile   ammissibile: SI   consistente: SI   h medio = 100.0% di d* medio
+  lab5_aperto_20      306/309 stati col goal raggiungibile   ammissibile: SI   consistente: SI   h medio = 88.7% di d* medio
+  lab6_aperto_30      672/675 stati col goal raggiungibile   ammissibile: SI   consistente: SI   h medio = 86.0% di d* medio

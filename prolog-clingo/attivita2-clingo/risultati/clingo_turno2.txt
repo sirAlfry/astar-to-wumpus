@@ -1,0 +1,132 @@
+pyclingo version 5.8.2
+Reading from torneo.lp ...
+Solving...
+Answer: 1 (Time: 0.002s)
+incontro(anna,elena) incontro(bruno,hugo) incontro(carla,filippo) incontro(dario,giulia)
+Optimization: 1 2
+Answer: 1 (Time: 0.002s)
+incontro(anna,carla) incontro(bruno,elena) incontro(dario,hugo) incontro(filippo,giulia)
+Optimization: 1 2
+Answer: 2 (Time: 0.002s)
+incontro(anna,carla) incontro(bruno,hugo) incontro(dario,elena) incontro(filippo,giulia)
+Optimization: 1 2
+Answer: 3 (Time: 0.002s)
+incontro(anna,carla) incontro(bruno,elena) incontro(dario,giulia) incontro(filippo,hugo)
+Optimization: 1 2
+Answer: 4 (Time: 0.002s)
+incontro(anna,carla) incontro(bruno,hugo) incontro(dario,giulia) incontro(elena,filippo)
+Optimization: 1 2
+Answer: 5 (Time: 0.002s)
+incontro(anna,carla) incontro(bruno,elena) incontro(dario,filippo) incontro(giulia,hugo)
+Optimization: 1 2
+Answer: 6 (Time: 0.002s)
+incontro(anna,carla) incontro(bruno,hugo) incontro(dario,filippo) incontro(elena,giulia)
+Optimization: 1 2
+Answer: 7 (Time: 0.002s)
+incontro(anna,carla) incontro(bruno,giulia) incontro(dario,filippo) incontro(elena,hugo)
+Optimization: 1 2
+Answer: 8 (Time: 0.002s)
+incontro(anna,carla) incontro(bruno,giulia) incontro(dario,elena) incontro(filippo,hugo)
+Optimization: 1 2
+Answer: 9 (Time: 0.002s)
+incontro(anna,carla) incontro(bruno,giulia) incontro(dario,hugo) incontro(elena,filippo)
+Optimization: 1 2
+Answer: 10 (Time: 0.002s)
+incontro(anna,carla) incontro(bruno,filippo) incontro(dario,hugo) incontro(elena,giulia)
+Optimization: 1 2
+Answer: 11 (Time: 0.002s)
+incontro(anna,carla) incontro(bruno,filippo) incontro(dario,giulia) incontro(elena,hugo)
+Optimization: 1 2
+Answer: 12 (Time: 0.002s)
+incontro(anna,carla) incontro(bruno,filippo) incontro(dario,elena) incontro(giulia,hugo)
+Optimization: 1 2
+Answer: 13 (Time: 0.002s)
+incontro(anna,carla) incontro(bruno,dario) incontro(elena,hugo) incontro(filippo,giulia)
+Optimization: 1 2
+Answer: 14 (Time: 0.002s)
+incontro(anna,carla) incontro(bruno,dario) incontro(elena,filippo) incontro(giulia,hugo)
+Optimization: 1 2
+Answer: 15 (Time: 0.002s)
+incontro(anna,carla) incontro(bruno,dario) incontro(elena,giulia) incontro(filippo,hugo)
+Optimization: 1 2
+Answer: 16 (Time: 0.002s)
+incontro(anna,dario) incontro(bruno,hugo) incontro(carla,elena) incontro(filippo,giulia)
+Optimization: 1 2
+Answer: 17 (Time: 0.002s)
+incontro(anna,dario) incontro(bruno,filippo) incontro(carla,elena) incontro(giulia,hugo)
+Optimization: 1 2
+Answer: 18 (Time: 0.002s)
+incontro(anna,dario) incontro(bruno,giulia) incontro(carla,elena) incontro(filippo,hugo)
+Optimization: 1 2
+Answer: 19 (Time: 0.002s)
+incontro(anna,elena) incontro(bruno,carla) incontro(dario,giulia) incontro(filippo,hugo)
+Optimization: 1 2
+Answer: 20 (Time: 0.002s)
+incontro(anna,elena) incontro(bruno,carla) incontro(dario,hugo) incontro(filippo,giulia)
+Optimization: 1 2
+Answer: 21 (Time: 0.002s)
+incontro(anna,elena) incontro(bruno,carla) incontro(dario,filippo) incontro(giulia,hugo)
+Optimization: 1 2
+Answer: 22 (Time: 0.002s)
+incontro(anna,elena) incontro(bruno,hugo) incontro(carla,filippo) incontro(dario,giulia)
+Optimization: 1 2
+Answer: 23 (Time: 0.002s)
+incontro(anna,elena) incontro(bruno,giulia) incontro(carla,filippo) incontro(dario,hugo)
+Optimization: 1 2
+Answer: 24 (Time: 0.002s)
+incontro(anna,elena) incontro(bruno,dario) incontro(carla,filippo) incontro(giulia,hugo)
+Optimization: 1 2
+Answer: 25 (Time: 0.002s)
+incontro(anna,elena) incontro(bruno,hugo) incontro(carla,giulia) incontro(dario,filippo)
+Optimization: 1 2
+Answer: 26 (Time: 0.002s)
+incontro(anna,elena) incontro(bruno,filippo) incontro(carla,giulia) incontro(dario,hugo)
+Optimization: 1 2
+Answer: 27 (Time: 0.002s)
+incontro(anna,elena) incontro(bruno,dario) incontro(carla,giulia) incontro(filippo,hugo)
+Optimization: 1 2
+Answer: 28 (Time: 0.002s)
+incontro(anna,elena) incontro(bruno,filippo) incontro(carla,hugo) incontro(dario,giulia)
+Optimization: 1 2
+Answer: 29 (Time: 0.002s)
+incontro(anna,elena) incontro(bruno,giulia) incontro(carla,hugo) incontro(dario,filippo)
+Optimization: 1 2
+Answer: 30 (Time: 0.002s)
+incontro(anna,elena) incontro(bruno,dario) incontro(carla,hugo) incontro(filippo,giulia)
+Optimization: 1 2
+Answer: 31 (Time: 0.002s)
+incontro(anna,giulia) incontro(bruno,filippo) incontro(carla,elena) incontro(dario,hugo)
+Optimization: 1 2
+Answer: 32 (Time: 0.003s)
+incontro(anna,giulia) incontro(bruno,hugo) incontro(carla,elena) incontro(dario,filippo)
+Optimization: 1 2
+Answer: 33 (Time: 0.003s)
+incontro(anna,giulia) incontro(bruno,dario) incontro(carla,elena) incontro(filippo,hugo)
+Optimization: 1 2
+Answer: 34 (Time: 0.003s)
+incontro(anna,filippo) incontro(bruno,hugo) incontro(carla,elena) incontro(dario,giulia)
+Optimization: 1 2
+Answer: 35 (Time: 0.003s)
+incontro(anna,filippo) incontro(bruno,giulia) incontro(carla,elena) incontro(dario,hugo)
+Optimization: 1 2
+Answer: 36 (Time: 0.003s)
+incontro(anna,filippo) incontro(bruno,dario) incontro(carla,elena) incontro(giulia,hugo)
+Optimization: 1 2
+Answer: 37 (Time: 0.003s)
+incontro(anna,hugo) incontro(bruno,filippo) incontro(carla,elena) incontro(dario,giulia)
+Optimization: 1 2
+Answer: 38 (Time: 0.003s)
+incontro(anna,hugo) incontro(bruno,giulia) incontro(carla,elena) incontro(dario,filippo)
+Optimization: 1 2
+Answer: 39 (Time: 0.003s)
+incontro(anna,hugo) incontro(bruno,dario) incontro(carla,elena) incontro(filippo,giulia)
+Optimization: 1 2
+OPTIMUM FOUND
+
+Models       : 40
+  Optimum    : yes
+  Optimal    : 39
+Optimization : 1 2
+Calls        : 1
+Time         : 0.003s (Solving: 0.00s 1st Model: 0.00s Unsat: 0.00s)
+CPU Time     : 0.003s

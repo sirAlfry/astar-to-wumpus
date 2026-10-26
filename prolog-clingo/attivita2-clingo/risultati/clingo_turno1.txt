@@ -1,0 +1,60 @@
+pyclingo version 5.8.2
+Reading from torneo.lp ...
+Solving...
+Answer: 1 (Time: 0.002s)
+incontro(bruno,dario) incontro(carla,elena) bye(anna)
+Optimization: 0 0
+Answer: 1 (Time: 0.002s)
+incontro(anna,dario) incontro(bruno,carla) bye(elena)
+Optimization: 0 0
+Answer: 2 (Time: 0.002s)
+incontro(anna,carla) incontro(bruno,dario) bye(elena)
+Optimization: 0 0
+Answer: 3 (Time: 0.002s)
+incontro(anna,carla) incontro(bruno,elena) bye(dario)
+Optimization: 0 0
+Answer: 4 (Time: 0.002s)
+incontro(anna,elena) incontro(bruno,carla) bye(dario)
+Optimization: 0 0
+Answer: 5 (Time: 0.002s)
+incontro(anna,dario) incontro(bruno,elena) bye(carla)
+Optimization: 0 0
+Answer: 6 (Time: 0.002s)
+incontro(anna,elena) incontro(bruno,dario) bye(carla)
+Optimization: 0 0
+Answer: 7 (Time: 0.002s)
+incontro(anna,bruno) incontro(carla,elena) bye(dario)
+Optimization: 0 0
+Answer: 8 (Time: 0.002s)
+incontro(anna,dario) incontro(carla,elena) bye(bruno)
+Optimization: 0 0
+Answer: 9 (Time: 0.002s)
+incontro(bruno,dario) incontro(carla,elena) bye(anna)
+Optimization: 0 0
+Answer: 10 (Time: 0.002s)
+incontro(anna,bruno) incontro(dario,elena) bye(carla)
+Optimization: 0 0
+Answer: 11 (Time: 0.002s)
+incontro(anna,carla) incontro(dario,elena) bye(bruno)
+Optimization: 0 0
+Answer: 12 (Time: 0.002s)
+incontro(bruno,carla) incontro(dario,elena) bye(anna)
+Optimization: 0 0
+Answer: 13 (Time: 0.002s)
+incontro(anna,bruno) incontro(carla,dario) bye(elena)
+Optimization: 0 0
+Answer: 14 (Time: 0.002s)
+incontro(anna,elena) incontro(carla,dario) bye(bruno)
+Optimization: 0 0
+Answer: 15 (Time: 0.002s)
+incontro(bruno,elena) incontro(carla,dario) bye(anna)
+Optimization: 0 0
+OPTIMUM FOUND
+
+Models       : 16
+  Optimum    : yes
+  Optimal    : 15
+Optimization : 0 0
+Calls        : 1
+Time         : 0.002s (Solving: 0.00s 1st Model: 0.00s Unsat: 0.00s)
+CPU Time     : 0.002s

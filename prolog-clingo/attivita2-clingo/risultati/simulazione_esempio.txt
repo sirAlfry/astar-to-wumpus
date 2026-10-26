@@ -1,0 +1,47 @@
+
+=== Turno 1  (5 giocatori, grounding 4.9 ms, solving 54.9 ms)
+      bruno vs elena     =  vince bruno
+      carla vs dario     =  vince dario
+       anna: BYE
+  incontri a pari punteggio: 2/2   costo ottimo clingo: [0, 0]
+
+=== Turno 2  (8 giocatori, grounding 1.0 ms, solving 0.4 ms)
+       anna vs dario     =  vince anna
+      bruno vs giulia       vince bruno
+      carla vs filippo   =  vince filippo
+      elena vs hugo      =  vince hugo
+  incontri a pari punteggio: 3/4   costo ottimo clingo: [1, 2]
+
+=== Turno 3  (8 giocatori, grounding 0.9 ms, solving 0.3 ms)
+       anna vs bruno     =  vince bruno
+      carla vs hugo         vince carla
+      dario vs filippo   =  vince dario
+      elena vs giulia    =  vince elena
+  incontri a pari punteggio: 3/4   costo ottimo clingo: [1, 2]
+
+=== Turno 4  (9 giocatori, grounding 1.1 ms, solving 0.5 ms)
+      bruno vs dario        vince bruno
+       anna vs filippo      vince filippo
+      carla vs elena     =  vince carla
+     giulia vs irene     =  vince irene
+       hugo: BYE
+  incontri a pari punteggio: 2/4   costo ottimo clingo: [2, 4, 2]
+
+=== Turno 5  (9 giocatori, grounding 1.0 ms, solving 0.3 ms)
+      bruno vs filippo      vince bruno
+       anna vs carla     =  vince carla
+      dario vs hugo      =  vince hugo
+      elena vs irene     =  vince elena
+     giulia: BYE
+  incontri a pari punteggio: 3/4   costo ottimo clingo: [1, 4, 0]
+
+Classifica finale:
+  bruno       10
+  carla        6
+  hugo         6
+  anna         4
+  dario        4
+  elena        4
+  filippo      4
+  giulia       2
+  irene        2

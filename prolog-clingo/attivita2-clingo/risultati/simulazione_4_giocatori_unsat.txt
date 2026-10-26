@@ -1,0 +1,25 @@
+
+=== Turno 1  (4 giocatori, grounding 1.2 ms, solving 0.3 ms)
+        g01 vs g04       =  vince g01
+        g02 vs g03       =  vince g03
+  incontri a pari punteggio: 2/2   costo ottimo clingo: [0]
+
+=== Turno 2  (4 giocatori, grounding 0.7 ms, solving 0.1 ms)
+        g01 vs g03       =  vince g01
+        g02 vs g04       =  vince g02
+  incontri a pari punteggio: 2/2   costo ottimo clingo: [0, 0]
+
+=== Turno 3  (4 giocatori, grounding 0.6 ms, solving 0.1 ms)
+        g01 vs g02          vince g02
+        g03 vs g04          vince g04
+  incontri a pari punteggio: 0/2   costo ottimo clingo: [2, 4]
+
+=== Turno 4  (4 giocatori, grounding 0.6 ms, solving 0.1 ms)
+UNSATISFIABLE: non esiste un abbinamento che rispetti i vincoli
+(tutte le coppie possibili si sono gia' affrontate o il BYE non e' assegnabile)
+
+Classifica finale:
+  g01          4
+  g02          4
+  g03          2
+  g04          2

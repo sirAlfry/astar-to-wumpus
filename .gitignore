@@ -1,0 +1,30 @@
+# Python (simulatore del Wumpus)
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Editor
+.vscode/
+.idea/
+*.swp
+
+# SWI-Prolog / Clingo: file temporanei e di output
+*.qlf
+*.tmp
+*~
+
+# Risultati generati dagli esperimenti (togliere la riga se si vogliono versionare)
+# risultati/
+
+# Sistema operativo
+Thumbs.db
+desktop.ini
+.DS_Store
+
+# Materiale dei docenti: non pubblicare
+consegne/
+*.zip
+
+# ambienti virtuali dentro le sottocartelle
+**/.venv/

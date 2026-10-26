@@ -1,0 +1,29 @@
+{
+ "descrizione": "L'oro e' sulla cella di partenza: il primo 'grab' (passo 0, senza percezioni) lo prende subito.",
+ "width": 4,
+ "height": 4,
+ "start": [
+  0,
+  0
+ ],
+ "walls": [],
+ "pits": [
+  [
+   2,
+   2
+  ]
+ ],
+ "wumpus": [
+  3,
+  3
+ ],
+ "gold": [
+  0,
+  0
+ ],
+ "max_steps": 30,
+ "step_cost": -1.0,
+ "death_cost": -100.0,
+ "grab_reward": 100.0,
+ "end_on_grab": true
+}

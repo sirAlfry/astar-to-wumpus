@@ -1,0 +1,37 @@
+{
+ "descrizione": "La mappa del libro di Russell-Norvig (fig. 7.2), tradotta nelle coordinate del simulatore.",
+ "width": 4,
+ "height": 4,
+ "start": [
+  0,
+  0
+ ],
+ "walls": [],
+ "pits": [
+  [
+   2,
+   0
+  ],
+  [
+   2,
+   2
+  ],
+  [
+   3,
+   3
+  ]
+ ],
+ "wumpus": [
+  0,
+  2
+ ],
+ "gold": [
+  1,
+  2
+ ],
+ "max_steps": 100,
+ "step_cost": -1.0,
+ "death_cost": -100.0,
+ "grab_reward": 100.0,
+ "end_on_grab": true
+}

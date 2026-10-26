@@ -1,0 +1,29 @@
+{
+ "descrizione": "Facile: oro a due passi, tutti gli agenti dovrebbero prenderlo.",
+ "width": 4,
+ "height": 4,
+ "start": [
+  0,
+  0
+ ],
+ "walls": [],
+ "pits": [
+  [
+   3,
+   3
+  ]
+ ],
+ "wumpus": [
+  3,
+  0
+ ],
+ "gold": [
+  1,
+  1
+ ],
+ "max_steps": 50,
+ "step_cost": -1.0,
+ "death_cost": -100.0,
+ "grab_reward": 100.0,
+ "end_on_grab": true
+}

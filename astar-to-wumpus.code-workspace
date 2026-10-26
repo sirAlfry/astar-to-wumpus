@@ -1,0 +1,14 @@
+{
+  "folders": [
+    { "name": "Prolog + Clingo (Pozzato)", "path": "prolog-clingo" },
+    { "name": "CLIPS Wumpus (Micalizio)", "path": "clips-wumpus" },
+    { "name": "Consegne", "path": "../consegne" }
+  ],
+  "settings": {
+    "files.associations": { "*.pl": "prolog", "*.lp": "clingo", "*.cl": "clingo", "*.clp": "clips" },
+    "files.exclude": { "**/.venv": true, "**/__pycache__": true }
+  },
+  "extensions": {
+    "recommendations": ["arthurwang.vsc-prolog", "ms-python.python"]
+  }
+}

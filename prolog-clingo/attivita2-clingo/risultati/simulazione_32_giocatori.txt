@@ -1,0 +1,167 @@
+
+=== Turno 1  (32 giocatori, grounding 3.4 ms, solving 1.2 ms)
+        g01 vs g15       =  vince g01
+        g02 vs g28       =  vince g02
+        g03 vs g09       =  vince g09
+        g04 vs g11       =  vince g11
+        g05 vs g14       =  vince g05
+        g06 vs g13       =  vince g06
+        g07 vs g08       =  vince g08
+        g10 vs g22       =  vince g22
+        g12 vs g31       =  vince g12
+        g16 vs g27       =  vince g16
+        g17 vs g19       =  vince g19
+        g18 vs g24       =  vince g24
+        g20 vs g32       =  vince g32
+        g21 vs g26       =  vince g21
+        g23 vs g29       =  vince g23
+        g25 vs g30       =  vince g25
+  incontri a pari punteggio: 16/16   costo ottimo clingo: [0]
+
+=== Turno 2  (32 giocatori, grounding 3.2 ms, solving 0.6 ms)
+        g01 vs g08       =  vince g08
+        g02 vs g32       =  vince g02
+        g05 vs g21       =  vince g05
+        g06 vs g12       =  vince g06
+        g09 vs g19       =  vince g09
+        g11 vs g23       =  vince g23
+        g16 vs g25       =  vince g16
+        g22 vs g24       =  vince g24
+        g03 vs g13       =  vince g13
+        g04 vs g18       =  vince g18
+        g07 vs g15       =  vince g15
+        g10 vs g26       =  vince g26
+        g14 vs g27       =  vince g27
+        g17 vs g28       =  vince g17
+        g20 vs g30       =  vince g30
+        g29 vs g31       =  vince g29
+  incontri a pari punteggio: 16/16   costo ottimo clingo: [0, 0]
+
+=== Turno 3  (32 giocatori, grounding 3.1 ms, solving 0.6 ms)
+        g02 vs g24       =  vince g02
+        g05 vs g08       =  vince g05
+        g06 vs g09       =  vince g09
+        g16 vs g23       =  vince g16
+        g01 vs g18       =  vince g18
+        g11 vs g21       =  vince g21
+        g12 vs g30       =  vince g30
+        g13 vs g26       =  vince g26
+        g15 vs g19       =  vince g19
+        g17 vs g32       =  vince g32
+        g22 vs g25       =  vince g25
+        g27 vs g29       =  vince g27
+        g03 vs g31       =  vince g31
+        g04 vs g14       =  vince g04
+        g07 vs g20       =  vince g20
+        g10 vs g28       =  vince g10
+  incontri a pari punteggio: 16/16   costo ottimo clingo: [0, 0]
+
+=== Turno 4  (32 giocatori, grounding 3.1 ms, solving 0.6 ms)
+        g02 vs g05       =  vince g05
+        g09 vs g16       =  vince g09
+        g06 vs g27       =  vince g06
+        g08 vs g26       =  vince g26
+        g18 vs g19       =  vince g19
+        g21 vs g24       =  vince g21
+        g23 vs g25       =  vince g23
+        g30 vs g32       =  vince g32
+        g01 vs g17       =  vince g17
+        g04 vs g29       =  vince g04
+        g10 vs g12       =  vince g12
+        g11 vs g13       =  vince g11
+        g15 vs g31       =  vince g31
+        g20 vs g22       =  vince g20
+        g03 vs g14       =  vince g03
+        g07 vs g28       =  vince g28
+  incontri a pari punteggio: 16/16   costo ottimo clingo: [0, 0]
+
+=== Turno 5  (32 giocatori, grounding 3.0 ms, solving 0.6 ms)
+        g05 vs g09       =  vince g09
+        g02 vs g06       =  vince g06
+        g16 vs g21       =  vince g16
+        g19 vs g23       =  vince g19
+        g26 vs g32       =  vince g26
+        g04 vs g12       =  vince g12
+        g08 vs g31       =  vince g31
+        g11 vs g30       =  vince g30
+        g17 vs g24       =  vince g17
+        g18 vs g20       =  vince g18
+        g25 vs g27       =  vince g27
+        g01 vs g29       =  vince g01
+        g03 vs g22       =  vince g03
+        g10 vs g13       =  vince g10
+        g15 vs g28       =  vince g15
+        g07 vs g14       =  vince g07
+  incontri a pari punteggio: 16/16   costo ottimo clingo: [0, 0]
+
+=== Turno 6  (32 giocatori, grounding 3.1 ms, solving 41.6 ms)
+        g09 vs g26          vince g26
+        g05 vs g19       =  vince g19
+        g06 vs g16       =  vince g16
+        g02 vs g31       =  vince g02
+        g12 vs g17       =  vince g12
+        g18 vs g21       =  vince g21
+        g23 vs g32       =  vince g32
+        g27 vs g30       =  vince g30
+        g01 vs g20       =  vince g01
+        g03 vs g25       =  vince g25
+        g04 vs g15       =  vince g15
+        g08 vs g10       =  vince g10
+        g11 vs g24       =  vince g24
+        g07 vs g22       =  vince g07
+        g13 vs g14          vince g14
+        g28 vs g29       =  vince g29
+  incontri a pari punteggio: 14/16   costo ottimo clingo: [2, 4]
+
+=== Turno 7  (32 giocatori, grounding 2.9 ms, solving 51.9 ms)
+        g06 vs g19          vince g06
+        g09 vs g20          vince g20
+        g16 vs g26       =  vince g26
+        g02 vs g30       =  vince g30
+        g05 vs g32       =  vince g32
+        g12 vs g21       =  vince g21
+        g01 vs g31       =  vince g01
+        g10 vs g24       =  vince g24
+        g15 vs g23       =  vince g23
+        g17 vs g27       =  vince g17
+        g18 vs g25       =  vince g25
+        g03 vs g07       =  vince g03
+        g04 vs g08       =  vince g04
+        g11 vs g29       =  vince g29
+        g13 vs g22       =  vince g22
+        g14 vs g28       =  vince g28
+  incontri a pari punteggio: 14/16   costo ottimo clingo: [2, 8]
+
+Classifica finale:
+  g26         12
+  g06         10
+  g09         10
+  g16         10
+  g19         10
+  g21         10
+  g30         10
+  g32         10
+  g01          8
+  g02          8
+  g05          8
+  g12          8
+  g17          8
+  g23          8
+  g24          8
+  g25          8
+  g03          6
+  g04          6
+  g10          6
+  g15          6
+  g18          6
+  g20          6
+  g27          6
+  g29          6
+  g31          6
+  g07          4
+  g08          4
+  g11          4
+  g22          4
+  g28          4
+  g13          2
+  g14          2

@@ -1,0 +1,901 @@
+agente,mappa,premio,esito,passi,energia_residua,oro,morto,pozzi_giusti,pozzi_sbagliati,urti,azioni
+1-prudente,casuale_001.json,0.0,uscito,16,124,False,False,0,0,0,grab down down up right up right down up right left left down left up quit
+2-logico,casuale_001.json,25.0,uscito,13,127,False,False,1,0,0,grab right right right left down left pit-south left down up up quit
+3-stratega,casuale_001.json,50.0,uscito,16,124,False,False,2,0,0,grab right right right left down pit-east left pit-south left down down up up up quit
+3-stratega rischio<=0.0,casuale_001.json,50.0,uscito,14,126,False,False,2,0,0,grab right right right left down pit-east left pit-south left down up up quit
+3-stratega rischio<=0.2,casuale_001.json,50.0,uscito,16,124,False,False,2,0,0,grab right right right left down pit-east left pit-south left down down up up up quit
+3-stratega rischio<=0.34,casuale_001.json,50.0,uscito,16,124,False,False,2,0,0,grab right right right left down pit-east left pit-south left down down up up up quit
+3-stratega rischio<=0.4,casuale_001.json,50.0,uscito,16,124,False,False,2,0,0,grab right right right left down pit-east left pit-south left down down up up up quit
+3-stratega rischio<=0.5,casuale_001.json,-50.0,morto,13,0,False,True,2,0,0,grab right right right left down pit-east left pit-south left down down right
+3-stratega rischio<=1.0,casuale_001.json,-50.0,morto,13,0,False,True,2,0,0,grab right right right left down pit-east left pit-south left down down right
+1-prudente,casuale_002.json,100.0,oro,13,127,True,False,0,0,0,grab down down down up right down grab up left up up quit
+2-logico,casuale_002.json,100.0,oro,18,121,True,False,0,0,1,grab right right left down left down down right right left down grab up left up up quit
+3-stratega,casuale_002.json,150.0,oro,36,99,True,False,2,0,5,grab right right left down left down down right right left down left pit-south right right right down left right right right down left down up up pit-north left down grab up left up up quit
+3-stratega rischio<=0.0,casuale_002.json,150.0,oro,36,99,True,False,2,0,5,grab right right left down left down down right right left down left pit-south right right right down left right right right down left down up up pit-north left down grab up left up up quit
+3-stratega rischio<=0.2,casuale_002.json,150.0,oro,36,99,True,False,2,0,5,grab right right left down left down down right right left down left pit-south right right right down left right right right down left down up up pit-north left down grab up left up up quit
+3-stratega rischio<=0.34,casuale_002.json,150.0,oro,36,99,True,False,2,0,5,grab right right left down left down down right right left down left pit-south right right right down left right right right down left down up up pit-north left down grab up left up up quit
+3-stratega rischio<=0.4,casuale_002.json,150.0,oro,36,99,True,False,2,0,5,grab right right left down left down down right right left down left pit-south right right right down left right right right down left down up up pit-north left down grab up left up up quit
+3-stratega rischio<=0.5,casuale_002.json,150.0,oro,36,99,True,False,2,0,5,grab right right left down left down down right right left down left pit-south right right right down left right right right down left down up up pit-north left down grab up left up up quit
+3-stratega rischio<=1.0,casuale_002.json,150.0,oro,36,99,True,False,2,0,5,grab right right left down left down down right right left down left pit-south right right right down left right right right down left down up up pit-north left down grab up left up up quit
+1-prudente,casuale_003.json,0.0,uscito,2,142,False,False,0,0,0,grab quit
+2-logico,casuale_003.json,0.0,uscito,2,142,False,False,0,0,0,grab quit
+3-stratega,casuale_003.json,0.0,uscito,2,142,False,False,0,0,0,grab quit
+3-stratega rischio<=0.0,casuale_003.json,0.0,uscito,2,142,False,False,0,0,0,grab quit
+3-stratega rischio<=0.2,casuale_003.json,0.0,uscito,2,142,False,False,0,0,0,grab quit
+3-stratega rischio<=0.34,casuale_003.json,0.0,uscito,2,142,False,False,0,0,0,grab quit
+3-stratega rischio<=0.4,casuale_003.json,0.0,uscito,2,142,False,False,0,0,0,grab quit
+3-stratega rischio<=0.5,casuale_003.json,0.0,uscito,2,142,False,False,0,0,0,grab quit
+3-stratega rischio<=1.0,casuale_003.json,-100.0,morto,2,0,False,True,0,0,0,grab down
+1-prudente,casuale_004.json,0.0,uscito,2,166,False,False,0,0,0,grab quit
+2-logico,casuale_004.json,0.0,uscito,2,166,False,False,0,0,0,grab quit
+3-stratega,casuale_004.json,0.0,uscito,2,166,False,False,0,0,0,grab quit
+3-stratega rischio<=0.0,casuale_004.json,0.0,uscito,2,166,False,False,0,0,0,grab quit
+3-stratega rischio<=0.2,casuale_004.json,0.0,uscito,2,166,False,False,0,0,0,grab quit
+3-stratega rischio<=0.34,casuale_004.json,0.0,uscito,2,166,False,False,0,0,0,grab quit
+3-stratega rischio<=0.4,casuale_004.json,0.0,uscito,2,166,False,False,0,0,0,grab quit
+3-stratega rischio<=0.5,casuale_004.json,-100.0,morto,2,0,False,True,0,0,0,grab down
+3-stratega rischio<=1.0,casuale_004.json,-100.0,morto,2,0,False,True,0,0,0,grab down
+1-prudente,casuale_005.json,0.0,uscito,6,114,False,False,0,0,0,grab down up right left quit
+2-logico,casuale_005.json,0.0,uscito,6,114,False,False,0,0,0,grab right left down up quit
+3-stratega,casuale_005.json,25.0,uscito,7,113,False,False,1,0,0,grab right left down pit-east up quit
+3-stratega rischio<=0.0,casuale_005.json,25.0,uscito,7,113,False,False,1,0,0,grab right left down pit-east up quit
+3-stratega rischio<=0.2,casuale_005.json,25.0,uscito,7,113,False,False,1,0,0,grab right left down pit-east up quit
+3-stratega rischio<=0.34,casuale_005.json,25.0,uscito,7,113,False,False,1,0,0,grab right left down pit-east up quit
+3-stratega rischio<=0.4,casuale_005.json,25.0,uscito,7,113,False,False,1,0,0,grab right left down pit-east up quit
+3-stratega rischio<=0.5,casuale_005.json,175.0,oro,67,46,True,False,3,0,7,grab right left down pit-east down up up right right down up pit-east down down up up left left down down down right pit-east left down up up up right right down right right right right down left left down right right right down up right up up left right right left down down down down right grab up up left left left up left left quit
+3-stratega rischio<=1.0,casuale_005.json,175.0,oro,67,46,True,False,3,0,7,grab right left down pit-east down up up right right down up pit-east down down up up left left down down down right pit-east left down up up up right right down right right right right down left left down right right right down up right up up left right right left down down down down right grab up up left left left up left left quit
+1-prudente,casuale_006.json,100.0,oro,43,147,True,False,0,0,2,grab down down up right down up right up right down down down left up down right down right down right up up up down right up grab down left down down left left up up up left down left left up quit
+2-logico,casuale_006.json,175.0,oro,35,156,True,False,3,0,1,grab right right right left down left left down pit-south right right right up right pit-north down right up right down right left up pit-east grab down left left left up left left left quit
+3-stratega,casuale_006.json,175.0,oro,70,114,True,False,3,0,8,grab right right right left down left left down pit-south right right right up right pit-north down right up right down right left up pit-east left down down down left left left down right up right right down right right right left down left down right right down right right down left down up up left up up right up grab down left left left up left left left quit
+3-stratega rischio<=0.0,casuale_006.json,175.0,oro,70,114,True,False,3,0,8,grab right right right left down left left down pit-south right right right up right pit-north down right up right down right left up pit-east left down down down left left left down right up right right down right right right left down left down right right down right right down left down up up left up up right up grab down left left left up left left left quit
+3-stratega rischio<=0.2,casuale_006.json,175.0,oro,70,114,True,False,3,0,8,grab right right right left down left left down pit-south right right right up right pit-north down right up right down right left up pit-east left down down down left left left down right up right right down right right right left down left down right right down right right down left down up up left up up right up grab down left left left up left left left quit
+3-stratega rischio<=0.34,casuale_006.json,175.0,oro,70,114,True,False,3,0,8,grab right right right left down left left down pit-south right right right up right pit-north down right up right down right left up pit-east left down down down left left left down right up right right down right right right left down left down right right down right right down left down up up left up up right up grab down left left left up left left left quit
+3-stratega rischio<=0.4,casuale_006.json,175.0,oro,70,114,True,False,3,0,8,grab right right right left down left left down pit-south right right right up right pit-north down right up right down right left up pit-east left down down down left left left down right up right right down right right right left down left down right right down right right down left down up up left up up right up grab down left left left up left left left quit
+3-stratega rischio<=0.5,casuale_006.json,175.0,oro,70,114,True,False,3,0,8,grab right right right left down left left down pit-south right right right up right pit-north down right up right down right left up pit-east left down down down left left left down right up right right down right right right left down left down right right down right right down left down up up left up up right up grab down left left left up left left left quit
+3-stratega rischio<=1.0,casuale_006.json,175.0,oro,70,114,True,False,3,0,8,grab right right right left down left left down pit-south right right right up right pit-north down right up right down right left up pit-east left down down down left left left down right up right right down right right right left down left down right right down right right down left down up up left up up right up grab down left left left up left left left quit
+1-prudente,casuale_007.json,0.0,uscito,2,158,False,False,0,0,0,grab quit
+2-logico,casuale_007.json,0.0,uscito,2,158,False,False,0,0,0,grab quit
+3-stratega,casuale_007.json,0.0,uscito,2,158,False,False,0,0,0,grab quit
+3-stratega rischio<=0.0,casuale_007.json,0.0,uscito,2,158,False,False,0,0,0,grab quit
+3-stratega rischio<=0.2,casuale_007.json,0.0,uscito,2,158,False,False,0,0,0,grab quit
+3-stratega rischio<=0.34,casuale_007.json,0.0,uscito,2,158,False,False,0,0,0,grab quit
+3-stratega rischio<=0.4,casuale_007.json,0.0,uscito,2,158,False,False,0,0,0,grab quit
+3-stratega rischio<=0.5,casuale_007.json,-100.0,morto,2,0,False,True,0,0,0,grab down
+3-stratega rischio<=1.0,casuale_007.json,-100.0,morto,2,0,False,True,0,0,0,grab down
+1-prudente,casuale_008.json,0.0,uscito,2,222,False,False,0,0,0,grab quit
+2-logico,casuale_008.json,0.0,uscito,2,222,False,False,0,0,0,grab quit
+3-stratega,casuale_008.json,0.0,uscito,2,222,False,False,0,0,0,grab quit
+3-stratega rischio<=0.0,casuale_008.json,0.0,uscito,2,222,False,False,0,0,0,grab quit
+3-stratega rischio<=0.2,casuale_008.json,0.0,uscito,2,222,False,False,0,0,0,grab quit
+3-stratega rischio<=0.34,casuale_008.json,0.0,uscito,2,222,False,False,0,0,0,grab quit
+3-stratega rischio<=0.4,casuale_008.json,0.0,uscito,2,222,False,False,0,0,0,grab quit
+3-stratega rischio<=0.5,casuale_008.json,-100.0,morto,2,0,False,True,0,0,0,grab down
+3-stratega rischio<=1.0,casuale_008.json,-100.0,morto,2,0,False,True,0,0,0,grab down
+1-prudente,casuale_009.json,0.0,uscito,2,118,False,False,0,0,0,grab quit
+2-logico,casuale_009.json,0.0,uscito,2,118,False,False,0,0,0,grab quit
+3-stratega,casuale_009.json,0.0,uscito,2,118,False,False,0,0,0,grab quit
+3-stratega rischio<=0.0,casuale_009.json,0.0,uscito,2,118,False,False,0,0,0,grab quit
+3-stratega rischio<=0.2,casuale_009.json,0.0,uscito,2,118,False,False,0,0,0,grab quit
+3-stratega rischio<=0.34,casuale_009.json,0.0,uscito,2,118,False,False,0,0,0,grab quit
+3-stratega rischio<=0.4,casuale_009.json,0.0,uscito,2,118,False,False,0,0,0,grab quit
+3-stratega rischio<=0.5,casuale_009.json,0.0,uscito,2,118,False,False,0,0,0,grab quit
+3-stratega rischio<=1.0,casuale_009.json,-100.0,morto,2,0,False,True,0,0,0,grab down
+1-prudente,casuale_010.json,100.0,oro,13,127,True,False,0,0,0,grab down down down down down grab up up up up up quit
+2-logico,casuale_010.json,100.0,oro,22,117,True,False,0,0,1,grab right right left down left down right left down right right down left down grab up up up up up quit
+3-stratega,casuale_010.json,175.0,oro,33,106,True,False,3,0,1,grab right right left down pit-east left down right left down right right down left down pit-east up up up right pit-east left down down down grab up up up up up quit
+3-stratega rischio<=0.0,casuale_010.json,175.0,oro,33,106,True,False,3,0,1,grab right right left down pit-east left down right left down right right down left down pit-east up up up right pit-east left down down down grab up up up up up quit
+3-stratega rischio<=0.2,casuale_010.json,175.0,oro,33,106,True,False,3,0,1,grab right right left down pit-east left down right left down right right down left down pit-east up up up right pit-east left down down down grab up up up up up quit
+3-stratega rischio<=0.34,casuale_010.json,175.0,oro,33,106,True,False,3,0,1,grab right right left down pit-east left down right left down right right down left down pit-east up up up right pit-east left down down down grab up up up up up quit
+3-stratega rischio<=0.4,casuale_010.json,175.0,oro,33,106,True,False,3,0,1,grab right right left down pit-east left down right left down right right down left down pit-east up up up right pit-east left down down down grab up up up up up quit
+3-stratega rischio<=0.5,casuale_010.json,175.0,oro,33,106,True,False,3,0,1,grab right right left down pit-east left down right left down right right down left down pit-east up up up right pit-east left down down down grab up up up up up quit
+3-stratega rischio<=1.0,casuale_010.json,175.0,oro,33,106,True,False,3,0,1,grab right right left down pit-east left down right left down right right down left down pit-east up up up right pit-east left down down down grab up up up up up quit
+1-prudente,casuale_011.json,0.0,uscito,2,190,False,False,0,0,0,grab quit
+2-logico,casuale_011.json,0.0,uscito,2,190,False,False,0,0,0,grab quit
+3-stratega,casuale_011.json,0.0,uscito,2,190,False,False,0,0,0,grab quit
+3-stratega rischio<=0.0,casuale_011.json,0.0,uscito,2,190,False,False,0,0,0,grab quit
+3-stratega rischio<=0.2,casuale_011.json,0.0,uscito,2,190,False,False,0,0,0,grab quit
+3-stratega rischio<=0.34,casuale_011.json,0.0,uscito,2,190,False,False,0,0,0,grab quit
+3-stratega rischio<=0.4,casuale_011.json,0.0,uscito,2,190,False,False,0,0,0,grab quit
+3-stratega rischio<=0.5,casuale_011.json,175.0,oro,50,138,True,False,3,0,4,grab down right pit-north left down right right up right up down down right right right right down left left pit-south left left left pit-south right down right up right right down up up up right right up right grab down down left left left left up left up quit
+3-stratega rischio<=1.0,casuale_011.json,175.0,oro,50,138,True,False,3,0,4,grab down right pit-north left down right right up right up down down right right right right down left left pit-south left left left pit-south right down right up right right down up up up right right up right grab down down left left left left up left up quit
+1-prudente,casuale_012.json,0.0,uscito,5,162,False,False,0,0,1,grab down up right quit
+2-logico,casuale_012.json,0.0,uscito,5,162,False,False,0,0,1,grab right down up quit
+3-stratega,casuale_012.json,0.0,uscito,5,162,False,False,0,0,1,grab right down up quit
+3-stratega rischio<=0.0,casuale_012.json,0.0,uscito,5,162,False,False,0,0,1,grab right down up quit
+3-stratega rischio<=0.2,casuale_012.json,0.0,uscito,5,162,False,False,0,0,1,grab right down up quit
+3-stratega rischio<=0.34,casuale_012.json,0.0,uscito,5,162,False,False,0,0,1,grab right down up quit
+3-stratega rischio<=0.4,casuale_012.json,0.0,uscito,5,162,False,False,0,0,1,grab right down up quit
+3-stratega rischio<=0.5,casuale_012.json,175.0,oro,64,96,True,False,4,1,8,grab right down down right pit-north left down up right right right right left down left pit-west right right left down up up up pit-east left down down down down right down right down left up pit-north down down left up left pit-north down down right down up up down right right down grab up up up up left left left up up quit
+3-stratega rischio<=1.0,casuale_012.json,175.0,oro,64,96,True,False,4,1,8,grab right down down right pit-north left down up right right right right left down left pit-west right right left down up up up pit-east left down down down down right down right down left up pit-north down down left up left pit-north down down right down up up down right right down grab up up up up left left left up up quit
+1-prudente,casuale_013.json,0.0,uscito,2,98,False,False,0,0,0,grab quit
+2-logico,casuale_013.json,0.0,uscito,2,98,False,False,0,0,0,grab quit
+3-stratega,casuale_013.json,0.0,uscito,2,98,False,False,0,0,0,grab quit
+3-stratega rischio<=0.0,casuale_013.json,0.0,uscito,2,98,False,False,0,0,0,grab quit
+3-stratega rischio<=0.2,casuale_013.json,0.0,uscito,2,98,False,False,0,0,0,grab quit
+3-stratega rischio<=0.34,casuale_013.json,0.0,uscito,2,98,False,False,0,0,0,grab quit
+3-stratega rischio<=0.4,casuale_013.json,0.0,uscito,2,98,False,False,0,0,0,grab quit
+3-stratega rischio<=0.5,casuale_013.json,-100.0,morto,2,0,False,True,0,0,0,grab down
+3-stratega rischio<=1.0,casuale_013.json,-100.0,morto,2,0,False,True,0,0,0,grab down
+1-prudente,casuale_014.json,100.0,oro,16,103,True,False,0,0,1,grab down up right down down right down down grab up up left up left quit
+2-logico,casuale_014.json,125.0,oro,25,94,True,False,1,0,1,grab right right right left down left left right down right right right pit-north left down left down grab up up up left left quit
+3-stratega,casuale_014.json,125.0,oro,35,84,True,False,1,0,1,grab right right right left down left left right down right right right pit-north left down left down right right up right left left down down up left grab up up up left left quit
+3-stratega rischio<=0.0,casuale_014.json,125.0,oro,35,84,True,False,1,0,1,grab right right right left down left left right down right right right pit-north left down left down right right up right left left down down up left grab up up up left left quit
+3-stratega rischio<=0.2,casuale_014.json,125.0,oro,35,84,True,False,1,0,1,grab right right right left down left left right down right right right pit-north left down left down right right up right left left down down up left grab up up up left left quit
+3-stratega rischio<=0.34,casuale_014.json,125.0,oro,35,84,True,False,1,0,1,grab right right right left down left left right down right right right pit-north left down left down right right up right left left down down up left grab up up up left left quit
+3-stratega rischio<=0.4,casuale_014.json,125.0,oro,35,84,True,False,1,0,1,grab right right right left down left left right down right right right pit-north left down left down right right up right left left down down up left grab up up up left left quit
+3-stratega rischio<=0.5,casuale_014.json,125.0,oro,35,84,True,False,1,0,1,grab right right right left down left left right down right right right pit-north left down left down right right up right left left down down up left grab up up up left left quit
+3-stratega rischio<=1.0,casuale_014.json,125.0,oro,35,84,True,False,1,0,1,grab right right right left down left left right down right right right pit-north left down left down right right up right left left down down up left grab up up up left left quit
+1-prudente,casuale_015.json,0.0,uscito,4,134,False,False,0,0,2,grab down right quit
+2-logico,casuale_015.json,0.0,uscito,4,134,False,False,0,0,2,grab right down quit
+3-stratega,casuale_015.json,0.0,uscito,4,134,False,False,0,0,2,grab right down quit
+3-stratega rischio<=0.0,casuale_015.json,0.0,uscito,4,134,False,False,0,0,2,grab right down quit
+3-stratega rischio<=0.2,casuale_015.json,0.0,uscito,4,134,False,False,0,0,2,grab right down quit
+3-stratega rischio<=0.34,casuale_015.json,0.0,uscito,4,134,False,False,0,0,2,grab right down quit
+3-stratega rischio<=0.4,casuale_015.json,0.0,uscito,4,134,False,False,0,0,2,grab right down quit
+3-stratega rischio<=0.5,casuale_015.json,0.0,uscito,4,134,False,False,0,0,2,grab right down quit
+3-stratega rischio<=1.0,casuale_015.json,0.0,uscito,4,134,False,False,0,0,2,grab right down quit
+1-prudente,casuale_016.json,0.0,uscito,2,190,False,False,0,0,0,grab quit
+2-logico,casuale_016.json,0.0,uscito,2,190,False,False,0,0,0,grab quit
+3-stratega,casuale_016.json,0.0,uscito,2,190,False,False,0,0,0,grab quit
+3-stratega rischio<=0.0,casuale_016.json,0.0,uscito,2,190,False,False,0,0,0,grab quit
+3-stratega rischio<=0.2,casuale_016.json,0.0,uscito,2,190,False,False,0,0,0,grab quit
+3-stratega rischio<=0.34,casuale_016.json,0.0,uscito,2,190,False,False,0,0,0,grab quit
+3-stratega rischio<=0.4,casuale_016.json,0.0,uscito,2,190,False,False,0,0,0,grab quit
+3-stratega rischio<=0.5,casuale_016.json,-100.0,morto,2,0,False,True,0,0,0,grab down
+3-stratega rischio<=1.0,casuale_016.json,-100.0,morto,2,0,False,True,0,0,0,grab down
+1-prudente,casuale_017.json,0.0,uscito,10,182,False,False,0,0,0,grab down down up right up down left up quit
+2-logico,casuale_017.json,0.0,uscito,10,182,False,False,0,0,0,grab right left down right left down up up quit
+3-stratega,casuale_017.json,50.0,uscito,14,178,False,False,2,0,0,grab right left down right left down pit-east up up right pit-east left quit
+3-stratega rischio<=0.0,casuale_017.json,50.0,uscito,14,178,False,False,2,0,0,grab right left down right left down pit-east up up right pit-east left quit
+3-stratega rischio<=0.2,casuale_017.json,50.0,uscito,14,178,False,False,2,0,0,grab right left down right left down pit-east up up right pit-east left quit
+3-stratega rischio<=0.34,casuale_017.json,50.0,uscito,14,178,False,False,2,0,0,grab right left down right left down pit-east up up right pit-east left quit
+3-stratega rischio<=0.4,casuale_017.json,50.0,uscito,14,178,False,False,2,0,0,grab right left down right left down pit-east up up right pit-east left quit
+3-stratega rischio<=0.5,casuale_017.json,175.0,oro,62,120,True,False,3,0,10,grab right left down right left down pit-east up up right pit-east down right down down up right down right down up up right down right up right up left left right right right down down right down right down right down right down right down left up pit-west up right up grab up up left left left left up left quit
+3-stratega rischio<=1.0,casuale_017.json,175.0,oro,62,120,True,False,3,0,10,grab right left down right left down pit-east up up right pit-east down right down down up right down right down up up right down right up right up left left right right right down down right down right down right down right down right down left up pit-west up right up grab up up left left left left up left quit
+1-prudente,casuale_018.json,0.0,uscito,21,138,False,False,0,0,1,grab down down up right down right up right down up left left right down down up left left up quit
+2-logico,casuale_018.json,125.0,oro,25,134,True,False,1,0,1,grab right right right left down left left down pit-south right up right right right left down down grab up up up left left quit
+3-stratega,casuale_018.json,150.0,oro,34,125,True,False,2,0,1,grab right right right left down left left down pit-south right up right right right left down down up up right right pit-north left left down down grab up up up left left quit
+3-stratega rischio<=0.0,casuale_018.json,150.0,oro,34,125,True,False,2,0,1,grab right right right left down left left down pit-south right up right right right left down down up up right right pit-north left left down down grab up up up left left quit
+3-stratega rischio<=0.2,casuale_018.json,150.0,oro,34,125,True,False,2,0,1,grab right right right left down left left down pit-south right up right right right left down down up up right right pit-north left left down down grab up up up left left quit
+3-stratega rischio<=0.34,casuale_018.json,150.0,oro,34,125,True,False,2,0,1,grab right right right left down left left down pit-south right up right right right left down down up up right right pit-north left left down down grab up up up left left quit
+3-stratega rischio<=0.4,casuale_018.json,150.0,oro,34,125,True,False,2,0,1,grab right right right left down left left down pit-south right up right right right left down down up up right right pit-north left left down down grab up up up left left quit
+3-stratega rischio<=0.5,casuale_018.json,150.0,oro,34,125,True,False,2,0,1,grab right right right left down left left down pit-south right up right right right left down down up up right right pit-north left left down down grab up up up left left quit
+3-stratega rischio<=1.0,casuale_018.json,150.0,oro,34,125,True,False,2,0,1,grab right right right left down left left down pit-south right up right right right left down down up up right right pit-north left left down down grab up up up left left quit
+1-prudente,casuale_019.json,100.0,oro,30,191,True,False,0,0,3,grab down down right down right up down up right up right right down down up right up grab down left up left left down left left left up quit
+2-logico,casuale_019.json,150.0,oro,56,163,True,False,2,0,5,grab right right down left down right right right right right right left down left left left left right down right right right down left pit-south left down left right right right right left down up up up pit-east up up left left right right right grab down left left left left left up left quit
+3-stratega,casuale_019.json,150.0,oro,57,161,True,False,2,0,6,grab right right down left down right right right right right right left down left left left left right down right right right down left pit-south left down left right right right right left down up up up pit-east up up left left right right right right grab down left left left left left up left quit
+3-stratega rischio<=0.0,casuale_019.json,150.0,oro,57,161,True,False,2,0,6,grab right right down left down right right right right right right left down left left left left right down right right right down left pit-south left down left right right right right left down up up up pit-east up up left left right right right right grab down left left left left left up left quit
+3-stratega rischio<=0.2,casuale_019.json,150.0,oro,57,161,True,False,2,0,6,grab right right down left down right right right right right right left down left left left left right down right right right down left pit-south left down left right right right right left down up up up pit-east up up left left right right right right grab down left left left left left up left quit
+3-stratega rischio<=0.34,casuale_019.json,150.0,oro,57,161,True,False,2,0,6,grab right right down left down right right right right right right left down left left left left right down right right right down left pit-south left down left right right right right left down up up up pit-east up up left left right right right right grab down left left left left left up left quit
+3-stratega rischio<=0.4,casuale_019.json,150.0,oro,57,161,True,False,2,0,6,grab right right down left down right right right right right right left down left left left left right down right right right down left pit-south left down left right right right right left down up up up pit-east up up left left right right right right grab down left left left left left up left quit
+3-stratega rischio<=0.5,casuale_019.json,150.0,oro,57,161,True,False,2,0,6,grab right right down left down right right right right right right left down left left left left right down right right right down left pit-south left down left right right right right left down up up up pit-east up up left left right right right right grab down left left left left left up left quit
+3-stratega rischio<=1.0,casuale_019.json,150.0,oro,57,161,True,False,2,0,6,grab right right down left down right right right right right right left down left left left left right down right right right down left pit-south left down left right right right right left down up up up pit-east up up left left right right right right grab down left left left left left up left quit
+1-prudente,casuale_020.json,0.0,uscito,37,184,False,False,0,0,3,grab down down down down down down up right down up right left up right left up down left up up up right right left up right up right right left down down left up up quit
+2-logico,casuale_020.json,50.0,uscito,36,184,False,False,2,0,4,grab right right right down left down left down right right left down left down down right right up left down left down pit-south right up right up pit-east left left up up up up quit
+3-stratega,casuale_020.json,25.0,uscito,37,183,False,False,2,1,4,grab right right right down left down left down right right left down left down down right right up left down left down pit-south right up right pit-south up pit-east left left up up up up quit
+3-stratega rischio<=0.0,casuale_020.json,25.0,uscito,37,183,False,False,2,1,4,grab right right right down left down left down right right left down left down down right right up left down left down pit-south right up right pit-south up pit-east left left up up up up quit
+3-stratega rischio<=0.2,casuale_020.json,25.0,uscito,37,183,False,False,2,1,4,grab right right right down left down left down right right left down left down down right right up left down left down pit-south right up right pit-south up pit-east left left up up up up quit
+3-stratega rischio<=0.34,casuale_020.json,25.0,uscito,37,183,False,False,2,1,4,grab right right right down left down left down right right left down left down down right right up left down left down pit-south right up right pit-south up pit-east left left up up up up quit
+3-stratega rischio<=0.4,casuale_020.json,25.0,uscito,37,183,False,False,2,1,4,grab right right right down left down left down right right left down left down down right right up left down left down pit-south right up right pit-south up pit-east left left up up up up quit
+3-stratega rischio<=0.5,casuale_020.json,-75.0,morto,32,0,False,True,2,1,4,grab right right right down left down left down right right left down left down down right right up left down left down pit-south right up right pit-south up pit-east down right
+3-stratega rischio<=1.0,casuale_020.json,-75.0,morto,32,0,False,True,2,1,4,grab right right right down left down left down right right left down left down down right right up left down left down pit-south right up right pit-south up pit-east down right
+1-prudente,casuale_021.json,100.0,oro,7,93,True,False,0,0,0,grab down down grab up up quit
+2-logico,casuale_021.json,125.0,oro,17,82,True,False,1,0,1,grab right down right right right right left down left pit-south left left grab up up quit
+3-stratega,casuale_021.json,150.0,oro,40,57,True,False,2,0,3,grab right down right right right right left down left pit-south left left down right left down right left down up up up right right up right right down right pit-south left left left left down grab up up quit
+3-stratega rischio<=0.0,casuale_021.json,150.0,oro,40,57,True,False,2,0,3,grab right down right right right right left down left pit-south left left down right left down right left down up up up right right up right right down right pit-south left left left left down grab up up quit
+3-stratega rischio<=0.2,casuale_021.json,150.0,oro,40,57,True,False,2,0,3,grab right down right right right right left down left pit-south left left down right left down right left down up up up right right up right right down right pit-south left left left left down grab up up quit
+3-stratega rischio<=0.34,casuale_021.json,150.0,oro,40,57,True,False,2,0,3,grab right down right right right right left down left pit-south left left down right left down right left down up up up right right up right right down right pit-south left left left left down grab up up quit
+3-stratega rischio<=0.4,casuale_021.json,150.0,oro,40,57,True,False,2,0,3,grab right down right right right right left down left pit-south left left down right left down right left down up up up right right up right right down right pit-south left left left left down grab up up quit
+3-stratega rischio<=0.5,casuale_021.json,150.0,oro,40,57,True,False,2,0,3,grab right down right right right right left down left pit-south left left down right left down right left down up up up right right up right right down right pit-south left left left left down grab up up quit
+3-stratega rischio<=1.0,casuale_021.json,150.0,oro,40,57,True,False,2,0,3,grab right down right right right right left down left pit-south left left down right left down right left down up up up right right up right right down right pit-south left left left left down grab up up quit
+1-prudente,casuale_022.json,100.0,oro,41,181,True,False,0,0,2,grab down down up right down down up right down down up right up up right down left up up up right right down right down down grab up up left up left left down down left up left up quit
+2-logico,casuale_022.json,125.0,oro,50,170,True,False,1,0,4,grab right down right right right down left left right down right right up right down left down left up up up right up right right right left down right right pit-north left down right right down left grab up up left up left left down left left up quit
+3-stratega,casuale_022.json,200.0,oro,63,155,True,False,4,0,6,grab right down right right right down left left right down right right up right down left down pit-east left up up up right up right right right left down right right pit-north left down right right down left left pit-south right down right up right down right left down pit-south up left grab left left up left up left left up quit
+3-stratega rischio<=0.0,casuale_022.json,200.0,oro,63,155,True,False,4,0,6,grab right down right right right down left left right down right right up right down left down pit-east left up up up right up right right right left down right right pit-north left down right right down left left pit-south right down right up right down right left down pit-south up left grab left left up left up left left up quit
+3-stratega rischio<=0.2,casuale_022.json,200.0,oro,63,155,True,False,4,0,6,grab right down right right right down left left right down right right up right down left down pit-east left up up up right up right right right left down right right pit-north left down right right down left left pit-south right down right up right down right left down pit-south up left grab left left up left up left left up quit
+3-stratega rischio<=0.34,casuale_022.json,200.0,oro,63,155,True,False,4,0,6,grab right down right right right down left left right down right right up right down left down pit-east left up up up right up right right right left down right right pit-north left down right right down left left pit-south right down right up right down right left down pit-south up left grab left left up left up left left up quit
+3-stratega rischio<=0.4,casuale_022.json,200.0,oro,63,155,True,False,4,0,6,grab right down right right right down left left right down right right up right down left down pit-east left up up up right up right right right left down right right pit-north left down right right down left left pit-south right down right up right down right left down pit-south up left grab left left up left up left left up quit
+3-stratega rischio<=0.5,casuale_022.json,200.0,oro,63,155,True,False,4,0,6,grab right down right right right down left left right down right right up right down left down pit-east left up up up right up right right right left down right right pit-north left down right right down left left pit-south right down right up right down right left down pit-south up left grab left left up left up left left up quit
+3-stratega rischio<=1.0,casuale_022.json,200.0,oro,63,155,True,False,4,0,6,grab right down right right right down left left right down right right up right down left down pit-east left up up up right up right right right left down right right pit-north left down right right down left left pit-south right down right up right down right left down pit-south up left grab left left up left up left left up quit
+1-prudente,casuale_023.json,0.0,uscito,2,138,False,False,0,0,0,grab quit
+2-logico,casuale_023.json,0.0,uscito,2,138,False,False,0,0,0,grab quit
+3-stratega,casuale_023.json,0.0,uscito,2,138,False,False,0,0,0,grab quit
+3-stratega rischio<=0.0,casuale_023.json,0.0,uscito,2,138,False,False,0,0,0,grab quit
+3-stratega rischio<=0.2,casuale_023.json,0.0,uscito,2,138,False,False,0,0,0,grab quit
+3-stratega rischio<=0.34,casuale_023.json,0.0,uscito,2,138,False,False,0,0,0,grab quit
+3-stratega rischio<=0.4,casuale_023.json,0.0,uscito,2,138,False,False,0,0,0,grab quit
+3-stratega rischio<=0.5,casuale_023.json,-100.0,morto,2,0,False,True,0,0,0,grab down
+3-stratega rischio<=1.0,casuale_023.json,-100.0,morto,2,0,False,True,0,0,0,grab down
+1-prudente,casuale_024.json,100.0,oro,40,77,True,False,0,0,3,grab down down down down down down right down right up up left down up up up right up right right down grab up left left down down down right down down left left up up up up up quit
+2-logico,casuale_024.json,100.0,oro,13,107,True,False,0,0,0,grab right right right right left down grab up left left left quit
+3-stratega,casuale_024.json,150.0,oro,52,63,True,False,2,0,5,grab right right right right left down pit-east left up left left down left down right left down right right left down left down right right up right pit-north down left down down left down left down up up up up up right right right down grab up left left left quit
+3-stratega rischio<=0.0,casuale_024.json,150.0,oro,52,63,True,False,2,0,5,grab right right right right left down pit-east left up left left down left down right left down right right left down left down right right up right pit-north down left down down left down left down up up up up up right right right down grab up left left left quit
+3-stratega rischio<=0.2,casuale_024.json,150.0,oro,52,63,True,False,2,0,5,grab right right right right left down pit-east left up left left down left down right left down right right left down left down right right up right pit-north down left down down left down left down up up up up up right right right down grab up left left left quit
+3-stratega rischio<=0.34,casuale_024.json,150.0,oro,52,63,True,False,2,0,5,grab right right right right left down pit-east left up left left down left down right left down right right left down left down right right up right pit-north down left down down left down left down up up up up up right right right down grab up left left left quit
+3-stratega rischio<=0.4,casuale_024.json,150.0,oro,52,63,True,False,2,0,5,grab right right right right left down pit-east left up left left down left down right left down right right left down left down right right up right pit-north down left down down left down left down up up up up up right right right down grab up left left left quit
+3-stratega rischio<=0.5,casuale_024.json,150.0,oro,52,63,True,False,2,0,5,grab right right right right left down pit-east left up left left down left down right left down right right left down left down right right up right pit-north down left down down left down left down up up up up up right right right down grab up left left left quit
+3-stratega rischio<=1.0,casuale_024.json,150.0,oro,52,63,True,False,2,0,5,grab right right right right left down pit-east left up left left down left down right left down right right left down left down right right up right pit-north down left down down left down left down up up up up up right right right down grab up left left left quit
+1-prudente,casuale_025.json,0.0,uscito,6,186,False,False,0,0,0,grab down up right left quit
+2-logico,casuale_025.json,0.0,uscito,6,186,False,False,0,0,0,grab right left down up quit
+3-stratega,casuale_025.json,25.0,uscito,7,185,False,False,1,0,0,grab right left down pit-east up quit
+3-stratega rischio<=0.0,casuale_025.json,25.0,uscito,7,185,False,False,1,0,0,grab right left down pit-east up quit
+3-stratega rischio<=0.2,casuale_025.json,25.0,uscito,7,185,False,False,1,0,0,grab right left down pit-east up quit
+3-stratega rischio<=0.34,casuale_025.json,25.0,uscito,7,185,False,False,1,0,0,grab right left down pit-east up quit
+3-stratega rischio<=0.4,casuale_025.json,25.0,uscito,7,185,False,False,1,0,0,grab right left down pit-east up quit
+3-stratega rischio<=0.5,casuale_025.json,150.0,oro,28,163,True,False,2,0,1,grab right left down pit-east down right left down right left down right left down up right pit-east up right up grab down left left up up quit
+3-stratega rischio<=1.0,casuale_025.json,150.0,oro,28,163,True,False,2,0,1,grab right left down pit-east down right left down right left down right left down up right pit-east up right up grab down left left up up quit
+1-prudente,casuale_026.json,100.0,oro,21,97,True,False,0,0,2,grab down down down down down right up right right left up right grab left down left up up up quit
+2-logico,casuale_026.json,125.0,oro,16,104,True,False,1,0,0,grab right right left down left down right right pit-north grab left up up left quit
+3-stratega,casuale_026.json,125.0,oro,26,92,True,False,1,0,2,grab right right left down pit-east left down right right left down left down right down up right right up grab left up up left quit
+3-stratega rischio<=0.0,casuale_026.json,125.0,oro,26,92,True,False,1,0,2,grab right right left down pit-east left down right right left down left down right down up right right up grab left up up left quit
+3-stratega rischio<=0.2,casuale_026.json,125.0,oro,26,92,True,False,1,0,2,grab right right left down pit-east left down right right left down left down right down up right right up grab left up up left quit
+3-stratega rischio<=0.34,casuale_026.json,125.0,oro,26,92,True,False,1,0,2,grab right right left down pit-east left down right right left down left down right down up right right up grab left up up left quit
+3-stratega rischio<=0.4,casuale_026.json,125.0,oro,26,92,True,False,1,0,2,grab right right left down pit-east left down right right left down left down right down up right right up grab left up up left quit
+3-stratega rischio<=0.5,casuale_026.json,125.0,oro,26,92,True,False,1,0,2,grab right right left down pit-east left down right right left down left down right down up right right up grab left up up left quit
+3-stratega rischio<=1.0,casuale_026.json,125.0,oro,26,92,True,False,1,0,2,grab right right left down pit-east left down right right left down left down right down up right right up grab left up up left quit
+1-prudente,casuale_027.json,100.0,oro,23,95,True,False,0,0,2,grab down down down down down right down right left up up right grab left down down left up up up up quit
+2-logico,casuale_027.json,125.0,oro,15,104,True,False,1,0,1,grab right down right left down right right pit-north grab left up left up quit
+3-stratega,casuale_027.json,150.0,oro,30,87,True,False,2,0,3,grab right down right left down right right pit-north left down left down right right pit-north left down left down up up right right grab left up left up quit
+3-stratega rischio<=0.0,casuale_027.json,150.0,oro,30,87,True,False,2,0,3,grab right down right left down right right pit-north left down left down right right pit-north left down left down up up right right grab left up left up quit
+3-stratega rischio<=0.2,casuale_027.json,150.0,oro,30,87,True,False,2,0,3,grab right down right left down right right pit-north left down left down right right pit-north left down left down up up right right grab left up left up quit
+3-stratega rischio<=0.34,casuale_027.json,150.0,oro,30,87,True,False,2,0,3,grab right down right left down right right pit-north left down left down right right pit-north left down left down up up right right grab left up left up quit
+3-stratega rischio<=0.4,casuale_027.json,150.0,oro,30,87,True,False,2,0,3,grab right down right left down right right pit-north left down left down right right pit-north left down left down up up right right grab left up left up quit
+3-stratega rischio<=0.5,casuale_027.json,150.0,oro,30,87,True,False,2,0,3,grab right down right left down right right pit-north left down left down right right pit-north left down left down up up right right grab left up left up quit
+3-stratega rischio<=1.0,casuale_027.json,150.0,oro,30,87,True,False,2,0,3,grab right down right left down right right pit-north left down left down right right pit-north left down left down up up right right grab left up left up quit
+1-prudente,casuale_028.json,0.0,uscito,9,150,False,False,0,0,1,grab down up right down up right left quit
+2-logico,casuale_028.json,25.0,uscito,8,151,False,False,1,0,1,grab right right down left pit-south up quit
+3-stratega,casuale_028.json,25.0,uscito,8,151,False,False,1,0,1,grab right right down left pit-south up quit
+3-stratega rischio<=0.0,casuale_028.json,25.0,uscito,8,151,False,False,1,0,1,grab right right down left pit-south up quit
+3-stratega rischio<=0.2,casuale_028.json,25.0,uscito,8,151,False,False,1,0,1,grab right right down left pit-south up quit
+3-stratega rischio<=0.34,casuale_028.json,25.0,uscito,8,151,False,False,1,0,1,grab right right down left pit-south up quit
+3-stratega rischio<=0.4,casuale_028.json,25.0,uscito,8,151,False,False,1,0,1,grab right right down left pit-south up quit
+3-stratega rischio<=0.5,casuale_028.json,-75.0,morto,8,0,False,True,1,0,1,grab right right down left pit-south right down
+3-stratega rischio<=1.0,casuale_028.json,-75.0,morto,8,0,False,True,1,0,1,grab right right down left pit-south right down
+1-prudente,casuale_029.json,0.0,uscito,2,194,False,False,0,0,0,grab quit
+2-logico,casuale_029.json,0.0,uscito,2,194,False,False,0,0,0,grab quit
+3-stratega,casuale_029.json,0.0,uscito,2,194,False,False,0,0,0,grab quit
+3-stratega rischio<=0.0,casuale_029.json,0.0,uscito,2,194,False,False,0,0,0,grab quit
+3-stratega rischio<=0.2,casuale_029.json,0.0,uscito,2,194,False,False,0,0,0,grab quit
+3-stratega rischio<=0.34,casuale_029.json,0.0,uscito,2,194,False,False,0,0,0,grab quit
+3-stratega rischio<=0.4,casuale_029.json,0.0,uscito,2,194,False,False,0,0,0,grab quit
+3-stratega rischio<=0.5,casuale_029.json,150.0,oro,19,177,True,False,2,0,0,grab down right pit-north left down down right left down pit-east up right grab left up up up quit
+3-stratega rischio<=1.0,casuale_029.json,150.0,oro,19,177,True,False,2,0,0,grab down right pit-north left down down right left down pit-east up right grab left up up up quit
+1-prudente,casuale_030.json,0.0,uscito,11,148,False,False,0,0,1,grab down down right up right left down left up quit
+2-logico,casuale_030.json,0.0,uscito,9,150,False,False,0,0,1,grab right right left down left down up quit
+3-stratega,casuale_030.json,25.0,uscito,10,149,False,False,1,0,1,grab right right left down pit-east left down up quit
+3-stratega rischio<=0.0,casuale_030.json,25.0,uscito,10,149,False,False,1,0,1,grab right right left down pit-east left down up quit
+3-stratega rischio<=0.2,casuale_030.json,25.0,uscito,10,149,False,False,1,0,1,grab right right left down pit-east left down up quit
+3-stratega rischio<=0.34,casuale_030.json,25.0,uscito,10,149,False,False,1,0,1,grab right right left down pit-east left down up quit
+3-stratega rischio<=0.4,casuale_030.json,25.0,uscito,10,149,False,False,1,0,1,grab right right left down pit-east left down up quit
+3-stratega rischio<=0.5,casuale_030.json,225.0,oro,74,78,True,False,5,0,8,grab right right left down pit-east left down right down up up right right right left down up right right left down down down up pit-west down left down right right pit-north left down left down right right pit-north left down left right down up left left up down down left up up up pit-north right up down left down down down down up up up right grab up up up up left quit
+3-stratega rischio<=1.0,casuale_030.json,225.0,oro,74,78,True,False,5,0,8,grab right right left down pit-east left down right down up up right right right left down up right right left down down down up pit-west down left down right right pit-north left down left down right right pit-north left down left right down up left left up down down left up up up pit-north right up down left down down down down up up up right grab up up up up left quit
+1-prudente,casuale_031.json,0.0,uscito,2,190,False,False,0,0,0,grab quit
+2-logico,casuale_031.json,0.0,uscito,2,190,False,False,0,0,0,grab quit
+3-stratega,casuale_031.json,0.0,uscito,2,190,False,False,0,0,0,grab quit
+3-stratega rischio<=0.0,casuale_031.json,0.0,uscito,2,190,False,False,0,0,0,grab quit
+3-stratega rischio<=0.2,casuale_031.json,0.0,uscito,2,190,False,False,0,0,0,grab quit
+3-stratega rischio<=0.34,casuale_031.json,0.0,uscito,2,190,False,False,0,0,0,grab quit
+3-stratega rischio<=0.4,casuale_031.json,0.0,uscito,2,190,False,False,0,0,0,grab quit
+3-stratega rischio<=0.5,casuale_031.json,-100.0,morto,2,0,False,True,0,0,0,grab down
+3-stratega rischio<=1.0,casuale_031.json,-100.0,morto,2,0,False,True,0,0,0,grab down
+1-prudente,casuale_032.json,0.0,uscito,18,202,False,False,0,0,4,grab down down down down up right down up right up left up up right up right quit
+2-logico,casuale_032.json,25.0,uscito,17,203,False,False,1,0,4,grab right down right down right down right right down left pit-south up up up up quit
+3-stratega,casuale_032.json,25.0,uscito,17,203,False,False,1,0,4,grab right down right down right down right right down left pit-south up up up up quit
+3-stratega rischio<=0.0,casuale_032.json,25.0,uscito,17,203,False,False,1,0,4,grab right down right down right down right right down left pit-south up up up up quit
+3-stratega rischio<=0.2,casuale_032.json,25.0,uscito,17,203,False,False,1,0,4,grab right down right down right down right right down left pit-south up up up up quit
+3-stratega rischio<=0.34,casuale_032.json,25.0,uscito,17,203,False,False,1,0,4,grab right down right down right down right right down left pit-south up up up up quit
+3-stratega rischio<=0.4,casuale_032.json,25.0,uscito,17,203,False,False,1,0,4,grab right down right down right down right right down left pit-south up up up up quit
+3-stratega rischio<=0.5,casuale_032.json,250.0,oro,134,73,True,False,6,0,17,grab right down right down right down right right down left pit-south right down up pit-east down down up right down right right left down right left down up up up up down down down down down pit-east up up up up up right pit-south left left up right left up right right pit-south left down down right right left up up right right left left down down down down down right down right left left down left left down left down right right down right up right right down up pit-north down down right up right up down down right down up up up right left right up left right right up right up down down down grab down down left left up left left left up up left up up up quit
+3-stratega rischio<=1.0,casuale_032.json,250.0,oro,134,73,True,False,6,0,17,grab right down right down right down right right down left pit-south right down up pit-east down down up right down right right left down right left down up up up up down down down down down pit-east up up up up up right pit-south left left up right left up right right pit-south left down down right right left up up right right left left down down down down down right down right left left down left left down left down right right down right up right right down up pit-north down down right up right up down down right down up up up right left right up left right right up right up down down down grab down down left left up left left left up up left up up up quit
+1-prudente,casuale_033.json,0.0,uscito,2,190,False,False,0,0,0,grab quit
+2-logico,casuale_033.json,0.0,uscito,2,190,False,False,0,0,0,grab quit
+3-stratega,casuale_033.json,0.0,uscito,2,190,False,False,0,0,0,grab quit
+3-stratega rischio<=0.0,casuale_033.json,0.0,uscito,2,190,False,False,0,0,0,grab quit
+3-stratega rischio<=0.2,casuale_033.json,0.0,uscito,2,190,False,False,0,0,0,grab quit
+3-stratega rischio<=0.34,casuale_033.json,0.0,uscito,2,190,False,False,0,0,0,grab quit
+3-stratega rischio<=0.4,casuale_033.json,0.0,uscito,2,190,False,False,0,0,0,grab quit
+3-stratega rischio<=0.5,casuale_033.json,-100.0,morto,2,0,False,True,0,0,0,grab down
+3-stratega rischio<=1.0,casuale_033.json,-100.0,morto,2,0,False,True,0,0,0,grab down
+1-prudente,casuale_034.json,100.0,oro,13,107,True,False,0,0,0,grab down up right down down up right grab left up left quit
+2-logico,casuale_034.json,100.0,oro,11,109,True,False,0,0,0,grab right right right left down grab up left left quit
+3-stratega,casuale_034.json,150.0,oro,45,69,True,False,2,0,6,grab right right right left down left left pit-south right down right right up right pit-north down right down left left left down right up left right right right down right right down right down up left up left up grab up left left quit
+3-stratega rischio<=0.0,casuale_034.json,150.0,oro,45,69,True,False,2,0,6,grab right right right left down left left pit-south right down right right up right pit-north down right down left left left down right up left right right right down right right down right down up left up left up grab up left left quit
+3-stratega rischio<=0.2,casuale_034.json,150.0,oro,45,69,True,False,2,0,6,grab right right right left down left left pit-south right down right right up right pit-north down right down left left left down right up left right right right down right right down right down up left up left up grab up left left quit
+3-stratega rischio<=0.34,casuale_034.json,150.0,oro,45,69,True,False,2,0,6,grab right right right left down left left pit-south right down right right up right pit-north down right down left left left down right up left right right right down right right down right down up left up left up grab up left left quit
+3-stratega rischio<=0.4,casuale_034.json,150.0,oro,45,69,True,False,2,0,6,grab right right right left down left left pit-south right down right right up right pit-north down right down left left left down right up left right right right down right right down right down up left up left up grab up left left quit
+3-stratega rischio<=0.5,casuale_034.json,150.0,oro,45,69,True,False,2,0,6,grab right right right left down left left pit-south right down right right up right pit-north down right down left left left down right up left right right right down right right down right down up left up left up grab up left left quit
+3-stratega rischio<=1.0,casuale_034.json,150.0,oro,45,69,True,False,2,0,6,grab right right right left down left left pit-south right down right right up right pit-north down right down left left left down right up left right right right down right right down right down up left up left up grab up left left quit
+1-prudente,casuale_035.json,0.0,uscito,2,166,False,False,0,0,0,grab quit
+2-logico,casuale_035.json,0.0,uscito,2,166,False,False,0,0,0,grab quit
+3-stratega,casuale_035.json,0.0,uscito,2,166,False,False,0,0,0,grab quit
+3-stratega rischio<=0.0,casuale_035.json,0.0,uscito,2,166,False,False,0,0,0,grab quit
+3-stratega rischio<=0.2,casuale_035.json,0.0,uscito,2,166,False,False,0,0,0,grab quit
+3-stratega rischio<=0.34,casuale_035.json,0.0,uscito,2,166,False,False,0,0,0,grab quit
+3-stratega rischio<=0.4,casuale_035.json,0.0,uscito,2,166,False,False,0,0,0,grab quit
+3-stratega rischio<=0.5,casuale_035.json,200.0,oro,107,47,True,False,4,0,14,grab down right pit-north left down right right right right left down left left down right right down up up right right left left up up left right right pit-east down pit-east down right right down up left left down down down right up down right right down left left down left up pit-north down down left up left up down down down left down right right right right down right right down up left left up up up right right down right up left left down down down down left left left grab right up right right up up up up left left left up quit
+3-stratega rischio<=1.0,casuale_035.json,200.0,oro,107,47,True,False,4,0,14,grab down right pit-north left down right right right right left down left left down right right down up up right right left left up up left right right pit-east down pit-east down right right down up left left down down down right up down right right down left left down left up pit-north down down left up left up down down down left down right right right right down right right down up left left up up up right right down right up left left down down down down left left left grab right up right right up up up up left left left up quit
+1-prudente,casuale_036.json,0.0,uscito,2,138,False,False,0,0,0,grab quit
+2-logico,casuale_036.json,0.0,uscito,2,138,False,False,0,0,0,grab quit
+3-stratega,casuale_036.json,0.0,uscito,2,138,False,False,0,0,0,grab quit
+3-stratega rischio<=0.0,casuale_036.json,0.0,uscito,2,138,False,False,0,0,0,grab quit
+3-stratega rischio<=0.2,casuale_036.json,0.0,uscito,2,138,False,False,0,0,0,grab quit
+3-stratega rischio<=0.34,casuale_036.json,0.0,uscito,2,138,False,False,0,0,0,grab quit
+3-stratega rischio<=0.4,casuale_036.json,0.0,uscito,2,138,False,False,0,0,0,grab quit
+3-stratega rischio<=0.5,casuale_036.json,-75.0,morto,6,0,False,True,1,0,0,grab down up pit-east down right
+3-stratega rischio<=1.0,casuale_036.json,-75.0,morto,6,0,False,True,1,0,0,grab down up pit-east down right
+1-prudente,casuale_037.json,100.0,oro,22,145,True,False,0,0,1,grab down down down up right down down up right up up right grab left down left up left up up quit
+2-logico,casuale_037.json,125.0,oro,20,146,True,False,1,0,2,grab right down right right down left down pit-south right right up right grab left left up left up quit
+3-stratega,casuale_037.json,125.0,oro,29,136,True,False,1,0,3,grab right down right right down left down pit-south right right up right down left left down down up up right right grab left left up left up quit
+3-stratega rischio<=0.0,casuale_037.json,125.0,oro,29,136,True,False,1,0,3,grab right down right right down left down pit-south right right up right down left left down down up up right right grab left left up left up quit
+3-stratega rischio<=0.2,casuale_037.json,125.0,oro,29,136,True,False,1,0,3,grab right down right right down left down pit-south right right up right down left left down down up up right right grab left left up left up quit
+3-stratega rischio<=0.34,casuale_037.json,125.0,oro,29,136,True,False,1,0,3,grab right down right right down left down pit-south right right up right down left left down down up up right right grab left left up left up quit
+3-stratega rischio<=0.4,casuale_037.json,125.0,oro,29,136,True,False,1,0,3,grab right down right right down left down pit-south right right up right down left left down down up up right right grab left left up left up quit
+3-stratega rischio<=0.5,casuale_037.json,125.0,oro,29,136,True,False,1,0,3,grab right down right right down left down pit-south right right up right down left left down down up up right right grab left left up left up quit
+3-stratega rischio<=1.0,casuale_037.json,125.0,oro,29,136,True,False,1,0,3,grab right down right right down left down pit-south right right up right down left left down down up up right right grab left left up left up quit
+1-prudente,casuale_038.json,0.0,uscito,25,94,False,False,0,0,1,grab down down up right down up right up right down left left right down down down up right left up left left up quit
+2-logico,casuale_038.json,25.0,uscito,22,97,False,False,1,0,1,grab right right right left down left left down pit-south right right right up left down up up up left left quit
+3-stratega,casuale_038.json,75.0,uscito,26,93,False,False,3,0,1,grab right right right left down left left down pit-south right right right up left down pit-east up up up right pit-east left left left quit
+3-stratega rischio<=0.0,casuale_038.json,75.0,uscito,26,93,False,False,3,0,1,grab right right right left down left left down pit-south right right right up left down pit-east up up up right pit-east left left left quit
+3-stratega rischio<=0.2,casuale_038.json,75.0,uscito,26,93,False,False,3,0,1,grab right right right left down left left down pit-south right right right up left down pit-east up up up right pit-east left left left quit
+3-stratega rischio<=0.34,casuale_038.json,75.0,uscito,26,93,False,False,3,0,1,grab right right right left down left left down pit-south right right right up left down pit-east up up up right pit-east left left left quit
+3-stratega rischio<=0.4,casuale_038.json,75.0,uscito,26,93,False,False,3,0,1,grab right right right left down left left down pit-south right right right up left down pit-east up up up right pit-east left left left quit
+3-stratega rischio<=0.5,casuale_038.json,-25.0,morto,42,0,False,True,3,0,4,grab right right right left down left left down pit-south right right right up left down pit-east up up up right pit-east left down down down down right left down left down left right right right right left up up right right
+3-stratega rischio<=1.0,casuale_038.json,-25.0,morto,42,0,False,True,3,0,4,grab right right right left down left left down pit-south right right right up left down pit-east up up up right pit-east left down down down down right left down left down left right right right right left up up right right
+1-prudente,casuale_039.json,100.0,oro,10,129,True,False,0,0,1,grab down right down down grab up up left quit
+2-logico,casuale_039.json,125.0,oro,30,106,True,False,1,0,4,grab right right right right right right right down left left down up right right up left left left down pit-south left left left down grab up up left quit
+3-stratega,casuale_039.json,125.0,oro,49,84,True,False,1,0,7,grab right right right right right right right down left left down up right right up left left left down pit-south left left left down right left down right right left down left down down left up up down down down right up up grab up up left quit
+3-stratega rischio<=0.0,casuale_039.json,125.0,oro,49,84,True,False,1,0,7,grab right right right right right right right down left left down up right right up left left left down pit-south left left left down right left down right right left down left down down left up up down down down right up up grab up up left quit
+3-stratega rischio<=0.2,casuale_039.json,125.0,oro,49,84,True,False,1,0,7,grab right right right right right right right down left left down up right right up left left left down pit-south left left left down right left down right right left down left down down left up up down down down right up up grab up up left quit
+3-stratega rischio<=0.34,casuale_039.json,125.0,oro,49,84,True,False,1,0,7,grab right right right right right right right down left left down up right right up left left left down pit-south left left left down right left down right right left down left down down left up up down down down right up up grab up up left quit
+3-stratega rischio<=0.4,casuale_039.json,125.0,oro,49,84,True,False,1,0,7,grab right right right right right right right down left left down up right right up left left left down pit-south left left left down right left down right right left down left down down left up up down down down right up up grab up up left quit
+3-stratega rischio<=0.5,casuale_039.json,125.0,oro,49,84,True,False,1,0,7,grab right right right right right right right down left left down up right right up left left left down pit-south left left left down right left down right right left down left down down left up up down down down right up up grab up up left quit
+3-stratega rischio<=1.0,casuale_039.json,125.0,oro,49,84,True,False,1,0,7,grab right right right right right right right down left left down up right right up left left left down pit-south left left left down right left down right right left down left down down left up up down down down right up up grab up up left quit
+1-prudente,casuale_040.json,0.0,uscito,2,118,False,False,0,0,0,grab quit
+2-logico,casuale_040.json,0.0,uscito,2,118,False,False,0,0,0,grab quit
+3-stratega,casuale_040.json,0.0,uscito,2,118,False,False,0,0,0,grab quit
+3-stratega rischio<=0.0,casuale_040.json,0.0,uscito,2,118,False,False,0,0,0,grab quit
+3-stratega rischio<=0.2,casuale_040.json,0.0,uscito,2,118,False,False,0,0,0,grab quit
+3-stratega rischio<=0.34,casuale_040.json,0.0,uscito,2,118,False,False,0,0,0,grab quit
+3-stratega rischio<=0.4,casuale_040.json,0.0,uscito,2,118,False,False,0,0,0,grab quit
+3-stratega rischio<=0.5,casuale_040.json,-100.0,morto,2,0,False,True,0,0,0,grab down
+3-stratega rischio<=1.0,casuale_040.json,-100.0,morto,2,0,False,True,0,0,0,grab down
+1-prudente,casuale_041.json,100.0,oro,28,165,True,False,0,0,3,grab down down down right down right left up right up right right down up right down grab up left left left down down left up up quit
+2-logico,casuale_041.json,100.0,oro,15,181,True,False,0,0,0,grab right right right right right left down grab up left left left left quit
+3-stratega,casuale_041.json,125.0,oro,53,138,True,False,1,0,5,grab right right right right right left down left pit-south left right right right right down left left right down right up right up left up left left left left down left down right right left down left down up up right right right down right grab up left left left left quit
+3-stratega rischio<=0.0,casuale_041.json,125.0,oro,53,138,True,False,1,0,5,grab right right right right right left down left pit-south left right right right right down left left right down right up right up left up left left left left down left down right right left down left down up up right right right down right grab up left left left left quit
+3-stratega rischio<=0.2,casuale_041.json,125.0,oro,53,138,True,False,1,0,5,grab right right right right right left down left pit-south left right right right right down left left right down right up right up left up left left left left down left down right right left down left down up up right right right down right grab up left left left left quit
+3-stratega rischio<=0.34,casuale_041.json,125.0,oro,53,138,True,False,1,0,5,grab right right right right right left down left pit-south left right right right right down left left right down right up right up left up left left left left down left down right right left down left down up up right right right down right grab up left left left left quit
+3-stratega rischio<=0.4,casuale_041.json,125.0,oro,53,138,True,False,1,0,5,grab right right right right right left down left pit-south left right right right right down left left right down right up right up left up left left left left down left down right right left down left down up up right right right down right grab up left left left left quit
+3-stratega rischio<=0.5,casuale_041.json,125.0,oro,53,138,True,False,1,0,5,grab right right right right right left down left pit-south left right right right right down left left right down right up right up left up left left left left down left down right right left down left down up up right right right down right grab up left left left left quit
+3-stratega rischio<=1.0,casuale_041.json,125.0,oro,53,138,True,False,1,0,5,grab right right right right right left down left pit-south left right right right right down left left right down right up right up left up left left left left down left down right right left down left down up up right right right down right grab up left left left left quit
+1-prudente,casuale_042.json,0.0,uscito,16,144,False,False,0,0,0,grab down down down up right up up right left down down left up up quit
+2-logico,casuale_042.json,0.0,uscito,14,146,False,False,0,0,0,grab right right left down left down right left down up up up quit
+3-stratega,casuale_042.json,50.0,uscito,21,138,False,False,2,0,1,grab right right left down pit-east left down right left down pit-east up up up right right right left left quit
+3-stratega rischio<=0.0,casuale_042.json,50.0,uscito,16,144,False,False,2,0,0,grab right right left down pit-east left down right left down pit-east up up up quit
+3-stratega rischio<=0.2,casuale_042.json,50.0,uscito,21,138,False,False,2,0,1,grab right right left down pit-east left down right left down pit-east up up up right right right left left quit
+3-stratega rischio<=0.34,casuale_042.json,50.0,uscito,21,138,False,False,2,0,1,grab right right left down pit-east left down right left down pit-east up up up right right right left left quit
+3-stratega rischio<=0.4,casuale_042.json,50.0,uscito,21,138,False,False,2,0,1,grab right right left down pit-east left down right left down pit-east up up up right right right left left quit
+3-stratega rischio<=0.5,casuale_042.json,-50.0,morto,22,0,False,True,2,0,1,grab right right left down pit-east left down right left down pit-east up up up right right right left down down right
+3-stratega rischio<=1.0,casuale_042.json,-50.0,morto,22,0,False,True,2,0,1,grab right right left down pit-east left down right left down pit-east up up up right right right left down down right
+1-prudente,casuale_043.json,0.0,uscito,5,162,False,False,0,0,1,grab down right left quit
+2-logico,casuale_043.json,0.0,uscito,5,162,False,False,0,0,1,grab right left down quit
+3-stratega,casuale_043.json,0.0,uscito,5,162,False,False,0,0,1,grab right left down quit
+3-stratega rischio<=0.0,casuale_043.json,0.0,uscito,5,162,False,False,0,0,1,grab right left down quit
+3-stratega rischio<=0.2,casuale_043.json,0.0,uscito,5,162,False,False,0,0,1,grab right left down quit
+3-stratega rischio<=0.34,casuale_043.json,0.0,uscito,5,162,False,False,0,0,1,grab right left down quit
+3-stratega rischio<=0.4,casuale_043.json,0.0,uscito,5,162,False,False,0,0,1,grab right left down quit
+3-stratega rischio<=0.5,casuale_043.json,-75.0,morto,14,0,False,True,1,0,2,grab right left down right down right down up up pit-east down down down
+3-stratega rischio<=1.0,casuale_043.json,-75.0,morto,14,0,False,True,1,0,2,grab right left down right down right down up up pit-east down down down
+1-prudente,casuale_044.json,0.0,uscito,2,194,False,False,0,0,0,grab quit
+2-logico,casuale_044.json,0.0,uscito,2,194,False,False,0,0,0,grab quit
+3-stratega,casuale_044.json,0.0,uscito,2,194,False,False,0,0,0,grab quit
+3-stratega rischio<=0.0,casuale_044.json,0.0,uscito,2,194,False,False,0,0,0,grab quit
+3-stratega rischio<=0.2,casuale_044.json,0.0,uscito,2,194,False,False,0,0,0,grab quit
+3-stratega rischio<=0.34,casuale_044.json,0.0,uscito,2,194,False,False,0,0,0,grab quit
+3-stratega rischio<=0.4,casuale_044.json,0.0,uscito,2,194,False,False,0,0,0,grab quit
+3-stratega rischio<=0.5,casuale_044.json,-75.0,morto,28,0,False,True,2,1,2,grab down right pit-north left down right right down left down right left down pit-east up up right right pit-south left up up right down down right right
+3-stratega rischio<=1.0,casuale_044.json,-75.0,morto,28,0,False,True,2,1,2,grab down right pit-north left down right right down left down right left down pit-east up up right right pit-south left up up right down down right right
+1-prudente,casuale_045.json,0.0,uscito,6,114,False,False,0,0,0,grab down up right left quit
+2-logico,casuale_045.json,0.0,uscito,6,114,False,False,0,0,0,grab right left down up quit
+3-stratega,casuale_045.json,25.0,uscito,7,113,False,False,1,0,0,grab right left down pit-east up quit
+3-stratega rischio<=0.0,casuale_045.json,25.0,uscito,7,113,False,False,1,0,0,grab right left down pit-east up quit
+3-stratega rischio<=0.2,casuale_045.json,25.0,uscito,7,113,False,False,1,0,0,grab right left down pit-east up quit
+3-stratega rischio<=0.34,casuale_045.json,25.0,uscito,7,113,False,False,1,0,0,grab right left down pit-east up quit
+3-stratega rischio<=0.4,casuale_045.json,25.0,uscito,7,113,False,False,1,0,0,grab right left down pit-east up quit
+3-stratega rischio<=0.5,casuale_045.json,125.0,oro,16,104,True,False,1,0,0,grab right left down pit-east down right left down up right grab left up up quit
+3-stratega rischio<=1.0,casuale_045.json,125.0,oro,16,104,True,False,1,0,0,grab right left down pit-east down right left down up right grab left up up quit
+1-prudente,casuale_046.json,0.0,uscito,2,142,False,False,0,0,0,grab quit
+2-logico,casuale_046.json,0.0,uscito,2,142,False,False,0,0,0,grab quit
+3-stratega,casuale_046.json,0.0,uscito,2,142,False,False,0,0,0,grab quit
+3-stratega rischio<=0.0,casuale_046.json,0.0,uscito,2,142,False,False,0,0,0,grab quit
+3-stratega rischio<=0.2,casuale_046.json,0.0,uscito,2,142,False,False,0,0,0,grab quit
+3-stratega rischio<=0.34,casuale_046.json,0.0,uscito,2,142,False,False,0,0,0,grab quit
+3-stratega rischio<=0.4,casuale_046.json,0.0,uscito,2,142,False,False,0,0,0,grab quit
+3-stratega rischio<=0.5,casuale_046.json,-100.0,morto,2,0,False,True,0,0,0,grab down
+3-stratega rischio<=1.0,casuale_046.json,-100.0,morto,2,0,False,True,0,0,0,grab down
+1-prudente,casuale_047.json,0.0,uscito,2,138,False,False,0,0,0,grab quit
+2-logico,casuale_047.json,0.0,uscito,2,138,False,False,0,0,0,grab quit
+3-stratega,casuale_047.json,0.0,uscito,2,138,False,False,0,0,0,grab quit
+3-stratega rischio<=0.0,casuale_047.json,0.0,uscito,2,138,False,False,0,0,0,grab quit
+3-stratega rischio<=0.2,casuale_047.json,0.0,uscito,2,138,False,False,0,0,0,grab quit
+3-stratega rischio<=0.34,casuale_047.json,0.0,uscito,2,138,False,False,0,0,0,grab quit
+3-stratega rischio<=0.4,casuale_047.json,0.0,uscito,2,138,False,False,0,0,0,grab quit
+3-stratega rischio<=0.5,casuale_047.json,125.0,oro,46,88,True,False,1,0,6,grab down right pit-north left down right right up right right up left right right down left down down left left down right right right down left down left down up right right right right left left left down grab up up up left up quit
+3-stratega rischio<=1.0,casuale_047.json,125.0,oro,46,88,True,False,1,0,6,grab down right pit-north left down right right up right right up left right right down left down down left left down right right right down left down left down up right right right right left left left down grab up up up left up quit
+1-prudente,casuale_048.json,0.0,uscito,22,168,False,False,0,0,2,grab down down right down right up right right left down up left left right down down up left left up quit
+2-logico,casuale_048.json,25.0,uscito,23,167,False,False,1,0,2,grab right right right right left down left left left down right down right down right up pit-east up left left left quit
+3-stratega,casuale_048.json,25.0,uscito,26,163,False,False,1,0,3,grab right right right right left down pit-east left left left down right down right down right up up right right left left left left quit
+3-stratega rischio<=0.0,casuale_048.json,25.0,uscito,23,167,False,False,1,0,2,grab right right right right left down pit-east left left left down right down right down right up up left left left quit
+3-stratega rischio<=0.2,casuale_048.json,25.0,uscito,26,163,False,False,1,0,3,grab right right right right left down pit-east left left left down right down right down right up up right right left left left left quit
+3-stratega rischio<=0.34,casuale_048.json,25.0,uscito,26,163,False,False,1,0,3,grab right right right right left down pit-east left left left down right down right down right up up right right left left left left quit
+3-stratega rischio<=0.4,casuale_048.json,25.0,uscito,26,163,False,False,1,0,3,grab right right right right left down pit-east left left left down right down right down right up up right right left left left left quit
+3-stratega rischio<=0.5,casuale_048.json,-75.0,morto,25,0,False,True,1,0,3,grab right right right right left down pit-east left left left down right down right down right up up right right left down down down
+3-stratega rischio<=1.0,casuale_048.json,-75.0,morto,25,0,False,True,1,0,3,grab right right right right left down pit-east left left left down right down right down right up up right right left down down down
+1-prudente,casuale_049.json,0.0,uscito,8,158,False,False,0,0,2,grab down down right up left up quit
+2-logico,casuale_049.json,0.0,uscito,8,158,False,False,0,0,2,grab right down right left down up quit
+3-stratega,casuale_049.json,0.0,uscito,8,158,False,False,0,0,2,grab right down right left down up quit
+3-stratega rischio<=0.0,casuale_049.json,0.0,uscito,8,158,False,False,0,0,2,grab right down right left down up quit
+3-stratega rischio<=0.2,casuale_049.json,0.0,uscito,8,158,False,False,0,0,2,grab right down right left down up quit
+3-stratega rischio<=0.34,casuale_049.json,0.0,uscito,8,158,False,False,0,0,2,grab right down right left down up quit
+3-stratega rischio<=0.4,casuale_049.json,0.0,uscito,8,158,False,False,0,0,2,grab right down right left down up quit
+3-stratega rischio<=0.5,casuale_049.json,-100.0,morto,8,0,False,True,0,0,2,grab right down right left down right right
+3-stratega rischio<=1.0,casuale_049.json,-100.0,morto,8,0,False,True,0,0,2,grab right down right left down right right
+1-prudente,casuale_050.json,100.0,oro,65,115,True,False,0,0,12,grab down down down down down down down down right down right up down right up up down right up right up up down right down down down right left down right up right left left down down left left up up right up left up up down right down left down down left up up up up up up right grab left up quit
+2-logico,casuale_050.json,125.0,oro,10,182,True,False,1,0,0,grab right left down right grab up pit-east left quit
+3-stratega,casuale_050.json,200.0,oro,75,105,True,False,4,0,12,grab right left down right left down right down right left down right right pit-north left down left down right right down left down right right right right right right down up left left up pit-north left right right down down down right down right up right up right up down down down left left left down left down up up up up left up up right pit-east up pit-east down grab up left quit
+3-stratega rischio<=0.0,casuale_050.json,200.0,oro,75,105,True,False,4,0,12,grab right left down right left down right down right left down right right pit-north left down left down right right down left down right right right right right right down up left left up pit-north left right right down down down right down right up right up right up down down down left left left down left down up up up up left up up right pit-east up pit-east down grab up left quit
+3-stratega rischio<=0.2,casuale_050.json,200.0,oro,75,105,True,False,4,0,12,grab right left down right left down right down right left down right right pit-north left down left down right right down left down right right right right right right down up left left up pit-north left right right down down down right down right up right up right up down down down left left left down left down up up up up left up up right pit-east up pit-east down grab up left quit
+3-stratega rischio<=0.34,casuale_050.json,200.0,oro,75,105,True,False,4,0,12,grab right left down right left down right down right left down right right pit-north left down left down right right down left down right right right right right right down up left left up pit-north left right right down down down right down right up right up right up down down down left left left down left down up up up up left up up right pit-east up pit-east down grab up left quit
+3-stratega rischio<=0.4,casuale_050.json,200.0,oro,75,105,True,False,4,0,12,grab right left down right left down right down right left down right right pit-north left down left down right right down left down right right right right right right down up left left up pit-north left right right down down down right down right up right up right up down down down left left left down left down up up up up left up up right pit-east up pit-east down grab up left quit
+3-stratega rischio<=0.5,casuale_050.json,200.0,oro,75,105,True,False,4,0,12,grab right left down right left down right down right left down right right pit-north left down left down right right down left down right right right right right right down up left left up pit-north left right right down down down right down right up right up right up down down down left left left down left down up up up up left up up right pit-east up pit-east down grab up left quit
+3-stratega rischio<=1.0,casuale_050.json,200.0,oro,75,105,True,False,4,0,12,grab right left down right left down right down right left down right right pit-north left down left down right right down left down right right right right right right down up left left up pit-north left right right down down down right down right up right up right up down down down left left left down left down up up up up left up up right pit-east up pit-east down grab up left quit
+1-prudente,casuale_051.json,100.0,oro,13,107,True,False,0,0,0,grab down down down down up right grab left up up up quit
+2-logico,casuale_051.json,125.0,oro,18,102,True,False,1,0,0,grab right right left down left down right right pit-north left down grab up up up left quit
+3-stratega,casuale_051.json,150.0,oro,23,97,True,False,2,0,0,grab right right left down pit-east left down right right left down left down pit-east up right grab up up up left quit
+3-stratega rischio<=0.0,casuale_051.json,150.0,oro,23,97,True,False,2,0,0,grab right right left down pit-east left down right right left down left down pit-east up right grab up up up left quit
+3-stratega rischio<=0.2,casuale_051.json,150.0,oro,23,97,True,False,2,0,0,grab right right left down pit-east left down right right left down left down pit-east up right grab up up up left quit
+3-stratega rischio<=0.34,casuale_051.json,150.0,oro,23,97,True,False,2,0,0,grab right right left down pit-east left down right right left down left down pit-east up right grab up up up left quit
+3-stratega rischio<=0.4,casuale_051.json,150.0,oro,23,97,True,False,2,0,0,grab right right left down pit-east left down right right left down left down pit-east up right grab up up up left quit
+3-stratega rischio<=0.5,casuale_051.json,150.0,oro,23,97,True,False,2,0,0,grab right right left down pit-east left down right right left down left down pit-east up right grab up up up left quit
+3-stratega rischio<=1.0,casuale_051.json,150.0,oro,23,97,True,False,2,0,0,grab right right left down pit-east left down right right left down left down pit-east up right grab up up up left quit
+1-prudente,casuale_052.json,0.0,uscito,2,166,False,False,0,0,0,grab quit
+2-logico,casuale_052.json,0.0,uscito,2,166,False,False,0,0,0,grab quit
+3-stratega,casuale_052.json,0.0,uscito,2,166,False,False,0,0,0,grab quit
+3-stratega rischio<=0.0,casuale_052.json,0.0,uscito,2,166,False,False,0,0,0,grab quit
+3-stratega rischio<=0.2,casuale_052.json,0.0,uscito,2,166,False,False,0,0,0,grab quit
+3-stratega rischio<=0.34,casuale_052.json,0.0,uscito,2,166,False,False,0,0,0,grab quit
+3-stratega rischio<=0.4,casuale_052.json,0.0,uscito,2,166,False,False,0,0,0,grab quit
+3-stratega rischio<=0.5,casuale_052.json,-50.0,morto,42,0,False,True,2,0,5,grab down right pit-north left down right left down pit-east up up right right left down down down right left down right right down left down right right right left down left down up up right left left up up right right
+3-stratega rischio<=1.0,casuale_052.json,-50.0,morto,42,0,False,True,2,0,5,grab down right pit-north left down right left down pit-east up up right right left down down down right left down right right down left down right right right left down left down up up right left left up up right right
+1-prudente,casuale_053.json,0.0,uscito,6,114,False,False,0,0,0,grab down up right left quit
+2-logico,casuale_053.json,0.0,uscito,6,114,False,False,0,0,0,grab right left down up quit
+3-stratega,casuale_053.json,25.0,uscito,7,113,False,False,1,0,0,grab right left down pit-east up quit
+3-stratega rischio<=0.0,casuale_053.json,25.0,uscito,7,113,False,False,1,0,0,grab right left down pit-east up quit
+3-stratega rischio<=0.2,casuale_053.json,25.0,uscito,7,113,False,False,1,0,0,grab right left down pit-east up quit
+3-stratega rischio<=0.34,casuale_053.json,25.0,uscito,7,113,False,False,1,0,0,grab right left down pit-east up quit
+3-stratega rischio<=0.4,casuale_053.json,25.0,uscito,7,113,False,False,1,0,0,grab right left down pit-east up quit
+3-stratega rischio<=0.5,casuale_053.json,-25.0,morto,70,0,False,True,3,0,10,grab right left down pit-east down right down right left down right left down pit-east up up right pit-east left up up up right right right left down down up left left down down down right down right down down right up down right up right up right up down down right down left down left up left left down down up up up up up right right right right
+3-stratega rischio<=1.0,casuale_053.json,-25.0,morto,70,0,False,True,3,0,10,grab right left down pit-east down right down right left down right left down pit-east up up right pit-east left up up up right right right left down down up left left down down down right down right down down right up down right up right up right up down down right down left down left up left left down down up up up up up right right right right
+1-prudente,casuale_054.json,0.0,uscito,2,166,False,False,0,0,0,grab quit
+2-logico,casuale_054.json,0.0,uscito,2,166,False,False,0,0,0,grab quit
+3-stratega,casuale_054.json,0.0,uscito,2,166,False,False,0,0,0,grab quit
+3-stratega rischio<=0.0,casuale_054.json,0.0,uscito,2,166,False,False,0,0,0,grab quit
+3-stratega rischio<=0.2,casuale_054.json,0.0,uscito,2,166,False,False,0,0,0,grab quit
+3-stratega rischio<=0.34,casuale_054.json,0.0,uscito,2,166,False,False,0,0,0,grab quit
+3-stratega rischio<=0.4,casuale_054.json,0.0,uscito,2,166,False,False,0,0,0,grab quit
+3-stratega rischio<=0.5,casuale_054.json,150.0,oro,57,103,True,False,2,0,8,grab down right pit-north left down right right up down right left down left left down right down right right pit-north left down left down down right right up right down right right left down left down left down left down left up down down right up up up right grab up left up left up quit
+3-stratega rischio<=1.0,casuale_054.json,150.0,oro,57,103,True,False,2,0,8,grab down right pit-north left down right right up down right left down left left down right down right right pit-north left down left down down right right up right down right right left down left down left down left down left up down down right up up up right grab up left up left up quit
+1-prudente,casuale_055.json,0.0,uscito,2,254,False,False,0,0,0,grab quit
+2-logico,casuale_055.json,0.0,uscito,2,254,False,False,0,0,0,grab quit
+3-stratega,casuale_055.json,0.0,uscito,2,254,False,False,0,0,0,grab quit
+3-stratega rischio<=0.0,casuale_055.json,0.0,uscito,2,254,False,False,0,0,0,grab quit
+3-stratega rischio<=0.2,casuale_055.json,0.0,uscito,2,254,False,False,0,0,0,grab quit
+3-stratega rischio<=0.34,casuale_055.json,0.0,uscito,2,254,False,False,0,0,0,grab quit
+3-stratega rischio<=0.4,casuale_055.json,0.0,uscito,2,254,False,False,0,0,0,grab quit
+3-stratega rischio<=0.5,casuale_055.json,150.0,oro,17,239,True,False,2,0,0,grab down right pit-north left down right left down pit-east up up right grab left up quit
+3-stratega rischio<=1.0,casuale_055.json,150.0,oro,17,239,True,False,2,0,0,grab down right pit-north left down right left down pit-east up up right grab left up quit
+1-prudente,casuale_056.json,0.0,uscito,2,158,False,False,0,0,0,grab quit
+2-logico,casuale_056.json,0.0,uscito,2,158,False,False,0,0,0,grab quit
+3-stratega,casuale_056.json,0.0,uscito,2,158,False,False,0,0,0,grab quit
+3-stratega rischio<=0.0,casuale_056.json,0.0,uscito,2,158,False,False,0,0,0,grab quit
+3-stratega rischio<=0.2,casuale_056.json,0.0,uscito,2,158,False,False,0,0,0,grab quit
+3-stratega rischio<=0.34,casuale_056.json,0.0,uscito,2,158,False,False,0,0,0,grab quit
+3-stratega rischio<=0.4,casuale_056.json,0.0,uscito,2,158,False,False,0,0,0,grab quit
+3-stratega rischio<=0.5,casuale_056.json,25.0,uscito,4,155,False,False,1,0,1,grab down pit-east quit
+3-stratega rischio<=1.0,casuale_056.json,25.0,uscito,4,155,False,False,1,0,1,grab down pit-east quit
+1-prudente,casuale_057.json,0.0,uscito,18,80,False,False,0,0,2,grab down down down down right up up up right down down down left up up up quit
+2-logico,casuale_057.json,0.0,uscito,16,82,False,False,0,0,2,grab right right down left down right left down right left down up up up quit
+3-stratega,casuale_057.json,50.0,uscito,20,78,False,False,2,0,2,grab right right down left down right left down right left down right up pit-east up pit-east up left quit
+3-stratega rischio<=0.0,casuale_057.json,50.0,uscito,20,78,False,False,2,0,2,grab right right down left down right left down right left down right up pit-east up pit-east up left quit
+3-stratega rischio<=0.2,casuale_057.json,50.0,uscito,20,78,False,False,2,0,2,grab right right down left down right left down right left down right up pit-east up pit-east up left quit
+3-stratega rischio<=0.34,casuale_057.json,50.0,uscito,20,78,False,False,2,0,2,grab right right down left down right left down right left down right up pit-east up pit-east up left quit
+3-stratega rischio<=0.4,casuale_057.json,50.0,uscito,20,78,False,False,2,0,2,grab right right down left down right left down right left down right up pit-east up pit-east up left quit
+3-stratega rischio<=0.5,casuale_057.json,175.0,oro,57,36,True,False,3,0,7,grab right right down left down right left down right left down right up pit-east up pit-east down down right down right up down right left down left down right right right pit-north left up up up right down up right up left right right down grab left down down left left up up up left quit
+3-stratega rischio<=1.0,casuale_057.json,175.0,oro,57,36,True,False,3,0,7,grab right right down left down right left down right left down right up pit-east up pit-east down down right down right up down right left down left down right right right pit-north left up up up right down up right up left right right down grab left down down left left up up up left quit
+1-prudente,casuale_058.json,0.0,uscito,5,114,False,False,0,0,1,grab down right left quit
+2-logico,casuale_058.json,0.0,uscito,5,114,False,False,0,0,1,grab right left down quit
+3-stratega,casuale_058.json,0.0,uscito,5,114,False,False,0,0,1,grab right left down quit
+3-stratega rischio<=0.0,casuale_058.json,0.0,uscito,5,114,False,False,0,0,1,grab right left down quit
+3-stratega rischio<=0.2,casuale_058.json,0.0,uscito,5,114,False,False,0,0,1,grab right left down quit
+3-stratega rischio<=0.34,casuale_058.json,0.0,uscito,5,114,False,False,0,0,1,grab right left down quit
+3-stratega rischio<=0.4,casuale_058.json,0.0,uscito,5,114,False,False,0,0,1,grab right left down quit
+3-stratega rischio<=0.5,casuale_058.json,25.0,uscito,9,109,False,False,1,0,2,grab right left down right down pit-east left quit
+3-stratega rischio<=1.0,casuale_058.json,25.0,uscito,9,109,False,False,1,0,2,grab right left down right down pit-east left quit
+1-prudente,casuale_059.json,0.0,uscito,20,116,False,False,0,0,4,grab down right down right down down up right up right down right left down left up left left quit
+2-logico,casuale_059.json,25.0,uscito,19,117,False,False,1,0,4,grab right right right right right down left down pit-south left left down up up left left down quit
+3-stratega,casuale_059.json,25.0,uscito,19,117,False,False,1,0,4,grab right right right right right down left down pit-south left left down up up left left down quit
+3-stratega rischio<=0.0,casuale_059.json,25.0,uscito,19,117,False,False,1,0,4,grab right right right right right down left down pit-south left left down up up left left down quit
+3-stratega rischio<=0.2,casuale_059.json,25.0,uscito,19,117,False,False,1,0,4,grab right right right right right down left down pit-south left left down up up left left down quit
+3-stratega rischio<=0.34,casuale_059.json,25.0,uscito,19,117,False,False,1,0,4,grab right right right right right down left down pit-south left left down up up left left down quit
+3-stratega rischio<=0.4,casuale_059.json,25.0,uscito,19,117,False,False,1,0,4,grab right right right right right down left down pit-south left left down up up left left down quit
+3-stratega rischio<=0.5,casuale_059.json,25.0,uscito,19,117,False,False,1,0,4,grab right right right right right down left down pit-south left left down up up left left down quit
+3-stratega rischio<=1.0,casuale_059.json,-75.0,morto,24,0,False,True,1,0,4,grab right right right right right down left down pit-south left left down up up left left down right right down down down left
+1-prudente,casuale_060.json,0.0,uscito,22,96,False,False,0,0,2,grab down down down up right down down up right up right left up up right down down left up up quit
+2-logico,casuale_060.json,25.0,uscito,21,97,False,False,1,0,2,grab right right down left down right right pit-north left down left right right down up up up up left quit
+3-stratega,casuale_060.json,200.0,oro,52,63,True,False,4,0,5,grab right right down left down right right pit-north left down left right right down up up right right right left down right right left down left pit-west right right right down left down up up pit-east left up up right pit-south left grab down down left left up up left quit
+3-stratega rischio<=0.0,casuale_060.json,25.0,uscito,21,97,False,False,1,0,2,grab right right down left down right right pit-north left down left right right down up up up up left quit
+3-stratega rischio<=0.2,casuale_060.json,200.0,oro,52,63,True,False,4,0,5,grab right right down left down right right pit-north left down left right right down up up right right right left down right right left down left pit-west right right right down left down up up pit-east left up up right pit-south left grab down down left left up up left quit
+3-stratega rischio<=0.34,casuale_060.json,200.0,oro,52,63,True,False,4,0,5,grab right right down left down right right pit-north left down left right right down up up right right right left down right right left down left pit-west right right right down left down up up pit-east left up up right pit-south left grab down down left left up up left quit
+3-stratega rischio<=0.4,casuale_060.json,200.0,oro,52,63,True,False,4,0,5,grab right right down left down right right pit-north left down left right right down up up right right right left down right right left down left pit-west right right right down left down up up pit-east left up up right pit-south left grab down down left left up up left quit
+3-stratega rischio<=0.5,casuale_060.json,200.0,oro,52,63,True,False,4,0,5,grab right right down left down right right pit-north left down left right right down up up right right right left down right right left down left pit-west right right right down left down up up pit-east left up up right pit-south left grab down down left left up up left quit
+3-stratega rischio<=1.0,casuale_060.json,200.0,oro,52,63,True,False,4,0,5,grab right right down left down right right pit-north left down left right right down up up right right right left down right right left down left pit-west right right right down left down up up pit-east left up up right pit-south left grab down down left left up up left quit
+1-prudente,casuale_061.json,0.0,uscito,11,156,False,False,0,0,1,grab down down up right up right right left left quit
+2-logico,casuale_061.json,0.0,uscito,11,156,False,False,0,0,1,grab right right left down left down down up up quit
+3-stratega,casuale_061.json,0.0,uscito,11,156,False,False,0,0,1,grab right right left down left down down up up quit
+3-stratega rischio<=0.0,casuale_061.json,0.0,uscito,11,156,False,False,0,0,1,grab right right left down left down down up up quit
+3-stratega rischio<=0.2,casuale_061.json,0.0,uscito,11,156,False,False,0,0,1,grab right right left down left down down up up quit
+3-stratega rischio<=0.34,casuale_061.json,0.0,uscito,11,156,False,False,0,0,1,grab right right left down left down down up up quit
+3-stratega rischio<=0.4,casuale_061.json,0.0,uscito,11,156,False,False,0,0,1,grab right right left down left down down up up quit
+3-stratega rischio<=0.5,casuale_061.json,200.0,oro,82,77,True,False,5,1,9,grab right right left down left down down down right pit-north left down right right right left down up up down down down left up down down left down right right up pit-east up right right right right left down left right right down left pit-west right right right down left down up up up pit-east left left up pit-north pit-west right right up left down down down right right down grab up up left left up up left left left quit
+3-stratega rischio<=1.0,casuale_061.json,200.0,oro,82,77,True,False,5,1,9,grab right right left down left down down down right pit-north left down right right right left down up up down down down left up down down left down right right up pit-east up right right right right left down left right right down left pit-west right right right down left down up up up pit-east left left up pit-north pit-west right right up left down down down right right down grab up up left left up up left left left quit
+1-prudente,casuale_062.json,0.0,uscito,29,106,False,False,0,0,5,grab down down down up right up right up right right down right down down up right down up right up right down left up left left left quit
+2-logico,casuale_062.json,0.0,uscito,27,108,False,False,0,0,5,grab right right right right right down left left down right up right up left left left down left down down right down up up up quit
+3-stratega,casuale_062.json,0.0,uscito,27,108,False,False,0,0,5,grab right right right right right down left left down right up right up left left left down left down down right down up up up quit
+3-stratega rischio<=0.0,casuale_062.json,0.0,uscito,27,108,False,False,0,0,5,grab right right right right right down left left down right up right up left left left down left down down right down up up up quit
+3-stratega rischio<=0.2,casuale_062.json,0.0,uscito,27,108,False,False,0,0,5,grab right right right right right down left left down right up right up left left left down left down down right down up up up quit
+3-stratega rischio<=0.34,casuale_062.json,0.0,uscito,27,108,False,False,0,0,5,grab right right right right right down left left down right up right up left left left down left down down right down up up up quit
+3-stratega rischio<=0.4,casuale_062.json,0.0,uscito,27,108,False,False,0,0,5,grab right right right right right down left left down right up right up left left left down left down down right down up up up quit
+3-stratega rischio<=0.5,casuale_062.json,-100.0,morto,33,0,False,True,0,0,5,grab right right right right right down left left down right up right up left left left down left down down right down up up up right right right right down down down
+3-stratega rischio<=1.0,casuale_062.json,-100.0,morto,33,0,False,True,0,0,5,grab right right right right right down left left down right up right up left left left down left down down right down up up up right right right right down down down
+1-prudente,casuale_063.json,0.0,uscito,9,90,False,False,0,0,1,grab down right down up right left left quit
+2-logico,casuale_063.json,150.0,oro,34,61,True,False,2,0,5,grab right right left down pit-south left up right right right right down left down right right down left down right down left up pit-west grab right up up up left left left quit
+3-stratega,casuale_063.json,150.0,oro,44,49,True,False,2,0,7,grab right right left down pit-south left up right right right right down left down right right down left down right down left up pit-west up right up right right down down right left left grab right up up up left left left quit
+3-stratega rischio<=0.0,casuale_063.json,150.0,oro,44,49,True,False,2,0,7,grab right right left down pit-south left up right right right right down left down right right down left down right down left up pit-west up right up right right down down right left left grab right up up up left left left quit
+3-stratega rischio<=0.2,casuale_063.json,150.0,oro,44,49,True,False,2,0,7,grab right right left down pit-south left up right right right right down left down right right down left down right down left up pit-west up right up right right down down right left left grab right up up up left left left quit
+3-stratega rischio<=0.34,casuale_063.json,150.0,oro,44,49,True,False,2,0,7,grab right right left down pit-south left up right right right right down left down right right down left down right down left up pit-west up right up right right down down right left left grab right up up up left left left quit
+3-stratega rischio<=0.4,casuale_063.json,150.0,oro,44,49,True,False,2,0,7,grab right right left down pit-south left up right right right right down left down right right down left down right down left up pit-west up right up right right down down right left left grab right up up up left left left quit
+3-stratega rischio<=0.5,casuale_063.json,150.0,oro,44,49,True,False,2,0,7,grab right right left down pit-south left up right right right right down left down right right down left down right down left up pit-west up right up right right down down right left left grab right up up up left left left quit
+3-stratega rischio<=1.0,casuale_063.json,150.0,oro,44,49,True,False,2,0,7,grab right right left down pit-south left up right right right right down left down right right down left down right down left up pit-west up right up right right down down right left left grab right up up up left left left quit
+1-prudente,casuale_064.json,0.0,uscito,6,218,False,False,0,0,0,grab down up right left quit
+2-logico,casuale_064.json,0.0,uscito,6,218,False,False,0,0,0,grab right left down up quit
+3-stratega,casuale_064.json,25.0,uscito,7,217,False,False,1,0,0,grab right left down pit-east up quit
+3-stratega rischio<=0.0,casuale_064.json,25.0,uscito,7,217,False,False,1,0,0,grab right left down pit-east up quit
+3-stratega rischio<=0.2,casuale_064.json,25.0,uscito,7,217,False,False,1,0,0,grab right left down pit-east up quit
+3-stratega rischio<=0.34,casuale_064.json,25.0,uscito,7,217,False,False,1,0,0,grab right left down pit-east up quit
+3-stratega rischio<=0.4,casuale_064.json,25.0,uscito,7,217,False,False,1,0,0,grab right left down pit-east up quit
+3-stratega rischio<=0.5,casuale_064.json,-75.0,morto,6,0,False,True,1,0,0,grab right left down pit-east down
+3-stratega rischio<=1.0,casuale_064.json,-75.0,morto,6,0,False,True,1,0,0,grab right left down pit-east down
+1-prudente,casuale_065.json,0.0,uscito,26,166,False,False,0,0,0,grab down down down up right up right up right right left down up left left right down down up left down left up up quit
+2-logico,casuale_065.json,25.0,uscito,21,171,False,False,1,0,0,grab right right right right left down left left left down right pit-south right left left down up up up quit
+3-stratega,casuale_065.json,75.0,uscito,24,167,False,False,3,0,1,grab right right right right left down pit-east left left left down right pit-south right pit-east left left down down up up up quit
+3-stratega rischio<=0.0,casuale_065.json,75.0,uscito,23,169,False,False,3,0,0,grab right right right right left down pit-east left left left down right pit-south right pit-east left left down up up up quit
+3-stratega rischio<=0.2,casuale_065.json,75.0,uscito,24,167,False,False,3,0,1,grab right right right right left down pit-east left left left down right pit-south right pit-east left left down down up up up quit
+3-stratega rischio<=0.34,casuale_065.json,75.0,uscito,24,167,False,False,3,0,1,grab right right right right left down pit-east left left left down right pit-south right pit-east left left down down up up up quit
+3-stratega rischio<=0.4,casuale_065.json,75.0,uscito,24,167,False,False,3,0,1,grab right right right right left down pit-east left left left down right pit-south right pit-east left left down down up up up quit
+3-stratega rischio<=0.5,casuale_065.json,225.0,oro,67,120,True,False,5,0,5,grab right right right right left down pit-east left left left down right pit-south right pit-east left left down down up right right down down right up down right down left down right up right pit-east left left left up down down down right down left up up down down down right up right right pit-south up up grab left up up up up left left quit
+3-stratega rischio<=1.0,casuale_065.json,225.0,oro,67,120,True,False,5,0,5,grab right right right right left down pit-east left left left down right pit-south right pit-east left left down down up right right down down right up down right down left down right up right pit-east left left left up down down down right down left up up down down down right up right right pit-south up up grab left up up up up left left quit
+1-prudente,casuale_066.json,0.0,uscito,13,178,False,False,0,0,1,grab down down right down up right left up down left up quit
+2-logico,casuale_066.json,25.0,uscito,14,177,False,False,1,0,1,grab right left down right right pit-north left down left up up left quit
+3-stratega,casuale_066.json,225.0,oro,78,110,True,False,5,0,4,grab right left down right right pit-north left down left up right right right right right left down left left pit-west right down right up right pit-south left up up left left right right right right pit-south left left down left down down down right right left down left down down left up pit-west down down left right up right up up up right right up right grab left down left left left left left up left quit
+3-stratega rischio<=0.0,casuale_066.json,25.0,uscito,14,177,False,False,1,0,1,grab right left down right right pit-north left down left up up left quit
+3-stratega rischio<=0.2,casuale_066.json,225.0,oro,78,110,True,False,5,0,4,grab right left down right right pit-north left down left up right right right right right left down left left pit-west right down right up right pit-south left up up left left right right right right pit-south left left down left down down down right right left down left down down left up pit-west down down left right up right up up up right right up right grab left down left left left left left up left quit
+3-stratega rischio<=0.34,casuale_066.json,225.0,oro,78,110,True,False,5,0,4,grab right left down right right pit-north left down left up right right right right right left down left left pit-west right down right up right pit-south left up up left left right right right right pit-south left left down left down down down right right left down left down down left up pit-west down down left right up right up up up right right up right grab left down left left left left left up left quit
+3-stratega rischio<=0.4,casuale_066.json,225.0,oro,78,110,True,False,5,0,4,grab right left down right right pit-north left down left up right right right right right left down left left pit-west right down right up right pit-south left up up left left right right right right pit-south left left down left down down down right right left down left down down left up pit-west down down left right up right up up up right right up right grab left down left left left left left up left quit
+3-stratega rischio<=0.5,casuale_066.json,225.0,oro,78,110,True,False,5,0,4,grab right left down right right pit-north left down left up right right right right right left down left left pit-west right down right up right pit-south left up up left left right right right right pit-south left left down left down down down right right left down left down down left up pit-west down down left right up right up up up right right up right grab left down left left left left left up left quit
+3-stratega rischio<=1.0,casuale_066.json,225.0,oro,78,110,True,False,5,0,4,grab right left down right right pit-north left down left up right right right right right left down left left pit-west right down right up right pit-south left up up left left right right right right pit-south left left down left down down down right right left down left down down left up pit-west down down left right up right up up up right right up right grab left down left left left left left up left quit
+1-prudente,casuale_067.json,0.0,uscito,21,202,False,False,0,0,1,grab down up right down down up right down right left up right right left left down left up left quit
+2-logico,casuale_067.json,25.0,uscito,18,205,False,False,1,0,1,grab right right right right left down left left left pit-south right down right up up left quit
+3-stratega,casuale_067.json,50.0,uscito,21,202,False,False,2,0,1,grab right right right right left down pit-east left left left pit-south right down right down up up up left quit
+3-stratega rischio<=0.0,casuale_067.json,50.0,uscito,19,204,False,False,2,0,1,grab right right right right left down pit-east left left left pit-south right down right up up left quit
+3-stratega rischio<=0.2,casuale_067.json,50.0,uscito,21,202,False,False,2,0,1,grab right right right right left down pit-east left left left pit-south right down right down up up up left quit
+3-stratega rischio<=0.34,casuale_067.json,-50.0,morto,17,0,False,True,2,0,1,grab right right right right left down pit-east left left left pit-south right down right down down
+3-stratega rischio<=0.4,casuale_067.json,-50.0,morto,17,0,False,True,2,0,1,grab right right right right left down pit-east left left left pit-south right down right down down
+3-stratega rischio<=0.5,casuale_067.json,-50.0,morto,17,0,False,True,2,0,1,grab right right right right left down pit-east left left left pit-south right down right down down
+3-stratega rischio<=1.0,casuale_067.json,-50.0,morto,17,0,False,True,2,0,1,grab right right right right left down pit-east left left left pit-south right down right down down
+1-prudente,casuale_068.json,0.0,uscito,19,148,False,False,0,0,1,grab down down down down up right up left up up right right left up down left up quit
+2-logico,casuale_068.json,25.0,uscito,28,139,False,False,1,0,1,grab right left down right right right left down left right left down up up left left down down right pit-south left down up up up up quit
+3-stratega,casuale_068.json,125.0,oro,58,106,True,False,2,1,4,grab right left down right right right left down left right left down up up left left down down right pit-south left down up right right pit-east left left down down right left down right right up pit-north down right left down left down left down right right grab up left left up up up up up quit
+3-stratega rischio<=0.0,casuale_068.json,50.0,uscito,33,134,False,False,2,0,1,grab right left down right right right left down left right left down up up left left down down right pit-south left down up right right pit-east up up left up left quit
+3-stratega rischio<=0.2,casuale_068.json,125.0,oro,58,106,True,False,2,1,4,grab right left down right right right left down left right left down up up left left down down right pit-south left down up right right pit-east left left down down right left down right right up pit-north down right left down left down left down right right grab up left left up up up up up quit
+3-stratega rischio<=0.34,casuale_068.json,125.0,oro,58,106,True,False,2,1,4,grab right left down right right right left down left right left down up up left left down down right pit-south left down up right right pit-east left left down down right left down right right up pit-north down right left down left down left down right right grab up left left up up up up up quit
+3-stratega rischio<=0.4,casuale_068.json,125.0,oro,58,106,True,False,2,1,4,grab right left down right right right left down left right left down up up left left down down right pit-south left down up right right pit-east left left down down right left down right right up pit-north down right left down left down left down right right grab up left left up up up up up quit
+3-stratega rischio<=0.5,casuale_068.json,125.0,oro,58,106,True,False,2,1,4,grab right left down right right right left down left right left down up up left left down down right pit-south left down up right right pit-east left left down down right left down right right up pit-north down right left down left down left down right right grab up left left up up up up up quit
+3-stratega rischio<=1.0,casuale_068.json,125.0,oro,58,106,True,False,2,1,4,grab right left down right right right left down left right left down up up left left down down right pit-south left down up right right pit-east left left down down right left down right right up pit-north down right left down left down left down right right grab up left left up up up up up quit
+1-prudente,casuale_069.json,100.0,oro,28,225,True,False,0,0,3,grab down down down right down down left down down down down right down right grab left left up up up right up up left up up quit
+2-logico,casuale_069.json,100.0,oro,38,215,True,False,0,0,3,grab right right down left down right right up right down right up left down left left left down right left down right left down down right grab left up up up up up up up left quit
+3-stratega,casuale_069.json,175.0,oro,82,166,True,False,3,0,8,grab right right down left down right right up right down right up left down pit-east left left left down right pit-east left down right left down down right right right left down up pit-east up left left left up down down down down right down right down left up up up up up up right right up right right left down left left down down down down down down right grab left up up up up up up up left quit
+3-stratega rischio<=0.0,casuale_069.json,175.0,oro,82,166,True,False,3,0,8,grab right right down left down right right up right down right up left down pit-east left left left down right pit-east left down right left down down right right right left down up pit-east up left left left up down down down down right down right down left up up up up up up right right up right right left down left left down down down down down down right grab left up up up up up up up left quit
+3-stratega rischio<=0.2,casuale_069.json,175.0,oro,82,166,True,False,3,0,8,grab right right down left down right right up right down right up left down pit-east left left left down right pit-east left down right left down down right right right left down up pit-east up left left left up down down down down right down right down left up up up up up up right right up right right left down left left down down down down down down right grab left up up up up up up up left quit
+3-stratega rischio<=0.34,casuale_069.json,175.0,oro,82,166,True,False,3,0,8,grab right right down left down right right up right down right up left down pit-east left left left down right pit-east left down right left down down right right right left down up pit-east up left left left up down down down down right down right down left up up up up up up right right up right right left down left left down down down down down down right grab left up up up up up up up left quit
+3-stratega rischio<=0.4,casuale_069.json,175.0,oro,82,166,True,False,3,0,8,grab right right down left down right right up right down right up left down pit-east left left left down right pit-east left down right left down down right right right left down up pit-east up left left left up down down down down right down right down left up up up up up up right right up right right left down left left down down down down down down right grab left up up up up up up up left quit
+3-stratega rischio<=0.5,casuale_069.json,175.0,oro,82,166,True,False,3,0,8,grab right right down left down right right up right down right up left down pit-east left left left down right pit-east left down right left down down right right right left down up pit-east up left left left up down down down down right down right down left up up up up up up right right up right right left down left left down down down down down down right grab left up up up up up up up left quit
+3-stratega rischio<=1.0,casuale_069.json,175.0,oro,82,166,True,False,3,0,8,grab right right down left down right right up right down right up left down pit-east left left left down right pit-east left down right left down down right right right left down up pit-east up left left left up down down down down right down right down left up up up up up up right right up right right left down left left down down down down down down right grab left up up up up up up up left quit
+1-prudente,casuale_070.json,0.0,uscito,13,126,False,False,0,0,1,grab down up right down right down up right left left left quit
+2-logico,casuale_070.json,25.0,uscito,14,125,False,False,1,0,1,grab right right right left down left up left left down pit-south up quit
+3-stratega,casuale_070.json,50.0,uscito,15,124,False,False,2,0,1,grab right right right left down pit-east left up left left down pit-south up quit
+3-stratega rischio<=0.0,casuale_070.json,50.0,uscito,15,124,False,False,2,0,1,grab right right right left down pit-east left up left left down pit-south up quit
+3-stratega rischio<=0.2,casuale_070.json,50.0,uscito,15,124,False,False,2,0,1,grab right right right left down pit-east left up left left down pit-south up quit
+3-stratega rischio<=0.34,casuale_070.json,50.0,uscito,15,124,False,False,2,0,1,grab right right right left down pit-east left up left left down pit-south up quit
+3-stratega rischio<=0.4,casuale_070.json,50.0,uscito,15,124,False,False,2,0,1,grab right right right left down pit-east left up left left down pit-south up quit
+3-stratega rischio<=0.5,casuale_070.json,175.0,oro,74,58,True,False,3,0,8,grab right right right left down pit-east left up left left down pit-south up right right down down right left down right right up right up down down right down left left right down right right down up right down left down up up left left up up left down right down down down up left pit-south right up up right up right right up grab down left left up up left left quit
+3-stratega rischio<=1.0,casuale_070.json,175.0,oro,74,58,True,False,3,0,8,grab right right right left down pit-east left up left left down pit-south up right right down down right left down right right up right up down down right down left left right down right right down up right down left down up up left left up up left down right down down down up left pit-south right up up right up right right up grab down left left up up left left quit
+1-prudente,casuale_071.json,100.0,oro,10,89,True,False,0,0,1,grab down down down right grab left up up quit
+2-logico,casuale_071.json,125.0,oro,17,82,True,False,1,0,1,grab right right right right down left left left down right pit-south grab up up left quit
+3-stratega,casuale_071.json,150.0,oro,31,67,True,False,2,0,2,grab right right right right down left left left down right pit-south right down up left left down up right right right pit-east left left down grab up up left quit
+3-stratega rischio<=0.0,casuale_071.json,150.0,oro,31,67,True,False,2,0,2,grab right right right right down left left left down right pit-south right down up left left down up right right right pit-east left left down grab up up left quit
+3-stratega rischio<=0.2,casuale_071.json,150.0,oro,31,67,True,False,2,0,2,grab right right right right down left left left down right pit-south right down up left left down up right right right pit-east left left down grab up up left quit
+3-stratega rischio<=0.34,casuale_071.json,150.0,oro,31,67,True,False,2,0,2,grab right right right right down left left left down right pit-south right down up left left down up right right right pit-east left left down grab up up left quit
+3-stratega rischio<=0.4,casuale_071.json,150.0,oro,31,67,True,False,2,0,2,grab right right right right down left left left down right pit-south right down up left left down up right right right pit-east left left down grab up up left quit
+3-stratega rischio<=0.5,casuale_071.json,150.0,oro,31,67,True,False,2,0,2,grab right right right right down left left left down right pit-south right down up left left down up right right right pit-east left left down grab up up left quit
+3-stratega rischio<=1.0,casuale_071.json,150.0,oro,31,67,True,False,2,0,2,grab right right right right down left left left down right pit-south right down up left left down up right right right pit-east left left down grab up up left quit
+1-prudente,casuale_072.json,0.0,uscito,15,208,False,False,0,0,1,grab down down right down up right left up right left down left up quit
+2-logico,casuale_072.json,0.0,uscito,15,208,False,False,0,0,1,grab right right left down left down right right left down up up left quit
+3-stratega,casuale_072.json,50.0,uscito,19,204,False,False,2,0,1,grab right right left down left down right right left down pit-east up up right pit-east left left quit
+3-stratega rischio<=0.0,casuale_072.json,50.0,uscito,19,204,False,False,2,0,1,grab right right left down left down right right left down pit-east up up right pit-east left left quit
+3-stratega rischio<=0.2,casuale_072.json,50.0,uscito,19,204,False,False,2,0,1,grab right right left down left down right right left down pit-east up up right pit-east left left quit
+3-stratega rischio<=0.34,casuale_072.json,50.0,uscito,19,204,False,False,2,0,1,grab right right left down left down right right left down pit-east up up right pit-east left left quit
+3-stratega rischio<=0.4,casuale_072.json,50.0,uscito,19,204,False,False,2,0,1,grab right right left down left down right right left down pit-east up up right pit-east left left quit
+3-stratega rischio<=0.5,casuale_072.json,175.0,oro,55,166,True,False,3,0,3,grab right right left down left down right right left down pit-east up up right pit-east left down down down right left down right left down right left down left up up down down down down up up right right pit-east down left left down grab up right up up up up up left quit
+3-stratega rischio<=1.0,casuale_072.json,175.0,oro,55,166,True,False,3,0,3,grab right right left down left down right right left down pit-east up up right pit-east left down down down right left down right left down right left down left up up down down down down up up right right pit-east down left left down grab up right up up up up up left quit
+1-prudente,casuale_073.json,0.0,uscito,27,138,False,False,0,0,3,grab down up right down down up right down down left right down right up left up up right up right left down left up left quit
+2-logico,casuale_073.json,25.0,uscito,26,139,False,False,1,0,3,grab right right right left down left left pit-south right down right right down left right right left down up up right up left left quit
+3-stratega,casuale_073.json,50.0,uscito,29,136,False,False,2,0,3,grab right right right left down left left pit-south right down right right down left right right left down up up right up right pit-east left left left quit
+3-stratega rischio<=0.0,casuale_073.json,50.0,uscito,29,136,False,False,2,0,3,grab right right right left down left left pit-south right down right right down left right right left down up up right up right pit-east left left left quit
+3-stratega rischio<=0.2,casuale_073.json,50.0,uscito,29,136,False,False,2,0,3,grab right right right left down left left pit-south right down right right down left right right left down up up right up right pit-east left left left quit
+3-stratega rischio<=0.34,casuale_073.json,50.0,uscito,29,136,False,False,2,0,3,grab right right right left down left left pit-south right down right right down left right right left down up up right up right pit-east left left left quit
+3-stratega rischio<=0.4,casuale_073.json,50.0,uscito,29,136,False,False,2,0,3,grab right right right left down left left pit-south right down right right down left right right left down up up right up right pit-east left left left quit
+3-stratega rischio<=0.5,casuale_073.json,175.0,oro,72,86,True,False,3,0,10,grab right right right left down left left pit-south right down right right down left right right left down up up right up right pit-east left down down down right right right left down pit-west right right up right up down right down left left down left right right down right right down up left up left up up down down down grab up left left up up up left left quit
+3-stratega rischio<=1.0,casuale_073.json,175.0,oro,72,86,True,False,3,0,10,grab right right right left down left left pit-south right down right right down left right right left down up up right up right pit-east left down down down right right right left down pit-west right right up right up down right down left left down left right right down right right down up left up left up up down down down grab up left left up up up left left quit
+1-prudente,casuale_074.json,100.0,oro,11,157,True,False,0,0,0,grab down down down down grab up up up up quit
+2-logico,casuale_074.json,125.0,oro,26,142,True,False,1,0,0,grab right right right left down left left down right right right up pit-east left down down left left down grab up up up up quit
+3-stratega,casuale_074.json,200.0,oro,62,101,True,False,4,0,5,grab right right right left down left left down right right right up pit-east left down down left left down right down right down up up right right right right pit-north left down left down right right pit-north left down left down up up up up up right pit-east left left left down down down down grab up up up up quit
+3-stratega rischio<=0.0,casuale_074.json,200.0,oro,62,101,True,False,4,0,5,grab right right right left down left left down right right right up pit-east left down down left left down right down right down up up right right right right pit-north left down left down right right pit-north left down left down up up up up up right pit-east left left left down down down down grab up up up up quit
+3-stratega rischio<=0.2,casuale_074.json,200.0,oro,62,101,True,False,4,0,5,grab right right right left down left left down right right right up pit-east left down down left left down right down right down up up right right right right pit-north left down left down right right pit-north left down left down up up up up up right pit-east left left left down down down down grab up up up up quit
+3-stratega rischio<=0.34,casuale_074.json,200.0,oro,62,101,True,False,4,0,5,grab right right right left down left left down right right right up pit-east left down down left left down right down right down up up right right right right pit-north left down left down right right pit-north left down left down up up up up up right pit-east left left left down down down down grab up up up up quit
+3-stratega rischio<=0.4,casuale_074.json,200.0,oro,62,101,True,False,4,0,5,grab right right right left down left left down right right right up pit-east left down down left left down right down right down up up right right right right pit-north left down left down right right pit-north left down left down up up up up up right pit-east left left left down down down down grab up up up up quit
+3-stratega rischio<=0.5,casuale_074.json,200.0,oro,62,101,True,False,4,0,5,grab right right right left down left left down right right right up pit-east left down down left left down right down right down up up right right right right pit-north left down left down right right pit-north left down left down up up up up up right pit-east left left left down down down down grab up up up up quit
+3-stratega rischio<=1.0,casuale_074.json,200.0,oro,62,101,True,False,4,0,5,grab right right right left down left left down right right right up pit-east left down down left left down right down right down up up right right right right pit-north left down left down right right pit-north left down left down up up up up up right pit-east left left left down down down down grab up up up up quit
+1-prudente,casuale_075.json,0.0,uscito,11,180,False,False,0,0,1,grab down down right up right left down left up quit
+2-logico,casuale_075.json,150.0,oro,51,137,True,False,2,0,4,grab right right left down left down right down right right right left down left up up left left down down up left down right up up up right right right down right up right pit-east down left down right grab up pit-east up left left left left left left quit
+3-stratega,casuale_075.json,175.0,oro,64,122,True,False,3,0,6,grab right right left down left down right down right right right left down left up up left left down down up left down right up up up right right right down right up right pit-east down left down right right pit-north left down left pit-west right right right down left down up up grab up up left left left left left left quit
+3-stratega rischio<=0.0,casuale_075.json,175.0,oro,64,122,True,False,3,0,6,grab right right left down left down right down right right right left down left up up left left down down up left down right up up up right right right down right up right pit-east down left down right right pit-north left down left pit-west right right right down left down up up grab up up left left left left left left quit
+3-stratega rischio<=0.2,casuale_075.json,175.0,oro,64,122,True,False,3,0,6,grab right right left down left down right down right right right left down left up up left left down down up left down right up up up right right right down right up right pit-east down left down right right pit-north left down left pit-west right right right down left down up up grab up up left left left left left left quit
+3-stratega rischio<=0.34,casuale_075.json,175.0,oro,64,122,True,False,3,0,6,grab right right left down left down right down right right right left down left up up left left down down up left down right up up up right right right down right up right pit-east down left down right right pit-north left down left pit-west right right right down left down up up grab up up left left left left left left quit
+3-stratega rischio<=0.4,casuale_075.json,175.0,oro,64,122,True,False,3,0,6,grab right right left down left down right down right right right left down left up up left left down down up left down right up up up right right right down right up right pit-east down left down right right pit-north left down left pit-west right right right down left down up up grab up up left left left left left left quit
+3-stratega rischio<=0.5,casuale_075.json,175.0,oro,64,122,True,False,3,0,6,grab right right left down left down right down right right right left down left up up left left down down up left down right up up up right right right down right up right pit-east down left down right right pit-north left down left pit-west right right right down left down up up grab up up left left left left left left quit
+3-stratega rischio<=1.0,casuale_075.json,175.0,oro,64,122,True,False,3,0,6,grab right right left down left down right down right right right left down left up up left left down down up left down right up up up right right right down right up right pit-east down left down right right pit-north left down left pit-west right right right down left down up up grab up up left left left left left left quit
+1-prudente,casuale_076.json,0.0,uscito,2,158,False,False,0,0,0,grab quit
+2-logico,casuale_076.json,0.0,uscito,2,158,False,False,0,0,0,grab quit
+3-stratega,casuale_076.json,0.0,uscito,2,158,False,False,0,0,0,grab quit
+3-stratega rischio<=0.0,casuale_076.json,0.0,uscito,2,158,False,False,0,0,0,grab quit
+3-stratega rischio<=0.2,casuale_076.json,0.0,uscito,2,158,False,False,0,0,0,grab quit
+3-stratega rischio<=0.34,casuale_076.json,0.0,uscito,2,158,False,False,0,0,0,grab quit
+3-stratega rischio<=0.4,casuale_076.json,0.0,uscito,2,158,False,False,0,0,0,grab quit
+3-stratega rischio<=0.5,casuale_076.json,-100.0,morto,2,0,False,True,0,0,0,grab down
+3-stratega rischio<=1.0,casuale_076.json,-100.0,morto,2,0,False,True,0,0,0,grab down
+1-prudente,casuale_077.json,0.0,uscito,6,218,False,False,0,0,0,grab down up right left quit
+2-logico,casuale_077.json,0.0,uscito,6,218,False,False,0,0,0,grab right left down up quit
+3-stratega,casuale_077.json,25.0,uscito,7,217,False,False,1,0,0,grab right left down pit-east up quit
+3-stratega rischio<=0.0,casuale_077.json,25.0,uscito,7,217,False,False,1,0,0,grab right left down pit-east up quit
+3-stratega rischio<=0.2,casuale_077.json,25.0,uscito,7,217,False,False,1,0,0,grab right left down pit-east up quit
+3-stratega rischio<=0.34,casuale_077.json,25.0,uscito,7,217,False,False,1,0,0,grab right left down pit-east up quit
+3-stratega rischio<=0.4,casuale_077.json,25.0,uscito,7,217,False,False,1,0,0,grab right left down pit-east up quit
+3-stratega rischio<=0.5,casuale_077.json,175.0,oro,84,132,True,False,3,0,8,grab right left down pit-east down up up right right down down left right right up right down up right down right right down right down right down right down right down up left up right up up left pit-west right up up up left left right right right down left left left down down left left pit-west right down up up up right right right right down down down down grab up up up up left left left left up left left quit
+3-stratega rischio<=1.0,casuale_077.json,175.0,oro,84,132,True,False,3,0,8,grab right left down pit-east down up up right right down down left right right up right down up right down right right down right down right down right down right down up left up right up up left pit-west right up up up left left right right right down left left left down down left left pit-west right down up up up right right right right down down down down grab up up up up left left left left up left left quit
+1-prudente,casuale_078.json,0.0,uscito,5,154,False,False,0,0,1,grab down up right quit
+2-logico,casuale_078.json,0.0,uscito,5,154,False,False,0,0,1,grab right down up quit
+3-stratega,casuale_078.json,0.0,uscito,5,154,False,False,0,0,1,grab right down up quit
+3-stratega rischio<=0.0,casuale_078.json,0.0,uscito,5,154,False,False,0,0,1,grab right down up quit
+3-stratega rischio<=0.2,casuale_078.json,0.0,uscito,5,154,False,False,0,0,1,grab right down up quit
+3-stratega rischio<=0.34,casuale_078.json,0.0,uscito,5,154,False,False,0,0,1,grab right down up quit
+3-stratega rischio<=0.4,casuale_078.json,0.0,uscito,5,154,False,False,0,0,1,grab right down up quit
+3-stratega rischio<=0.5,casuale_078.json,150.0,oro,35,123,True,False,2,0,2,grab right down down right pit-north left down right left down right right pit-north left down left down down up up right right right left left up up right grab left left up up quit
+3-stratega rischio<=1.0,casuale_078.json,150.0,oro,35,123,True,False,2,0,2,grab right down down right pit-north left down right left down right right pit-north left down left down down up up right right right left left up up right grab left left up up quit
+1-prudente,casuale_079.json,100.0,oro,20,235,True,False,0,0,1,grab down down down right down down left down down grab up up right up up left up up quit
+2-logico,casuale_079.json,150.0,oro,37,217,True,False,2,0,2,grab right down right left down right right pit-north left down left right left down right right pit-north left down left down up left up down down grab right up up up up up left up quit
+3-stratega,casuale_079.json,175.0,oro,47,204,True,False,3,0,5,grab right down right left down right right pit-north left down left right left down right right pit-north left down left down up left up down down down right right down left down right up pit-east left grab right up up up up up left up quit
+3-stratega rischio<=0.0,casuale_079.json,175.0,oro,47,204,True,False,3,0,5,grab right down right left down right right pit-north left down left right left down right right pit-north left down left down up left up down down down right right down left down right up pit-east left grab right up up up up up left up quit
+3-stratega rischio<=0.2,casuale_079.json,175.0,oro,47,204,True,False,3,0,5,grab right down right left down right right pit-north left down left right left down right right pit-north left down left down up left up down down down right right down left down right up pit-east left grab right up up up up up left up quit
+3-stratega rischio<=0.34,casuale_079.json,175.0,oro,47,204,True,False,3,0,5,grab right down right left down right right pit-north left down left right left down right right pit-north left down left down up left up down down down right right down left down right up pit-east left grab right up up up up up left up quit
+3-stratega rischio<=0.4,casuale_079.json,175.0,oro,47,204,True,False,3,0,5,grab right down right left down right right pit-north left down left right left down right right pit-north left down left down up left up down down down right right down left down right up pit-east left grab right up up up up up left up quit
+3-stratega rischio<=0.5,casuale_079.json,175.0,oro,47,204,True,False,3,0,5,grab right down right left down right right pit-north left down left right left down right right pit-north left down left down up left up down down down right right down left down right up pit-east left grab right up up up up up left up quit
+3-stratega rischio<=1.0,casuale_079.json,175.0,oro,47,204,True,False,3,0,5,grab right down right left down right right pit-north left down left right left down right right pit-north left down left down up left up down down down right right down left down right up pit-east left grab right up up up up up left up quit
+1-prudente,casuale_080.json,0.0,uscito,2,166,False,False,0,0,0,grab quit
+2-logico,casuale_080.json,0.0,uscito,2,166,False,False,0,0,0,grab quit
+3-stratega,casuale_080.json,0.0,uscito,2,166,False,False,0,0,0,grab quit
+3-stratega rischio<=0.0,casuale_080.json,0.0,uscito,2,166,False,False,0,0,0,grab quit
+3-stratega rischio<=0.2,casuale_080.json,0.0,uscito,2,166,False,False,0,0,0,grab quit
+3-stratega rischio<=0.34,casuale_080.json,0.0,uscito,2,166,False,False,0,0,0,grab quit
+3-stratega rischio<=0.4,casuale_080.json,0.0,uscito,2,166,False,False,0,0,0,grab quit
+3-stratega rischio<=0.5,casuale_080.json,25.0,uscito,4,163,False,False,1,0,1,grab down pit-east quit
+3-stratega rischio<=1.0,casuale_080.json,25.0,uscito,4,163,False,False,1,0,1,grab down pit-east quit
+1-prudente,casuale_081.json,0.0,uscito,6,162,False,False,0,0,0,grab down up right left quit
+2-logico,casuale_081.json,0.0,uscito,6,162,False,False,0,0,0,grab right left down up quit
+3-stratega,casuale_081.json,25.0,uscito,7,161,False,False,1,0,0,grab right left down pit-east up quit
+3-stratega rischio<=0.0,casuale_081.json,25.0,uscito,7,161,False,False,1,0,0,grab right left down pit-east up quit
+3-stratega rischio<=0.2,casuale_081.json,25.0,uscito,7,161,False,False,1,0,0,grab right left down pit-east up quit
+3-stratega rischio<=0.34,casuale_081.json,25.0,uscito,7,161,False,False,1,0,0,grab right left down pit-east up quit
+3-stratega rischio<=0.4,casuale_081.json,25.0,uscito,7,161,False,False,1,0,0,grab right left down pit-east up quit
+3-stratega rischio<=0.5,casuale_081.json,-75.0,morto,10,0,False,True,1,0,0,grab right left down pit-east down up up right right
+3-stratega rischio<=1.0,casuale_081.json,-75.0,morto,10,0,False,True,1,0,0,grab right left down pit-east down up up right right
+1-prudente,casuale_082.json,100.0,oro,71,111,True,False,0,0,10,grab down right down down left right down right down down left left down left down right down right left up right right up left up up right up up right left down up right down right right left down down down up right down down up right down down right down right up grab down left up left up left up up left down left left up up left quit
+2-logico,casuale_082.json,175.0,oro,49,140,True,False,3,0,3,grab right right right right down left left left down right right right up right down right up right left up pit-east down left down down left left down right right up pit-east down right grab left up up pit-east up left left left up left left left quit
+3-stratega,casuale_082.json,250.0,oro,97,85,True,False,6,0,10,grab right right right right down left left left down right right right up right down right up right left up pit-east down left down down left left down right right up pit-east down right left down left pit-west right right right down left down up up up pit-east left left left left down left down right pit-south left down up left down down left up down right right up up up left left pit-south right right right right right down right down right grab left up left left up up left up left left left quit
+3-stratega rischio<=0.0,casuale_082.json,250.0,oro,97,85,True,False,6,0,10,grab right right right right down left left left down right right right up right down right up right left up pit-east down left down down left left down right right up pit-east down right left down left pit-west right right right down left down up up up pit-east left left left left down left down right pit-south left down up left down down left up down right right up up up left left pit-south right right right right right down right down right grab left up left left up up left up left left left quit
+3-stratega rischio<=0.2,casuale_082.json,250.0,oro,97,85,True,False,6,0,10,grab right right right right down left left left down right right right up right down right up right left up pit-east down left down down left left down right right up pit-east down right left down left pit-west right right right down left down up up up pit-east left left left left down left down right pit-south left down up left down down left up down right right up up up left left pit-south right right right right right down right down right grab left up left left up up left up left left left quit
+3-stratega rischio<=0.34,casuale_082.json,250.0,oro,97,85,True,False,6,0,10,grab right right right right down left left left down right right right up right down right up right left up pit-east down left down down left left down right right up pit-east down right left down left pit-west right right right down left down up up up pit-east left left left left down left down right pit-south left down up left down down left up down right right up up up left left pit-south right right right right right down right down right grab left up left left up up left up left left left quit
+3-stratega rischio<=0.4,casuale_082.json,250.0,oro,97,85,True,False,6,0,10,grab right right right right down left left left down right right right up right down right up right left up pit-east down left down down left left down right right up pit-east down right left down left pit-west right right right down left down up up up pit-east left left left left down left down right pit-south left down up left down down left up down right right up up up left left pit-south right right right right right down right down right grab left up left left up up left up left left left quit
+3-stratega rischio<=0.5,casuale_082.json,250.0,oro,97,85,True,False,6,0,10,grab right right right right down left left left down right right right up right down right up right left up pit-east down left down down left left down right right up pit-east down right left down left pit-west right right right down left down up up up pit-east left left left left down left down right pit-south left down up left down down left up down right right up up up left left pit-south right right right right right down right down right grab left up left left up up left up left left left quit
+3-stratega rischio<=1.0,casuale_082.json,250.0,oro,97,85,True,False,6,0,10,grab right right right right down left left left down right right right up right down right up right left up pit-east down left down down left left down right right up pit-east down right left down left pit-west right right right down left down up up up pit-east left left left left down left down right pit-south left down up left down down left up down right right up up up left left pit-south right right right right right down right down right grab left up left left up up left up left left left quit
+1-prudente,casuale_083.json,100.0,oro,14,85,True,False,0,0,1,grab down down down down down right grab left up up up up quit
+2-logico,casuale_083.json,150.0,oro,23,77,True,False,2,0,0,grab right left down right right pit-north left down left down right left down right grab up pit-east up up up left quit
+3-stratega,casuale_083.json,150.0,oro,31,67,True,False,2,0,2,grab right left down right right pit-north left down left down right left down right left down up up right right down pit-east down grab up up up up left quit
+3-stratega rischio<=0.0,casuale_083.json,150.0,oro,31,67,True,False,2,0,2,grab right left down right right pit-north left down left down right left down right left down up up right right down pit-east down grab up up up up left quit
+3-stratega rischio<=0.2,casuale_083.json,150.0,oro,31,67,True,False,2,0,2,grab right left down right right pit-north left down left down right left down right left down up up right right down pit-east down grab up up up up left quit
+3-stratega rischio<=0.34,casuale_083.json,150.0,oro,31,67,True,False,2,0,2,grab right left down right right pit-north left down left down right left down right left down up up right right down pit-east down grab up up up up left quit
+3-stratega rischio<=0.4,casuale_083.json,150.0,oro,31,67,True,False,2,0,2,grab right left down right right pit-north left down left down right left down right left down up up right right down pit-east down grab up up up up left quit
+3-stratega rischio<=0.5,casuale_083.json,150.0,oro,31,67,True,False,2,0,2,grab right left down right right pit-north left down left down right left down right left down up up right right down pit-east down grab up up up up left quit
+3-stratega rischio<=1.0,casuale_083.json,150.0,oro,31,67,True,False,2,0,2,grab right left down right right pit-north left down left down right left down right left down up up right right down pit-east down grab up up up up left quit
+1-prudente,casuale_084.json,0.0,uscito,5,114,False,False,0,0,1,grab down up right quit
+2-logico,casuale_084.json,0.0,uscito,5,114,False,False,0,0,1,grab right down up quit
+3-stratega,casuale_084.json,0.0,uscito,5,114,False,False,0,0,1,grab right down up quit
+3-stratega rischio<=0.0,casuale_084.json,0.0,uscito,5,114,False,False,0,0,1,grab right down up quit
+3-stratega rischio<=0.2,casuale_084.json,0.0,uscito,5,114,False,False,0,0,1,grab right down up quit
+3-stratega rischio<=0.34,casuale_084.json,0.0,uscito,5,114,False,False,0,0,1,grab right down up quit
+3-stratega rischio<=0.4,casuale_084.json,0.0,uscito,5,114,False,False,0,0,1,grab right down up quit
+3-stratega rischio<=0.5,casuale_084.json,175.0,oro,59,52,True,False,3,0,9,grab right down down right pit-north left down right right left down left down up right right right right right right down up left left left pit-north right up down down down pit-west right down up right up right up right up right left down down left down down grab up up left left left left up up quit
+3-stratega rischio<=1.0,casuale_084.json,175.0,oro,59,52,True,False,3,0,9,grab right down down right pit-north left down right right left down left down up right right right right right right down up left left left pit-north right up down down down pit-west right down up right up right up right up right left down down left down down grab up up left left left left up up quit
+1-prudente,casuale_085.json,0.0,uscito,2,118,False,False,0,0,0,grab quit
+2-logico,casuale_085.json,0.0,uscito,2,118,False,False,0,0,0,grab quit
+3-stratega,casuale_085.json,0.0,uscito,2,118,False,False,0,0,0,grab quit
+3-stratega rischio<=0.0,casuale_085.json,0.0,uscito,2,118,False,False,0,0,0,grab quit
+3-stratega rischio<=0.2,casuale_085.json,0.0,uscito,2,118,False,False,0,0,0,grab quit
+3-stratega rischio<=0.34,casuale_085.json,0.0,uscito,2,118,False,False,0,0,0,grab quit
+3-stratega rischio<=0.4,casuale_085.json,0.0,uscito,2,118,False,False,0,0,0,grab quit
+3-stratega rischio<=0.5,casuale_085.json,100.0,oro,14,105,True,False,0,0,1,grab down right right left down left down up right grab left up quit
+3-stratega rischio<=1.0,casuale_085.json,100.0,oro,14,105,True,False,0,0,1,grab down right right left down left down up right grab left up quit
+1-prudente,casuale_086.json,0.0,uscito,2,166,False,False,0,0,0,grab quit
+2-logico,casuale_086.json,0.0,uscito,2,166,False,False,0,0,0,grab quit
+3-stratega,casuale_086.json,0.0,uscito,2,166,False,False,0,0,0,grab quit
+3-stratega rischio<=0.0,casuale_086.json,0.0,uscito,2,166,False,False,0,0,0,grab quit
+3-stratega rischio<=0.2,casuale_086.json,0.0,uscito,2,166,False,False,0,0,0,grab quit
+3-stratega rischio<=0.34,casuale_086.json,0.0,uscito,2,166,False,False,0,0,0,grab quit
+3-stratega rischio<=0.4,casuale_086.json,0.0,uscito,2,166,False,False,0,0,0,grab quit
+3-stratega rischio<=0.5,casuale_086.json,-100.0,morto,2,0,False,True,0,0,0,grab down
+3-stratega rischio<=1.0,casuale_086.json,-100.0,morto,2,0,False,True,0,0,0,grab down
+1-prudente,casuale_087.json,0.0,uscito,6,114,False,False,0,0,0,grab down up right left quit
+2-logico,casuale_087.json,25.0,uscito,7,113,False,False,1,0,0,grab right left down pit-east up quit
+3-stratega,casuale_087.json,25.0,uscito,11,109,False,False,1,0,0,grab right left down pit-east up right right left left quit
+3-stratega rischio<=0.0,casuale_087.json,25.0,uscito,7,113,False,False,1,0,0,grab right left down pit-east up quit
+3-stratega rischio<=0.2,casuale_087.json,25.0,uscito,11,109,False,False,1,0,0,grab right left down pit-east up right right left left quit
+3-stratega rischio<=0.34,casuale_087.json,25.0,uscito,11,109,False,False,1,0,0,grab right left down pit-east up right right left left quit
+3-stratega rischio<=0.4,casuale_087.json,25.0,uscito,11,109,False,False,1,0,0,grab right left down pit-east up right right left left quit
+3-stratega rischio<=0.5,casuale_087.json,175.0,oro,55,58,True,False,3,0,7,grab right left down pit-east up right right down up pit-east down down right up down right left down left down right down left up pit-west up down down down left right right up right right right down right right down left down up up left left left grab right up up left left quit
+3-stratega rischio<=1.0,casuale_087.json,175.0,oro,55,58,True,False,3,0,7,grab right left down pit-east up right right down up pit-east down down right up down right left down left down right down left up pit-west up down down down left right right up right right right down right right down left down up up left left left grab right up up left left quit
+1-prudente,casuale_088.json,0.0,uscito,2,166,False,False,0,0,0,grab quit
+2-logico,casuale_088.json,0.0,uscito,2,166,False,False,0,0,0,grab quit
+3-stratega,casuale_088.json,0.0,uscito,2,166,False,False,0,0,0,grab quit
+3-stratega rischio<=0.0,casuale_088.json,0.0,uscito,2,166,False,False,0,0,0,grab quit
+3-stratega rischio<=0.2,casuale_088.json,0.0,uscito,2,166,False,False,0,0,0,grab quit
+3-stratega rischio<=0.34,casuale_088.json,0.0,uscito,2,166,False,False,0,0,0,grab quit
+3-stratega rischio<=0.4,casuale_088.json,0.0,uscito,2,166,False,False,0,0,0,grab quit
+3-stratega rischio<=0.5,casuale_088.json,-100.0,morto,2,0,False,True,0,0,0,grab down
+3-stratega rischio<=1.0,casuale_088.json,-100.0,morto,2,0,False,True,0,0,0,grab down
+1-prudente,casuale_089.json,0.0,uscito,58,100,False,False,0,0,10,grab down down down down down down down right up right up right right up up left down up up right down right down down down down right down right up up left down up right down right down down right up left down down left left up up left left up up up up right left quit
+2-logico,casuale_089.json,0.0,uscito,52,106,False,False,0,0,10,grab right left down right down right right left down left down right right up right down right right left down left left down right right up right down right down left down left down left down left up up left left down down down up up up up up up quit
+3-stratega,casuale_089.json,50.0,uscito,56,102,False,False,2,0,10,grab right left down right down right right left down left down right right up right down right right left down left left down right right up right pit-north down right down left down left down left down left up up left left down down down up up up up up up right pit-east left quit
+3-stratega rischio<=0.0,casuale_089.json,50.0,uscito,56,102,False,False,2,0,10,grab right left down right down right right left down left down right right up right down right right left down left left down right right up right pit-north down right down left down left down left down left up up left left down down down up up up up up up right pit-east left quit
+3-stratega rischio<=0.2,casuale_089.json,50.0,uscito,56,102,False,False,2,0,10,grab right left down right down right right left down left down right right up right down right right left down left left down right right up right pit-north down right down left down left down left down left up up left left down down down up up up up up up right pit-east left quit
+3-stratega rischio<=0.34,casuale_089.json,50.0,uscito,56,102,False,False,2,0,10,grab right left down right down right right left down left down right right up right down right right left down left left down right right up right pit-north down right down left down left down left down left up up left left down down down up up up up up up right pit-east left quit
+3-stratega rischio<=0.4,casuale_089.json,50.0,uscito,56,102,False,False,2,0,10,grab right left down right down right right left down left down right right up right down right right left down left left down right right up right pit-north down right down left down left down left down left up up left left down down down up up up up up up right pit-east left quit
+3-stratega rischio<=0.5,casuale_089.json,150.0,oro,80,77,True,False,2,0,11,grab right left down right down right right left down left down right right up right down right right left down left left down right right up right pit-north down right down left down left down left down left up up left left down down down up up up up up up right pit-east left down down right right down down right right down right right left up up grab down left left up up left left up up quit
+3-stratega rischio<=1.0,casuale_089.json,150.0,oro,80,77,True,False,2,0,11,grab right left down right down right right left down left down right right up right down right right left down left left down right right up right pit-north down right down left down left down left down left up up left left down down down up up up up up up right pit-east left down down right right down down right right down right right left up up grab down left left up up left left up up quit
+1-prudente,casuale_090.json,0.0,uscito,28,194,False,False,0,0,2,grab down down down down down right up up right left up right up right left left up down down down down left up up up up quit
+2-logico,casuale_090.json,0.0,uscito,24,198,False,False,0,0,2,grab right right down left down right right up right left left down down left down right left down up up up up quit
+3-stratega,casuale_090.json,25.0,uscito,25,197,False,False,1,0,2,grab right right down left down right right up right left left down down pit-east left down right left down up up up up quit
+3-stratega rischio<=0.0,casuale_090.json,25.0,uscito,25,197,False,False,1,0,2,grab right right down left down right right up right left left down down pit-east left down right left down up up up up quit
+3-stratega rischio<=0.2,casuale_090.json,25.0,uscito,25,197,False,False,1,0,2,grab right right down left down right right up right left left down down pit-east left down right left down up up up up quit
+3-stratega rischio<=0.34,casuale_090.json,-25.0,morto,73,0,False,True,3,0,8,grab right right down left down right right up right left left down down pit-east left down right left down up up up right right right right right left down left down right right up right up left up pit-west down down down down left down left right down left down right right up pit-east down right left down left down left down left right right right right right left down right up
+3-stratega rischio<=0.4,casuale_090.json,-25.0,morto,73,0,False,True,3,0,8,grab right right down left down right right up right left left down down pit-east left down right left down up up up right right right right right left down left down right right up right up left up pit-west down down down down left down left right down left down right right up pit-east down right left down left down left down left right right right right right left down right up
+3-stratega rischio<=0.5,casuale_090.json,-25.0,morto,73,0,False,True,3,0,8,grab right right down left down right right up right left left down down pit-east left down right left down up up up right right right right right left down left down right right up right up left up pit-west down down down down left down left right down left down right right up pit-east down right left down left down left down left right right right right right left down right up
+3-stratega rischio<=1.0,casuale_090.json,-25.0,morto,73,0,False,True,3,0,8,grab right right down left down right right up right left left down down pit-east left down right left down up up up right right right right right left down left down right right up right up left up pit-west down down down down left down left right down left down right right up pit-east down right left down left down left down left right right right right right left down right up
+1-prudente,casuale_091.json,0.0,uscito,27,164,False,False,0,0,1,grab down down down down down up right up right right left up right left up up right left down down down left up up up quit
+2-logico,casuale_091.json,0.0,uscito,29,162,False,False,0,0,1,grab right right left down left down right right right left down left left down right down up up up up up right right right left left left quit
+3-stratega,casuale_091.json,0.0,uscito,29,162,False,False,0,0,1,grab right right left down left down right right right left down left left down right down up up up up up right right right left left left quit
+3-stratega rischio<=0.0,casuale_091.json,0.0,uscito,29,162,False,False,0,0,1,grab right right left down left down right right right left down left left down right down up up up up up right right right left left left quit
+3-stratega rischio<=0.2,casuale_091.json,0.0,uscito,29,162,False,False,0,0,1,grab right right left down left down right right right left down left left down right down up up up up up right right right left left left quit
+3-stratega rischio<=0.34,casuale_091.json,175.0,oro,96,84,True,False,3,0,12,grab right right left down left down right right right left down left left down right down up up up up up right right right left left down down right right right right right down left pit-west right right down left right down right down up left down down up left up down down left up right up right up right up up up up left right up left right right left left pit-south right right down down down down down down pit-south up grab up up left up left left left up up left quit
+3-stratega rischio<=0.4,casuale_091.json,175.0,oro,96,84,True,False,3,0,12,grab right right left down left down right right right left down left left down right down up up up up up right right right left left down down right right right right right down left pit-west right right down left right down right down up left down down up left up down down left up right up right up right up up up up left right up left right right left left pit-south right right down down down down down down pit-south up grab up up left up left left left up up left quit
+3-stratega rischio<=0.5,casuale_091.json,175.0,oro,96,84,True,False,3,0,12,grab right right left down left down right right right left down left left down right down up up up up up right right right left left down down right right right right right down left pit-west right right down left right down right down up left down down up left up down down left up right up right up right up up up up left right up left right right left left pit-south right right down down down down down down pit-south up grab up up left up left left left up up left quit
+3-stratega rischio<=1.0,casuale_091.json,175.0,oro,96,84,True,False,3,0,12,grab right right left down left down right right right left down left left down right down up up up up up right right right left left down down right right right right right down left pit-west right right down left right down right down up left down down up left up down down left up right up right up right up up up up left right up left right right left left pit-south right right down down down down down down pit-south up grab up up left up left left left up up left quit
+1-prudente,casuale_092.json,0.0,uscito,2,222,False,False,0,0,0,grab quit
+2-logico,casuale_092.json,0.0,uscito,2,222,False,False,0,0,0,grab quit
+3-stratega,casuale_092.json,0.0,uscito,2,222,False,False,0,0,0,grab quit
+3-stratega rischio<=0.0,casuale_092.json,0.0,uscito,2,222,False,False,0,0,0,grab quit
+3-stratega rischio<=0.2,casuale_092.json,0.0,uscito,2,222,False,False,0,0,0,grab quit
+3-stratega rischio<=0.34,casuale_092.json,0.0,uscito,2,222,False,False,0,0,0,grab quit
+3-stratega rischio<=0.4,casuale_092.json,0.0,uscito,2,222,False,False,0,0,0,grab quit
+3-stratega rischio<=0.5,casuale_092.json,-100.0,morto,2,0,False,True,0,0,0,grab down
+3-stratega rischio<=1.0,casuale_092.json,-100.0,morto,2,0,False,True,0,0,0,grab down
+1-prudente,casuale_093.json,100.0,oro,51,83,True,False,0,0,6,grab down down down down down up right up left up up right right up up left down right down right down down down right down down left right down up right up right up right up down left left grab right up up left down left left up up quit
+2-logico,casuale_093.json,150.0,oro,26,113,True,False,2,0,1,grab right right left down left down down right right up right pit-north down right left down left pit-south grab up up up left left quit
+3-stratega,casuale_093.json,150.0,oro,63,69,True,False,2,0,8,grab right right left down left down down right right up right pit-north down right left down left pit-south left right right right down left right down right down up left left right right down right down up up up up left left left left down down right left down up up up right right down grab up up up left left quit
+3-stratega rischio<=0.0,casuale_093.json,150.0,oro,63,69,True,False,2,0,8,grab right right left down left down down right right up right pit-north down right left down left pit-south left right right right down left right down right down up left left right right down right down up up up up left left left left down down right left down up up up right right down grab up up up left left quit
+3-stratega rischio<=0.2,casuale_093.json,150.0,oro,63,69,True,False,2,0,8,grab right right left down left down down right right up right pit-north down right left down left pit-south left right right right down left right down right down up left left right right down right down up up up up left left left left down down right left down up up up right right down grab up up up left left quit
+3-stratega rischio<=0.34,casuale_093.json,150.0,oro,63,69,True,False,2,0,8,grab right right left down left down down right right up right pit-north down right left down left pit-south left right right right down left right down right down up left left right right down right down up up up up left left left left down down right left down up up up right right down grab up up up left left quit
+3-stratega rischio<=0.4,casuale_093.json,150.0,oro,63,69,True,False,2,0,8,grab right right left down left down down right right up right pit-north down right left down left pit-south left right right right down left right down right down up left left right right down right down up up up up left left left left down down right left down up up up right right down grab up up up left left quit
+3-stratega rischio<=0.5,casuale_093.json,150.0,oro,63,69,True,False,2,0,8,grab right right left down left down down right right up right pit-north down right left down left pit-south left right right right down left right down right down up left left right right down right down up up up up left left left left down down right left down up up up right right down grab up up up left left quit
+3-stratega rischio<=1.0,casuale_093.json,150.0,oro,63,69,True,False,2,0,8,grab right right left down left down down right right up right pit-north down right left down left pit-south left right right right down left right down right down up left left right right down right down up up up up left left left left down down right left down up up up right right down grab up up up left left quit
+1-prudente,casuale_094.json,0.0,uscito,31,158,False,False,0,0,3,grab down down down down down down right up left up up right right left up right up left up down right down right left down left up up up quit
+2-logico,casuale_094.json,25.0,uscito,30,159,False,False,1,0,3,grab right left down right right pit-north left down left down right right up right left down down left down down right left down up up up up up quit
+3-stratega,casuale_094.json,25.0,uscito,36,153,False,False,1,0,3,grab right left down right right pit-north left down left down right right up right left down down left down down right left down up up up up right right right left left up left quit
+3-stratega rischio<=0.0,casuale_094.json,25.0,uscito,30,159,False,False,1,0,3,grab right left down right right pit-north left down left down right right up right left down down left down down right left down up up up up up quit
+3-stratega rischio<=0.2,casuale_094.json,25.0,uscito,36,153,False,False,1,0,3,grab right left down right right pit-north left down left down right right up right left down down left down down right left down up up up up right right right left left up left quit
+3-stratega rischio<=0.34,casuale_094.json,25.0,uscito,36,153,False,False,1,0,3,grab right left down right right pit-north left down left down right right up right left down down left down down right left down up up up up right right right left left up left quit
+3-stratega rischio<=0.4,casuale_094.json,25.0,uscito,36,153,False,False,1,0,3,grab right left down right right pit-north left down left down right right up right left down down left down down right left down up up up up right right right left left up left quit
+3-stratega rischio<=0.5,casuale_094.json,-75.0,morto,32,0,False,True,1,0,3,grab right left down right right pit-north left down left down right right up right left down down left down down right left down up up up up right right right right
+3-stratega rischio<=1.0,casuale_094.json,-75.0,morto,32,0,False,True,1,0,3,grab right left down right right pit-north left down left down right right up right left down down left down down right left down up up up up right right right right
+1-prudente,casuale_095.json,0.0,uscito,20,146,False,False,0,0,2,grab down down down down up right up right right left up right left up down left up up quit
+2-logico,casuale_095.json,0.0,uscito,20,146,False,False,0,0,2,grab right down right right left down left down right down up up right right up left left up quit
+3-stratega,casuale_095.json,0.0,uscito,20,146,False,False,0,0,2,grab right down right right left down left down right down up up right right up left left up quit
+3-stratega rischio<=0.0,casuale_095.json,0.0,uscito,20,146,False,False,0,0,2,grab right down right right left down left down right down up up right right up left left up quit
+3-stratega rischio<=0.2,casuale_095.json,0.0,uscito,20,146,False,False,0,0,2,grab right down right right left down left down right down up up right right up left left up quit
+3-stratega rischio<=0.34,casuale_095.json,0.0,uscito,20,146,False,False,0,0,2,grab right down right right left down left down right down up up right right up left left up quit
+3-stratega rischio<=0.4,casuale_095.json,0.0,uscito,20,146,False,False,0,0,2,grab right down right right left down left down right down up up right right up left left up quit
+3-stratega rischio<=0.5,casuale_095.json,-75.0,morto,20,0,False,True,1,0,2,grab right down right right left down left down right down up up right right right left pit-south right down
+3-stratega rischio<=1.0,casuale_095.json,-75.0,morto,20,0,False,True,1,0,2,grab right down right right left down left down right down up up right right right left pit-south right down
+1-prudente,casuale_096.json,0.0,uscito,6,162,False,False,0,0,0,grab down up right left quit
+2-logico,casuale_096.json,0.0,uscito,6,162,False,False,0,0,0,grab right left down up quit
+3-stratega,casuale_096.json,25.0,uscito,7,161,False,False,1,0,0,grab right left down pit-east up quit
+3-stratega rischio<=0.0,casuale_096.json,25.0,uscito,7,161,False,False,1,0,0,grab right left down pit-east up quit
+3-stratega rischio<=0.2,casuale_096.json,25.0,uscito,7,161,False,False,1,0,0,grab right left down pit-east up quit
+3-stratega rischio<=0.34,casuale_096.json,25.0,uscito,7,161,False,False,1,0,0,grab right left down pit-east up quit
+3-stratega rischio<=0.4,casuale_096.json,25.0,uscito,7,161,False,False,1,0,0,grab right left down pit-east up quit
+3-stratega rischio<=0.5,casuale_096.json,175.0,oro,61,102,True,False,3,0,5,grab right left down pit-east down right left down right down right left down right right pit-north left down left right right down left down up up left up up right right right right right left down left left right down up up up left right right pit-east left up left down down down grab up up up left left quit
+3-stratega rischio<=1.0,casuale_096.json,175.0,oro,61,102,True,False,3,0,5,grab right left down pit-east down right left down right down right left down right right pit-north left down left right right down left down up up left up up right right right right right left down left left right down up up up left right right pit-east left up left down down down grab up up up left left quit
+1-prudente,casuale_097.json,0.0,uscito,2,194,False,False,0,0,0,grab quit
+2-logico,casuale_097.json,0.0,uscito,2,194,False,False,0,0,0,grab quit
+3-stratega,casuale_097.json,0.0,uscito,2,194,False,False,0,0,0,grab quit
+3-stratega rischio<=0.0,casuale_097.json,0.0,uscito,2,194,False,False,0,0,0,grab quit
+3-stratega rischio<=0.2,casuale_097.json,0.0,uscito,2,194,False,False,0,0,0,grab quit
+3-stratega rischio<=0.34,casuale_097.json,0.0,uscito,2,194,False,False,0,0,0,grab quit
+3-stratega rischio<=0.4,casuale_097.json,0.0,uscito,2,194,False,False,0,0,0,grab quit
+3-stratega rischio<=0.5,casuale_097.json,-75.0,morto,6,0,False,True,1,0,0,grab down up pit-east down right
+3-stratega rischio<=1.0,casuale_097.json,-75.0,morto,6,0,False,True,1,0,0,grab down up pit-east down right
+1-prudente,casuale_098.json,0.0,uscito,2,98,False,False,0,0,0,grab quit
+2-logico,casuale_098.json,0.0,uscito,2,98,False,False,0,0,0,grab quit
+3-stratega,casuale_098.json,0.0,uscito,2,98,False,False,0,0,0,grab quit
+3-stratega rischio<=0.0,casuale_098.json,0.0,uscito,2,98,False,False,0,0,0,grab quit
+3-stratega rischio<=0.2,casuale_098.json,0.0,uscito,2,98,False,False,0,0,0,grab quit
+3-stratega rischio<=0.34,casuale_098.json,0.0,uscito,2,98,False,False,0,0,0,grab quit
+3-stratega rischio<=0.4,casuale_098.json,0.0,uscito,2,98,False,False,0,0,0,grab quit
+3-stratega rischio<=0.5,casuale_098.json,-100.0,morto,2,0,False,True,0,0,0,grab down
+3-stratega rischio<=1.0,casuale_098.json,-100.0,morto,2,0,False,True,0,0,0,grab down
+1-prudente,casuale_099.json,100.0,oro,22,77,True,False,0,0,1,grab down down down up right up right right left up right right down grab up left left down left up quit
+2-logico,casuale_099.json,100.0,oro,12,87,True,False,0,0,1,grab right right right right down grab up left left left quit
+3-stratega,casuale_099.json,125.0,oro,28,70,True,False,1,0,2,grab right right right right down left left left down right down up up right right right right left down pit-east up grab up left left left quit
+3-stratega rischio<=0.0,casuale_099.json,125.0,oro,28,70,True,False,1,0,2,grab right right right right down left left left down right down up up right right right right left down pit-east up grab up left left left quit
+3-stratega rischio<=0.2,casuale_099.json,125.0,oro,28,70,True,False,1,0,2,grab right right right right down left left left down right down up up right right right right left down pit-east up grab up left left left quit
+3-stratega rischio<=0.34,casuale_099.json,125.0,oro,28,70,True,False,1,0,2,grab right right right right down left left left down right down up up right right right right left down pit-east up grab up left left left quit
+3-stratega rischio<=0.4,casuale_099.json,125.0,oro,28,70,True,False,1,0,2,grab right right right right down left left left down right down up up right right right right left down pit-east up grab up left left left quit
+3-stratega rischio<=0.5,casuale_099.json,125.0,oro,28,70,True,False,1,0,2,grab right right right right down left left left down right down up up right right right right left down pit-east up grab up left left left quit
+3-stratega rischio<=1.0,casuale_099.json,125.0,oro,28,70,True,False,1,0,2,grab right right right right down left left left down right down up up right right right right left down pit-east up grab up left left left quit
+1-prudente,casuale_100.json,0.0,uscito,2,138,False,False,0,0,0,grab quit
+2-logico,casuale_100.json,0.0,uscito,2,138,False,False,0,0,0,grab quit
+3-stratega,casuale_100.json,0.0,uscito,2,138,False,False,0,0,0,grab quit
+3-stratega rischio<=0.0,casuale_100.json,0.0,uscito,2,138,False,False,0,0,0,grab quit
+3-stratega rischio<=0.2,casuale_100.json,0.0,uscito,2,138,False,False,0,0,0,grab quit
+3-stratega rischio<=0.34,casuale_100.json,0.0,uscito,2,138,False,False,0,0,0,grab quit
+3-stratega rischio<=0.4,casuale_100.json,0.0,uscito,2,138,False,False,0,0,0,grab quit
+3-stratega rischio<=0.5,casuale_100.json,200.0,oro,65,65,True,False,4,0,10,grab down right pit-north left down right right up right down right left up pit-east left down left down down left left down right down up up up up right right right right right down right down pit-west down right down right down right down left up left up down left pit-west right grab up right up up up left left left left up quit
+3-stratega rischio<=1.0,casuale_100.json,200.0,oro,65,65,True,False,4,0,10,grab down right pit-north left down right right up right down right left up pit-east left down left down down left left down right down up up up up right right right right right down right down pit-west down right down right down right down left up left up down left pit-west right grab up right up up up left left left left up quit

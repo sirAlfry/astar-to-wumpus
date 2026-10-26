@@ -1,0 +1,29 @@
+{
+ "descrizione": "Per passare bisogna COMBINARE due celle: (1,0) dice 'niente pozzo' su (1,1), (0,1) dice 'niente Wumpus'. L'agente base resta bloccato.",
+ "width": 5,
+ "height": 3,
+ "start": [
+  0,
+  0
+ ],
+ "walls": [],
+ "pits": [
+  [
+   0,
+   2
+  ]
+ ],
+ "wumpus": [
+  2,
+  0
+ ],
+ "gold": [
+  3,
+  2
+ ],
+ "max_steps": 60,
+ "step_cost": -1.0,
+ "death_cost": -100.0,
+ "grab_reward": 100.0,
+ "end_on_grab": true
+}
