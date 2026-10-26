@@ -3,8 +3,8 @@
 Progetto d'esame di **Intelligenza Artificiale e Laboratorio** (Università di Torino, a.a. 2025/2026), di Alfredo De Donno. Il percorso va dal labirinto risolto con A*/IDA* in Prolog fino alla caverna del Wumpus esplorata da agenti CLIPS.
 
 | Parte | Contenuto | Dove |
-|---|---|---|
-| 1. Programmazione logica e ASP | A* e IDA* in Prolog su labirinti e puzzle dell'8 · calendario di un torneo a turni in Clingo | [`prolog-clingo/`](prolog-clingo/README.md) |
+| --- | --- | --- |
+| 1. Programmazione logica e ASP | A*e IDA* in Prolog su labirinti e puzzle dell'8 · calendario di un torneo a turni in Clingo | [`prolog-clingo/`](prolog-clingo/README.md) |
 | 2. Sistemi a regole | tre agenti CLIPS (con moduli e certainty factors) per il mondo del Wumpus | [`clips-wumpus/`](clips-wumpus/README.md) |
 
 ```
@@ -17,7 +17,7 @@ Si apre in VS Code con **File → Apri area di lavoro da file… → `astar-to-w
 
 ## In breve
 
-- **A\* contro IDA\***. Trovano sempre la soluzione ottima, verificata con una BFS indipendente su tutte le istanze. Nel puzzle dell'8 hanno tempi simili e IDA* usa 300 volte meno memoria. Nei labirinti IDA* crolla: le trasposizioni, senza lista dei chiusi, gli costano oltre 4 milioni di nodi contro 125.
+- **A\* contro IDA\***. Trovano sempre la soluzione ottima, verificata con una BFS indipendente su tutte le istanze. Nel puzzle dell'8 hanno tempi simili e IDA*usa 300 volte meno memoria. Nei labirinti IDA* crolla: le trasposizioni, senza lista dei chiusi, gli costano oltre 4 milioni di nodi contro 125.
 - **Torneo in ASP**. Generate, test e optimize con tre priorità. `#minimize` sugli incontri tra punteggi diversi risolve in millisecondi ciò che `#maximize` sugli incontri a pari punteggio non risolve in un minuto, pur avendo gli stessi ottimi.
 - **Wumpus**. Tre agenti di intelligenza crescente. Sulle 100 mappe casuali il premio medio passa da 24 a 39 a 58,5, sempre con 0% di morti. Un "oracolo logico" dimostra che le regole d'inferenza dell'agente 2 sono complete: oltre, si va solo rischiando.
 - **Verifiche indipendenti**. Le euristiche sono controllate su tutti i 181.440 stati del puzzle; una versione di IDA* con i cut espliciti dà risultati identici e mostra un cut che sembra verde ma è rosso.
