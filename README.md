@@ -4,7 +4,7 @@ Progetto d'esame di **Intelligenza Artificiale e Laboratorio** (Università di T
 
 | Parte | Contenuto | Dove |
 | --- | --- | --- |
-| 1. Programmazione logica e ASP | A*e IDA* in Prolog su labirinti e puzzle dell'8 · calendario di un torneo a turni in Clingo | [`prolog-clingo/`](prolog-clingo/README.md) |
+| 1. Programmazione logica e ASP | A\* e IDA\* in Prolog su labirinti e puzzle dell'8 · calendario di un torneo a turni in Clingo | [`prolog-clingo/`](prolog-clingo/README.md) |
 | 2. Sistemi a regole | tre agenti CLIPS (con moduli e certainty factors) per il mondo del Wumpus | [`clips-wumpus/`](clips-wumpus/README.md) |
 
 ```
