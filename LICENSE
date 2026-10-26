@@ -19,10 +19,3 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
-
--------------------------------------------------------------------------------
-Course material NOT included in this repository and NOT covered by this
-license (its distribution is forbidden by the course rules): the Wumpus world
-simulator used by the CLIPS agents and the assignment texts of the course
-"Intelligenza Artificiale e Laboratorio", Universita' di Torino.
-All rights on that material remain with their respective authors.
